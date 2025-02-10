@@ -1,2 +1,2 @@
 # CleverLearnPipelines
-Analyse et valorisation de courpus pedagogiques textuels
+Pipelines NLP et RAG pour extraire des compétences de textes pédagogiques et générer automatiquement des questions et QCM.
