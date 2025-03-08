@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+#src/scraping/data/
+#data/md/
+client_data/

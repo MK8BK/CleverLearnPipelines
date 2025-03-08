@@ -1,0 +1,94 @@
+{
+    "mcqs": [
+        {
+            "question": "What is the capital city of Paraguay?",
+            "answer": "Asunci\u00f3n",
+            "distractors": [
+                "Brasilia",
+                "Buenos Aires",
+                "Lima"
+            ]
+        },
+        {
+            "question": "Which two languages are official in Paraguay?",
+            "answer": "Spanish and Guarani",
+            "distractors": [
+                "Spanish and Portuguese",
+                "Guarani and English",
+                "Spanish and French"
+            ]
+        },
+        {
+            "question": "What is the motto of Paraguay?",
+            "answer": "Peace and justice (Paz y justicia)",
+            "distractors": [
+                "Liberty and Equality (Libertad y Igualdad)",
+                "Unity and Strength (Uni\u00f3n y Fuerza)",
+                "Freedom and Peace (Libertad y Paz)"
+            ]
+        },
+        {
+            "question": "When did Paraguay declare its independence from Spain?",
+            "answer": "14 May 1811",
+            "distractors": [
+                "14 May 1808",
+                "25 November 1842",
+                "1 January 1864"
+            ]
+        },
+        {
+            "question": "Which river divides Paraguay into two main geographic regions?",
+            "answer": "R\u00edo Paraguay",
+            "distractors": [
+                "R\u00edo Paran\u00e1",
+                "R\u00edo Guaran\u00ed",
+                "R\u00edo Tocantins"
+            ]
+        },
+        {
+            "question": "What is the primary religion in Paraguay?",
+            "answer": "Christianity",
+            "distractors": [
+                "Islam",
+                "Hinduism",
+                "Buddhism"
+            ]
+        },
+        {
+            "question": "Which war did Paraguay fight between 1864 and 1870 that resulted in significant loss of life and territory?",
+            "answer": "Paraguayan War (War of the Triple Alliance)",
+            "distractors": [
+                "Chaco War",
+                "World War I",
+                "War of the Pacific"
+            ]
+        },
+        {
+            "question": "What is the currency used in Paraguay?",
+            "answer": "Guaran\u00ed",
+            "distractors": [
+                "Peso",
+                "Real",
+                "Bol\u00edvar"
+            ]
+        },
+        {
+            "question": "In what year was the current constitution of Paraguay adopted?",
+            "answer": "20 June 1992",
+            "distractors": [
+                "14 May 1811",
+                "25 November 1842",
+                "1 January 1989"
+            ]
+        },
+        {
+            "question": "Which ecoregion is predominant in Paraguay?",
+            "answer": "Alto Paran\u00e1 Atlantic forests",
+            "distractors": [
+                "Amazon rainforest",
+                "Patagonian steppe",
+                "Chaco"
+            ]
+        }
+    ]
+}
