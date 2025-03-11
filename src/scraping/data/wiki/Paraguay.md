@@ -861,6 +861,20 @@ Hidden categories:
 * [Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference](/wiki/Category:Wikipedia_articles_incorporating_a_citation_from_the_1911_Encyclopaedia_Britannica_with_Wikisource_reference "Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference")
 * [Coordinates on Wikidata](/wiki/Category:Coordinates_on_Wikidata "Category:Coordinates on Wikidata")
 
+* This page was last edited on 23 February 2025, at 12:24 (UTC).
+* Text is available under the [Creative Commons Attribution-ShareAlike 4.0 License](/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License "Wikipedia:Text of the Creative Commons Attribution-ShareAlike 4.0 International License");
+  additional terms may apply. By using this site, you agree to the [Terms of Use](https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use "foundation:Special:MyLanguage/Policy:Terms of Use") and [Privacy Policy](https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy "foundation:Special:MyLanguage/Policy:Privacy policy"). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](https://wikimediafoundation.org/), a non-profit organization.
+
+* [Privacy policy](https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy)
+* [About Wikipedia](/wiki/Wikipedia:About)
+* [Disclaimers](/wiki/Wikipedia:General_disclaimer)
+* [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)
+* [Code of Conduct](https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct)
+* [Developers](https://developer.wikimedia.org)
+* [Statistics](https://stats.wikimedia.org/#/en.wikipedia.org)
+* [Cookie statement](https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement)
+* [Mobile view](//en.m.wikipedia.org/w/index.php?title=Paraguay&mobileaction=toggle_view_mobile)
+
 Paraguay
 
 [Add topic](#)

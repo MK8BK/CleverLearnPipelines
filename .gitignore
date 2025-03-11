@@ -172,3 +172,4 @@ cython_debug/
 #src/scraping/data/
 #data/md/
 client_data/
+.ps6/

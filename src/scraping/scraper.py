@@ -12,7 +12,8 @@ class WikiScraper:
 
     def scrape(self, url):
         self.url = url
-        self.url_last_path = self.url.split('en.wikipedia.org/wiki/')[-1]
+        self.url_last_path = self.url.split('wikipedia.org/wiki/')[-1]
+        # TODO: improve and clean later
         assert all((c in "()-_=+-[]" or c.isalnum())
                    and c != "/" for c in self.url_last_path)
         try:
@@ -25,7 +26,7 @@ class WikiScraper:
         self._clean()
         self.html_text = str(self.soup)
         self.md = md(self.html_text)
-        return self
+        return self # builder design pattern
 
     def _clean(self):
         def drop_all(**kwargs):
@@ -50,7 +51,7 @@ class WikiScraper:
         drop_all(name="button")
 
     def save(self, root_path: str = "data/wiki"):
-        with open(f"{root_path}/{self.url_last_path}.md", "w") as f:
+        with open(f"{root_path}/{self.url_last_path}.md", "w", encoding="utf-8") as f:
             f.write(self.md)
         return self
 
@@ -58,5 +59,8 @@ class WikiScraper:
 if __name__ == "__main__":
     paraguay_article = "https://en.wikipedia.org/wiki/Paraguay"
     microecon_article = "https://en.wikipedia.org/wiki/Microeconomics"
-    w = WikiScraper().scrape(paraguay_article).save()
+    napoleon_article = "https://en.wikipedia.org/wiki/Napoleon"
+    w = WikiScraper()
+    w.scrape(paraguay_article).save()
     w.scrape(microecon_article).save()
+    w.scrape(napoleon_article).save()

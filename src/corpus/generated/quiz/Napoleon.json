@@ -1,0 +1,94 @@
+{
+    "mcqs": [
+        {
+            "question": "What year was Napoleon Bonaparte born?",
+            "answer": "1769",
+            "distractors": [
+                "1779",
+                "1789",
+                "1801"
+            ]
+        },
+        {
+            "question": "In which year did Napoleon first become Emperor of the French?",
+            "answer": "1804",
+            "distractors": [
+                "1800",
+                "1805",
+                "1815"
+            ]
+        },
+        {
+            "question": "What was the name of the treaty that ended the War of the Third Coalition?",
+            "answer": "Treaty of Pressburg",
+            "distractors": [
+                "Treaty of Amiens",
+                "Treaty of Tilsit",
+                "Treaty of Fontainebleau"
+            ]
+        },
+        {
+            "question": "Which battle is often referred to as Napoleon's greatest victory?",
+            "answer": "Battle of Austerlitz",
+            "distractors": [
+                "Battle of Waterloo",
+                "Battle of Marengo",
+                "Battle of Leipzig"
+            ]
+        },
+        {
+            "question": "What event marked the beginning of Napoleon's downfall?",
+            "answer": "Invasion of Russia",
+            "distractors": [
+                "Battle of Trafalgar",
+                "Battle of Leipzig",
+                "Defeat at Waterloo"
+            ]
+        },
+        {
+            "question": "Which political position did Napoleon hold before becoming Emperor?",
+            "answer": "First Consul",
+            "distractors": [
+                "Second Consul",
+                "Prime Minister",
+                "King of Italy"
+            ]
+        },
+        {
+            "question": "What was one of the significant education reforms instituted by Napoleon?",
+            "answer": "Establishment of lyc\u00e9es",
+            "distractors": [
+                "Increased funding for religious schools",
+                "Abolition of higher education",
+                "Mandatory military training for all students"
+            ]
+        },
+        {
+            "question": "Who was Napoleon's first wife?",
+            "answer": "Jos\u00e9phine de Beauharnais",
+            "distractors": [
+                "Marie Louise",
+                "Antoinette",
+                "Empress Mary"
+            ]
+        },
+        {
+            "question": "What type of government did Napoleon establish after the fall of the Directory?",
+            "answer": "Consulate",
+            "distractors": [
+                "Monarchy",
+                "Republic",
+                "Dictatorship"
+            ]
+        },
+        {
+            "question": "Where was Napoleon exiled after his defeat in 1814?",
+            "answer": "Elba",
+            "distractors": [
+                "Saint Helena",
+                "Corsica",
+                "Malta"
+            ]
+        }
+    ]
+}

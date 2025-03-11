@@ -22,7 +22,6 @@ class Message:
     def to_dict(self):
         return {"role": f"{self.role}", "content": self.text}
 
-
 class Gpt_4o_mini_client:
     def __init__(self):
         self._client = OpenAI(
@@ -52,3 +51,8 @@ class Gpt_4o_mini_client:
         )
         return chat_completion 
 
+
+if __name__=="__main__":
+    from dotenv import load_dotenv
+    load_dotenv()
+    client = Gpt_4o_mini_client()
