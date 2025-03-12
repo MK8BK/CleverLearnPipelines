@@ -27,6 +27,9 @@ Example:
 
 execute the generated commands to install spacy
 
+install the requirements specified in the 
+`requirements.txt` file
+
 create a file named `.env` in `src/prompters`
 OPENAI_API_KEY=<la-cle-api-envoyee-par-mail>
 
