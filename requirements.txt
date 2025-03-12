@@ -1,13 +1,7 @@
 beautifulsoup4==4.13.3
-en_core_web_trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl#sha256=272a31e9d8530d1e075351d30a462d7e80e31da23574f1b274e200f3fff35bf5
-fr_dep_news_trf @ https://github.com/explosion/spacy-models/releases/download/fr_dep_news_trf-3.8.0/fr_dep_news_trf-3.8.0-py3-none-any.whl#sha256=df243e539bbc365390744a411aa574fb03eb2ee2f948cf6149ad722c59ab419b
 markdownify==1.1.0
 openai==1.65.4
-pydantic==2.10.6
-pydantic_core==2.27.2
-python-dotenv==1.0.1
 requests==2.32.3
-spacy==3.8.4
-spacy-curated-transformers==0.3.0
-spacy-legacy==3.0.12
-spacy-loggers==1.0.5
+python-dotenv==1.0.1
+pydantic==2.10.6
+

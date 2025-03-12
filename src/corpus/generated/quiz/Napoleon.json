@@ -1,93 +1,93 @@
 {
     "mcqs": [
         {
-            "question": "What year was Napoleon Bonaparte born?",
-            "answer": "1769",
+            "question": "What title was Napoleon given after the success of the coup d'\u00e9tat in November 1799?",
+            "answer": "First Consul of the Republic",
             "distractors": [
-                "1779",
-                "1789",
-                "1801"
+                "Emperor of the French",
+                "King of Italy",
+                "General of the Army"
             ]
         },
         {
-            "question": "In which year did Napoleon first become Emperor of the French?",
-            "answer": "1804",
-            "distractors": [
-                "1800",
-                "1805",
-                "1815"
-            ]
-        },
-        {
-            "question": "What was the name of the treaty that ended the War of the Third Coalition?",
-            "answer": "Treaty of Pressburg",
-            "distractors": [
-                "Treaty of Amiens",
-                "Treaty of Tilsit",
-                "Treaty of Fontainebleau"
-            ]
-        },
-        {
-            "question": "Which battle is often referred to as Napoleon's greatest victory?",
+            "question": "In which battle did Napoleon achieve a decisive victory that secured France's dominance in Europe in 1805?",
             "answer": "Battle of Austerlitz",
             "distractors": [
                 "Battle of Waterloo",
                 "Battle of Marengo",
-                "Battle of Leipzig"
+                "Battle of Jena"
             ]
         },
         {
-            "question": "What event marked the beginning of Napoleon's downfall?",
-            "answer": "Invasion of Russia",
+            "question": "What was the Napoleonic Code primarily known for introducing?",
+            "answer": "Equality before the law",
             "distractors": [
-                "Battle of Trafalgar",
-                "Battle of Leipzig",
-                "Defeat at Waterloo"
+                "Universal suffrage",
+                "Direct democracy",
+                "State-owned businesses"
             ]
         },
         {
-            "question": "Which political position did Napoleon hold before becoming Emperor?",
-            "answer": "First Consul",
+            "question": "Which campaign was considered disastrous for Napoleon due to harsh weather conditions and logistical failures?",
+            "answer": "Russian invasion of 1812",
             "distractors": [
-                "Second Consul",
-                "Prime Minister",
-                "King of Italy"
+                "Italian campaign",
+                "Egyptian expedition",
+                "Spanish war"
             ]
         },
         {
-            "question": "What was one of the significant education reforms instituted by Napoleon?",
-            "answer": "Establishment of lyc\u00e9es",
+            "question": "Who did Napoleon marry in 1810, solidifying a political alliance with Austria?",
+            "answer": "Marie Louise",
             "distractors": [
-                "Increased funding for religious schools",
-                "Abolition of higher education",
-                "Mandatory military training for all students"
+                "Jos\u00e9phine",
+                "Catherine",
+                "Louisa"
             ]
         },
         {
-            "question": "Who was Napoleon's first wife?",
-            "answer": "Jos\u00e9phine de Beauharnais",
+            "question": "What event led to Napoleon being exiled to Elba in 1814?",
+            "answer": "His defeat and abdication after losing the Coalition Wars",
             "distractors": [
-                "Marie Louise",
-                "Antoinette",
-                "Empress Mary"
+                "The establishment of the Napoleonic Code",
+                "The signing of the Treaty of Amiens",
+                "The abolition of the monarchy in France"
             ]
         },
         {
-            "question": "What type of government did Napoleon establish after the fall of the Directory?",
-            "answer": "Consulate",
+            "question": "What strategy failed at the Battle of Trafalgar, severely diminishing Napoleon's naval power?",
+            "answer": "British fleet's blockade",
             "distractors": [
-                "Monarchy",
-                "Republic",
-                "Dictatorship"
+                "French naval superiority",
+                "Coalition alliance",
+                "Capture of enemy ships"
             ]
         },
         {
-            "question": "Where was Napoleon exiled after his defeat in 1814?",
-            "answer": "Elba",
+            "question": "Which territory did Napoleon sell to the United States in 1803, significantly doubling its size?",
+            "answer": "Louisiana",
             "distractors": [
-                "Saint Helena",
-                "Corsica",
-                "Malta"
+                "Florida",
+                "Texas",
+                "California"
+            ]
+        },
+        {
+            "question": "What was the primary objective of Napoleon's expedition to Egypt in 1798?",
+            "answer": "To undermine Britain's access to India",
+            "distractors": [
+                "To establish trade routes to Asia",
+                "To conquer Ottoman territories",
+                "To strengthen ties with Russia"
+            ]
+        },
+        {
+            "question": "What significant administrative reform did Napoleon implement during his reign?",
+            "answer": "Centralization of regional governance",
+            "distractors": [
+                "Decentralization of power",
+                "Expansion of voting rights",
+                "Return to feudal systems"
             ]
         }
     ]
