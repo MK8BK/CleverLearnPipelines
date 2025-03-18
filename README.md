@@ -10,7 +10,13 @@ Create a python virtual environment
 
 Activate it
 
-Install spacy for you environment using the 
+
+```bash
+pip install langchain-text-splitters
+pip install langchain_experimental langchain_openai
+```
+
+<!-- Install spacy for you environment using the 
 commands specified at
 [spacy usage](https://spacy.io/usage)
 
@@ -25,14 +31,20 @@ Be sure to specify:
 Example:
 ![image alt](docs/images/spacy.png)
 
-execute the generated commands to install spacy
+execute the generated commands to install spacy -->
 
 install the requirements specified in the 
 `requirements.txt` file
 
 create a file named `.env` in `src/prompters`
-OPENAI_API_KEY=<la-cle-api-envoyee-par-mail>
+OPENAI_API_KEY=\<our-top-secret-api-key>
 
 ## Docs
+[OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
+
+[langchain text splitters](https://python.langchain.com/docs/concepts/text_splitters/)
+
+
 [Spacy 101](https://spacy.io/usage/spacy-101/)
+
 

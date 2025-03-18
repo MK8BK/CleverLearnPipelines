@@ -1,16 +1,59 @@
-from prompters.gpt_4o_mini import Gpt_4o_mini_client, OpenAI_role
-from prompters.prompt_engineer import PromptEngineer
+import argparse
+import pathlib
+from index import WikiTestDataIndex
+from scraping.scraper import WikiScraper
 from corpus.corpus import Corpus
-from corpus.quiz import Quiz
+# import llms.__init__
+from llms.quiz_generator import QuizGenerator, PipelineValidationError
 
-client = Gpt_4o_mini_client()
+MAIN_PATH = pathlib.Path(__file__)
+SRC_DIR_PATH = MAIN_PATH.parent
+ROOT_PROJECT_PATH = SRC_DIR_PATH.parent
+DATA_PATH = ROOT_PROJECT_PATH.joinpath("test_data")
+# LOGS_DATA_PATH = DATA_PATH.joinpath("logs")
 
-def make_quiz(article_name):
-    corpus = Corpus(f"scraping/data/wiki/{article_name}.md")
-    prompt_engineer = PromptEngineer(client, corpus)
-    prompt_engineer.build_quiz()
-    prompt_engineer.save_quiz(f"corpus/generated/quiz/{article_name}.json")
+index = WikiTestDataIndex(DATA_PATH)
 
-# make_quiz("Microeconomics")
-# make_quiz("Paraguay")
-make_quiz("Napoleon")
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-s", "--scrape-wikipedia", help="scrape a wikipedia page")
+parser.add_argument("-g", "--generate-quiz",
+                    help="generate a quiz for a wikipedia page, use cached version if already scraped")
+parser.add_argument(
+    "-l", "--logs", help="write pipeline logs to specified file")
+
+
+def scrape(url):
+    md = WikiScraper().scrape(url)
+    index.add_document(url, md)
+
+def main():
+    args = parser.parse_args()
+    if args.scrape_wikipedia:
+        url = args.scrape_wikipedia
+        scrape(url)
+    if args.generate_quiz:
+        url = args.generate_quiz
+        if not index.already_scraped(url):
+            scrape(url)
+        corpus = Corpus(index.retrieve_doc(url))
+        quiz_generator = QuizGenerator(corpus)
+        try:
+            quiz = quiz_generator.generate()
+        except PipelineValidationError as pve:
+            print("Could not generate quiz, validation error.")
+        except:
+            print("Could not generate quiz.")
+        # print(corpus.clean_text)
+        
+
+        
+# paraguay_article = "https://en.wikipedia.org/wiki/Paraguay"
+# microecon_article = "https://en.wikipedia.org/wiki/Microeconomics"
+# napoleon_article = "https://en.wikipedia.org/wiki/Napoleon"
+
+if __name__=="__main__":
+    main()
+else:
+    raise RuntimeError("main is imported")
+
