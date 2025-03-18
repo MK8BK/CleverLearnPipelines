@@ -1,4 +1,8 @@
-from .gpt_4o_mini import Gpt_4o_mini_client, OpenAI_role
+
+# REMOVE THIS FILE LATER
+
+
+from .openai import OpenAI_client, OpenAI_role
 from corpus.quiz import Quiz
 from corpus.corpus import Corpus
 from json import dumps
@@ -7,10 +11,10 @@ from json import dumps
 
 
 class PromptEngineer:
-    def __init__(self, llmclient: Gpt_4o_mini_client, corpus: Corpus):
+    def __init__(self, llmclient: OpenAI_client, corpus: Corpus):
         self.llmclient = llmclient
         self.corpus = corpus
-        self.min_number_mcq = 10
+        self.min_number_mcq = 10 # remove
     def build_dev_prompt_question(self):
         prompt = f"""
         The user is a student and I want you to generate a multiple-choice quiz based strictly on the following Material. The quiz must:
@@ -20,6 +24,9 @@ class PromptEngineer:
         - Offer four distinct answer choices per question, with only one correct answer.
         - Ensure that both questions and answers are clearly formulated, precise, and unambiguous.
         """
+        # try in french: 2 methods, translation or direct
+        # TODO: decompose into pipelines
+        #       
         return prompt
     def build_quiz(self):
         dev_prompt = self.build_dev_prompt_question()
@@ -28,6 +35,7 @@ class PromptEngineer:
         self.chat_completion = self.llmclient.submit_messages(response_format=Quiz)
         self.quiz = self.chat_completion.choices[0].message.parsed
         self.dict_quiz = self.quiz.model_dump()
+        # TODO: validate output per pipeline
         return self.quiz
     def save_quiz(self, path):
         with open(path, "w", encoding="utf-8") as f:
