@@ -16,12 +16,14 @@ QUIZ_PIPELINE_1 = [TextChunker(), ConceptExtractor(),
 
 
 class QuizGenerator:
-    def __init__(self, corpus: Corpus, pipelines: List[Pipeline]=QUIZ_PIPELINE_1):
-        self.corpus = corpus
+    def __init__(self, corpus: Corpus, mcq_number: int, pipelines: List[Pipeline] = QUIZ_PIPELINE_1):
+        self.context = dict()
+        self.context["article"] = corpus.clean_text
+        self.context["mcq_number"] = mcq_number
         self.piplines: List[Pipeline] = pipelines
 
     def generate(self) -> Quiz:
-        tmp = self.corpus.clean_text
+        tmp = self.context["article"]
         for pipeline in self.piplines:
             print(f"Executing {pipeline.title} pipeline.")
             try:

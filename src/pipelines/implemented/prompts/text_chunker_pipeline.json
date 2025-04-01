@@ -1,4 +1,3 @@
 {
-  "minimum_chunk_length": 300,
-  "maximum_chunk_length": 1500
+  "minimum_chunk_length": 2000
 }
