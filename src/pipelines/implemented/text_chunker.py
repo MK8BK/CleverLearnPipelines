@@ -1,10 +1,6 @@
 from typing import List
 from itertools import chain
 
-from langchain_experimental.text_splitter import SemanticChunker
-from langchain_openai.embeddings import OpenAIEmbeddings
-from langchain_text_splitters import CharacterTextSplitter
-
 # Temporary -----------------------------------------------------
 # TODO: uncomment to test this particular pipeline
 import sys
@@ -22,35 +18,31 @@ Pipeline 1: Split the corpus into paragraphs
 
 
 class TextChunker(Pipeline):
+    """
+        Splits input text into chunks of size at least `minimum_chunk_length`.
+        Splits on new line characters.
+    """
     title = "text_chunker_pipeline"
+
     def __init__(self, *args, **kwargs):
         super().__init__(TextChunker.title)
         self.minimum_chunk_length = self.prompt_store["minimum_chunk_length"]
-        self.maximum_chunk_length = self.prompt_store["maximum_chunk_length"]
-
-        self.semantic_text_splitter = SemanticChunker(OpenAIEmbeddings())
-        self.length_based_text_splitter = CharacterTextSplitter.from_tiktoken_encoder(
-            encoding_name="cl100k_base", chunk_size=self.maximum_chunk_length,
-            chunk_overlap=10,
-        )
 
     def _process(self, input_data: str) -> List[str]:
-        docs = self.semantic_text_splitter.create_documents([input_data])
-        # this semantic text splitter tends to produce short docs
-        # when the text is not a proper paragraph, real paragraphs tend to be
-        # grouped together i.e. large ... TODO: review
-        long_enough_docs = ([doc.page_content] for doc in filter(
-            lambda doc: len(doc.page_content) > self.minimum_chunk_length,
-            docs))
-        texts = (self.length_based_text_splitter.split_text(doc[0])
-                    if len(doc[0])>self.maximum_chunk_length
-                 else doc
-                 for doc in long_enough_docs)
-        texts = list(chain.from_iterable(texts))
-        return texts
+        n = len(input_data)
+        paragraphs = []
+        index = 0
+        while index < n:
+            new_index = input_data.find("\n", index+self.minimum_chunk_length)
+            if new_index == -1:
+                paragraphs.append(input_data[index:])
+                break
+            paragraphs.append(input_data[index:new_index+1])  # exclusive
+            index = new_index + 1
+        assert len(input_data) == sum(len(p) for p in paragraphs)
+        return paragraphs
 
     def _validate(self, input_data, output_data):
-        # TODO: implement later
         return True
 
 
@@ -80,4 +72,3 @@ if __name__ == "__main__":
     # print(len(pipeline_output))
     pipeline_output = dumps(pipeline_output)
     index.store_pipeline_output(tc.title, pipeline_output, "out1.json")
-

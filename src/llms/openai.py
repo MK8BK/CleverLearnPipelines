@@ -87,7 +87,7 @@ class OpenAI_client:
         self.messages = []
         return self
 
-    def submit_messages(self, **kwargs):
+    def submit_messages(self, cache_answer=False, **kwargs):
         """Makes the actual api call to the model specified in model_id.
             Submits all messages in the message queue.
 
@@ -106,7 +106,12 @@ class OpenAI_client:
             model=self.model_id,
             **kwargs
         )
-        return chat_completion
+        message_content = chat_completion.choices[0].message.parsed
+        if cache_answer:
+            self.add_message(OpenAI_role.ASSISTANT, message_content)
+        else:
+            self.clear_messages()
+        return message_content
 
 
 if __name__ == "__main__":

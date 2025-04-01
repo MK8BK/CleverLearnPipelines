@@ -1,5 +1,4 @@
-from typing import Optional, List, Annotated
-from annotated_types import Len
+from typing import List
 from pydantic import BaseModel 
 
 class MultipleChoiceQuestion(BaseModel):
