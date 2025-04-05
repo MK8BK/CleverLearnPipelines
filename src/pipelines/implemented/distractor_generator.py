@@ -27,7 +27,7 @@ class DistractorGenerator(Pipeline):
             (Message(OpenAI_role.DEVELOPER,
                      self.prompt_store["directives"].format(self.prompt_store["min_distractor_number"])),
              Message(OpenAI_role.USER,
-                     f"question: {m[0]}\ncorrect answer: {m[1]}")) for m in question_answers
+                     f"Question: {m[0]}\nCorrect answer: {m[1]}")) for m in question_answers
         ]
         distractors: List[Distractors] = self.client.concurrent_submit_messages(
             messages, response_format=Distractors)

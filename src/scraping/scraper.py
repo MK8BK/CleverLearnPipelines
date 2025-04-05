@@ -5,11 +5,13 @@ import requests
 import os
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
+from logutils import get_logger
 
 
 class WikiScraper:
     def __init__(self):
         self._cache = []
+        self.logger = get_logger(WikiScraper.__name__)
 
     def scrape(self, url):
         self.url = url
@@ -27,6 +29,7 @@ class WikiScraper:
         self._clean()
         self.html_text = str(self.soup)
         self.md = md(self.html_text)
+        self.logger.info(f"Successfully scraped page at {url}. See the latest markdown file at test_data/wiki/")
         return self.md
 
     def _clean(self):

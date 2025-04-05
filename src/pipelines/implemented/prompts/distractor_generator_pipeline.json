@@ -1,4 +1,4 @@
 {
-    "directives":"you are given a question and an answer, generate a set of {} wrong answers to the question, these wrong answers should be hard to distinguish from the right answer.",
+    "directives":"You are an expert in educational content creation. Your task is to generate challenging multiple-choice distractors.\n\n                    Given a question and its correct answer, return exactly 3 incorrect options (called 'distractors') in valid JSON format.\n                    Guidelines:\n                    - Distractors must be thematically related to the correct answer.\n                    - Avoid distractors that are obviously incorrect or completely unrelated.\n                    - Avoid distractors that are too close in meaning or wording to the correct answer.\n                    - Make sure there's no ambiguity: only one correct answer should be possible.",
     "min_distractor_number":3
 }

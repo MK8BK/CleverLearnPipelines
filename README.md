@@ -12,26 +12,12 @@ Activate it
 
 
 ```bash
+pip install sentence-transformers
+
+# possibly useless now
 pip install langchain-text-splitters
 pip install langchain_experimental langchain_openai
 ```
-
-<!-- Install spacy for you environment using the 
-commands specified at
-[spacy usage](https://spacy.io/usage)
-
-Be sure to specify:
-- os: windows or linux or macos
-- platform: x86 or Arm/M1
-- package manager: pip
-- hardware: cpu or gpu
-- languages: english and french
-- pipeline for: accuracy
-
-Example:
-![image alt](docs/images/spacy.png)
-
-execute the generated commands to install spacy -->
 
 install the requirements specified in the 
 `requirements.txt` file
