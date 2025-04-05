@@ -1,7 +1,5 @@
 {
-    "list_concepts": "List the main concepts in this paragraph",
     "extraction_directives":
-    "You will be given a paragraph delimited by three backticks ```, your task is to pick up the concepts present in the paragraph in the form of important sentences that contain information",
-    "concept_limit": 4,
-    "concept_limit_prompt":"Limit the number of concepts to "
+    "The user will input a piece of text, summarize the most important pieces of information in the form of a set of bullet points. Provide no more than {} bullet points.",
+    "concept_limit": 5
 }

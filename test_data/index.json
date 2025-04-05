@@ -1,10 +1,14 @@
 {
-  "quiz_count": 0,
-  "doc_count": 1,
+  "quiz_count": 5,
+  "doc_count": 2,
   "docs": {
-    "https://en.wikipedia.org/wiki/Lithuania": 1
+    "https://en.wikipedia.org/wiki/Lithuania": 1,
+    "https://en.wikipedia.org/wiki/Java": 2
   },
   "quizzes": {
-    "1": []
+    "1": [],
+    "2": [
+      5
+    ]
   }
 }

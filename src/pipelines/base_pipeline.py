@@ -23,7 +23,6 @@ PIPELINE_NAMES = set(p.split(".")[0]
 
 
 class Pipeline(ABC):
-    @abstractmethod
     def __init__(self, pipeline_title: str, language: CorpusLanguage = CorpusLanguage.EN):
         if pipeline_title not in PIPELINE_NAMES:
             raise RuntimeError(f"no file {pipeline_title}.json exists")

@@ -24,7 +24,34 @@ import itertools
 from typing import Dict, List
 
 
+class QuizTestDataIndex:
+    """
+        # New simplified specification under development
+        Class that provides seamless pipeline output and input storage.
+        specification:
+            - method to setup and verify the directory structure
+            - method to store the output of a named pipeline (url+data+pipeline_name)
+            - method to retrieve the output of a named pipeline (url+pipeline_name)
+            - method to clear pipeline outputs
+        implementation:
+            - use an sqlite database
+    """
+    pass
+
+
 class WikiTestDataIndex:
+    """
+        # New simplified specification under development
+        Class that provides seamless testing data storage and archiving.
+        specification:
+            - method to setup and verify the directory structure
+            - method to store a scraped web page along with the associated url
+            - method to retrieve list of stored web pages' urls
+            - method to remove a stored web page
+        implementation:
+            - use an sqlite database
+    """
+    # all below will be changed, mega session coming
 
     def clear(self):
         self.quiz_count = 0
@@ -71,10 +98,10 @@ class WikiTestDataIndex:
         return url in self.docs
 
     def get_quizzes(self, url: str):
-        if url not in self.docs or self.docs[url] not in self.quizzes:
+        if url not in self.docs or str(self.docs[url]) not in self.quizzes:
             raise RuntimeError(
                 f"{url} has never been scraped or invalid class state.")
-        return self.quizzes[self.doc[url]]
+        return self.quizzes[str(self.doc[url])]
 
     def ensure_pipeline_dir(self, pipeline_title: str):
         pipeline_dir_path = self.pipelines_path.joinpath(pipeline_title)
@@ -95,18 +122,18 @@ class WikiTestDataIndex:
             self.doc_count += 1
             doc_path = self.wiki_path.joinpath(str(self.doc_count)+".md")
             self.docs[url] = self.doc_count
-            self.quizzes[self.docs[url]] = []
+            self.quizzes[str(self.docs[url])] = []
         with open(doc_path, "w", encoding="utf8") as f:
             f.write(content)
         self.persist()
 
     def add_quiz(self, url, quiz_content: str):
-        if url not in self.docs or url not in self.quizzes:
+        if url not in self.docs or str(self.docs[url]) not in self.quizzes:
             raise RuntimeError(
                 "Quiz has no associated corpus or invalid class state.")
         self.quiz_count += 1
-        self.quizzes[self.docs[url]].append(self.quiz_count)
-        quiz_path = self.quizzes_path.joinpath(self.quiz_count, ".json")
+        self.quizzes[str(self.docs[url])].append(self.quiz_count)
+        quiz_path = self.quizzes_path.joinpath(str(self.quiz_count)+".json")
 
         with open(quiz_path, "w", encoding="utf8") as f:
             f.write(quiz_content)

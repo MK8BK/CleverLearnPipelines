@@ -8,18 +8,20 @@ from pipelines.implemented.concept_extractor import ConceptExtractor
 from pipelines.implemented.concept_combiner import ConceptCombiner
 from pipelines.implemented.question_answer_generator import QuestionAnswerGenerator
 from pipelines.implemented.distractor_generator import DistractorGenerator
+from pipelines.implemented.one_step import OneStepPipeline
 
 
-QUIZ_PIPELINE_1 = [TextChunker(), ConceptExtractor(),
+MVP_PIPELINE = [OneStepPipeline()]
+PIPELINE1 = [TextChunker(), ConceptExtractor(),
                    ConceptCombiner(), QuestionAnswerGenerator(),
                    DistractorGenerator()]
 
 
 class QuizGenerator:
-    def __init__(self, corpus: Corpus, mcq_number: int, pipelines: List[Pipeline] = QUIZ_PIPELINE_1):
+    def __init__(self, corpus: Corpus, mcq_number: int=20, pipelines: List[Pipeline] = PIPELINE1):
         self.context = dict()
         self.context["article"] = corpus.clean_text
-        self.context["mcq_number"] = mcq_number
+        # self.context["mcq_number"] = mcq_number
         self.piplines: List[Pipeline] = pipelines
 
     def generate(self) -> Quiz:

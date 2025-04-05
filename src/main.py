@@ -1,5 +1,7 @@
 import argparse
+import sys
 import pathlib
+import json
 from index import WikiTestDataIndex
 from scraping.scraper import WikiScraper
 from corpus.corpus import Corpus
@@ -40,10 +42,16 @@ def main():
         quiz_generator = QuizGenerator(corpus)
         try:
             quiz = quiz_generator.generate()
+            str_quiz = json.dumps(quiz.model_dump())
+            index.add_quiz(url, str_quiz)
+            print("done, see last json file generated at test_data/quizzes")
+            return
         except PipelineValidationError as pve:
             print("Could not generate quiz, validation error.")
-        except:
-            print("Could not generate quiz.")
+        except Exception as e:
+            print(f"Could not generate quiz. {e}")
+        finally:
+            sys.exit(1)
         # print(corpus.clean_text)
         
 

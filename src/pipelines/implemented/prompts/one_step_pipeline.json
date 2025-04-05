@@ -1,0 +1,5 @@
+
+{
+    "directives":"The user is a student and I want you to generate a multiple-choice quiz based strictly on the following Material. The quiz must:\n- Contain exactly {} unique questions, ensuring no repetition.\n- Cover all key points of the text (except the references ..) comprehensively, without omitting any important information.\n- Stick exclusively to the information provided, without adding external knowledge or interpretations.\n- Offer four distinct answer choices per question, with only one correct answer.\n- Ensure that both questions and answers are clearly formulated, precise, and unambiguous.",
+    "min_question_number":10
+}

@@ -3,6 +3,7 @@ from openai import OpenAI
 from pydantic import BaseModel
 from enum import StrEnum
 from dataclasses import dataclass
+import concurrent
 import os
 
 """
@@ -33,6 +34,7 @@ class Message:
     """
     role: OpenAI_role
     text: str
+
     def to_dict(self):
         """
         Helper method to produce a compatible dict structure to feed to the
@@ -42,6 +44,7 @@ class Message:
 
 
 class OpenAI_client:
+    NTHREADS: int = 10
     """
     Class to interact with remote openai models.
     """
@@ -87,22 +90,33 @@ class OpenAI_client:
         self.messages = []
         return self
 
-    def submit_messages(self, cache_answer=False, **kwargs):
+    def concurrent_submit_messages(self, messages: List[List[Message]],
+                                max_workers: int = NTHREADS, **kwargs) -> List:
+        """
+            UNTESTED
+        """
+        cf = concurrent.futures
+        with cf.ThreadPoolExecutor(max_workers=OpenAI_client.NTHREADS) as executor:
+            indices = list(range(len(messages)))
+            results = executor.map(lambda m: self.submit_messages(m, **kwargs), messages)
+            return list(results)
+
+    def submit_messages(self, messages: List[Message], cache_answer: bool = False, **kwargs):
         """Makes the actual api call to the model specified in model_id.
             Submits all messages in the message queue.
 
             response_format: pydantic.BaseModel.__class__, optional
 
                 the expected response json format as a pydantic class
-            
+
             returns a parsed chat completion (a.k.a instance of 
                 openai.types.chat.parsed_chat_completion.ParsedChatCompletion)
         """
-        # See the documentation of the class 
+        # See the documentation of the class
         # openai.types.chat.parsed_chat_completion.ParsedChatCompletion
         # for more details.
         chat_completion = OpenAI_client._client.beta.chat.completions.parse(
-            messages=[message.to_dict() for message in self.messages],
+            messages=[message.to_dict() for message in messages],
             model=self.model_id,
             **kwargs
         )

@@ -1,1 +1,4 @@
-{}
+{
+    "directives":"you are given a question and an answer, generate a set of {} wrong answers to the question, these wrong answers should be hard to distinguish from the right answer.",
+    "min_distractor_number":3
+}
