@@ -1,115 +1,42 @@
-from typing import List
-from openai import OpenAI
-from pydantic import BaseModel
-from enum import StrEnum
-from dataclasses import dataclass
 import os
+import openai
+import numpy as np
+from dotenv import load_dotenv
 
-"""
-We use the 4o-mini model by default, saves costs.
-[gpt-4o-mini](https://platform.openai.com/docs/models/gpt-4o-mini)
-"""
-GPT_4O_MINI = "gpt-4o-mini-2024-07-18"
+# Charge le fichier .env depuis src/prompters/.env
+load_dotenv(dotenv_path="src/prompters/.env")
 
+# Récupère la clé API depuis la variable d'environnement
+openai.api_key = os.getenv("OPENAI_API_KEY")
+if not openai.api_key:
+    raise ValueError("Clé API introuvable. Vérifiez votre fichier .env.")
 
-class OpenAI_role(StrEnum):
+# Utilise les fonctions utilitaires pour embeddings
+from openai.embeddings_utils import get_embedding, cosine_similarity
+
+def filter_similar_concepts(concepts, threshold=0.85, engine="text-embedding-ada-002"):
     """
-        Enumeration of the different open ai message roles
-        see 
-        [OpenAI api roles](https://platform.openai.com/docs/guides/text?api-mode=chat#message-roles-and-instruction-following)
-        for more details.
+    Calcule l'embedding de chaque concept et conserve un seul représentant par groupe
+    de concepts trop similaires (selon le seuil défini).
     """
-    USER = "user"
-    DEVELOPER = "developer"
-    ASSISTANT = "assistant"
-
-
-@dataclass
-class Message:
-    """
-    A message helper class, encodes a message as a str and the openai_role
-    [prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
-    first section on messages and roles.
-    """
-    role: OpenAI_role
-    text: str
-    def to_dict(self):
-        """
-        Helper method to produce a compatible dict structure to feed to the
-        OpanAI api.
-        """
-        return {"role": f"{self.role}", "content": self.text}
-
-
-class OpenAI_client:
-    """
-    Class to interact with remote openai models.
-    """
-
-    """
-    A static OpenAI _client to limit the overhead of OpenAI_client instance 
-    construction.
-    """
-    _client = OpenAI(
-        api_key=os.environ["OPENAI_API_KEY"],
-    )
-
-    def __init__(self, model_id: str = GPT_4O_MINI):
-        """
-        Constructor.
-
-        model_id: a unique openai model identifier, 
-            see snapshots section of models at 
-            [openai models](https://platform.openai.com/docs/models).
-        """
-        self.messages: List[Message] = []
-        self.model_id = model_id
-
-    def add_message(self, role: OpenAI_role, message: str):
-        """
-        Add a message to the list of messages to send in the next request.
-
-        role: the role of the message sender.
-
-        message: the content of the message.
-
-        returns self a.k.a builder design pattern to chain message add calls.
-        """
-        self.messages.append(Message(role, message))
-        return self  # builder design pattern
-
-    def clear_messages(self):
-        """
-        Remove all messages from the next request.
-
-        returns self.
-        """
-        self.messages = []
-        return self
-
-    def submit_messages(self, **kwargs):
-        """Makes the actual api call to the model specified in model_id.
-            Submits all messages in the message queue.
-
-            response_format: pydantic.BaseModel.__class__, optional
-
-                the expected response json format as a pydantic class
-            
-            returns a parsed chat completion (a.k.a instance of 
-                openai.types.chat.parsed_chat_completion.ParsedChatCompletion)
-        """
-        # See the documentation of the class 
-        # openai.types.chat.parsed_chat_completion.ParsedChatCompletion
-        # for more details.
-        chat_completion = OpenAI_client._client.beta.chat.completions.parse(
-            messages=[message.to_dict() for message in self.messages],
-            model=self.model_id,
-            **kwargs
-        )
-        return chat_completion
-
+    embeddings = {concept: get_embedding(concept, engine=engine) for concept in concepts}
+    representatives = []
+    for concept in concepts:
+        if any(cosine_similarity(embeddings[concept], embeddings[rep]) >= threshold
+               for rep in representatives):
+            continue
+        representatives.append(concept)
+    return representatives
 
 if __name__ == "__main__":
-    from dotenv import load_dotenv
-    load_dotenv()
-    client = OpenAI_client()
+    # Liste d'exemple de concepts ou phrases
+    concepts = [
+        "intelligence artificielle",
+        "IA",
+        "apprentissage automatique",
+        "machine learning",
+        "réseaux de neurones"
+    ]
+
+    reps = filter_similar_concepts(concepts, threshold=0.85)
+    print("Concepts représentatifs :", reps)
