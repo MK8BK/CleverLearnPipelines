@@ -12,11 +12,18 @@ Activate it
 
 
 ```bash
-pip install sentence-transformers
+pip install sentence-transformers nltk
+
 
 # possibly useless now
 pip install langchain-text-splitters
 pip install langchain_experimental langchain_openai
+```
+
+
+```python
+>>> import nltk
+>>> nltk.download('punkt_tab')
 ```
 
 install the requirements specified in the 

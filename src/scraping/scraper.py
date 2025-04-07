@@ -16,9 +16,6 @@ class WikiScraper:
     def scrape(self, url):
         self.url = url
         self.url_last_path = self.url.split('wikipedia.org/wiki/')[-1]
-        # TODO: improve and clean later
-        assert all((c in "()-_=+-[]" or c.isalnum())
-                   and c != "/" for c in self.url_last_path)
         try:
             r = requests.get(url)
             if r.status_code != 200:

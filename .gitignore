@@ -173,3 +173,5 @@ cython_debug/
 #data/md/
 client_data/
 .ps6/
+.idea/
+TODO.txt

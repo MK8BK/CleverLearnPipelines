@@ -42,10 +42,10 @@ def main():
     if args.generate_quiz:
         url = args.generate_quiz
         if not index.already_scraped(url):
-            MAIN_LOGGER.info(f"Article at {url} not previously scraped.")
+            MAIN_LOGGER.info(f"Article at {url} not previously scraped")
             scrape(url)
         else:
-            MAIN_LOGGER.info(f"Article at {url} previously scraped, using cached version.")
+            MAIN_LOGGER.info(f"Article at {url} previously scraped, using cached version")
         corpus = Corpus(index.retrieve_doc(url))
         quiz_generator = QuizGenerator(corpus)
         try:
@@ -54,9 +54,9 @@ def main():
             index.add_quiz(url, str_quiz)
             return
         except PipelineValidationError as pve:
-            print("Could not generate quiz, validation error.")
+            MAIN_LOGGER.error("Could not generate quiz, validation error")
         except Exception as e:
-            print(f"Could not generate quiz. {e}")
+            MAIN_LOGGER.error(f"Could not generate quiz: {e}")
         finally:
             sys.exit(1)
         # print(corpus.clean_text)

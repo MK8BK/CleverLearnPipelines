@@ -1,10 +1,12 @@
 {
-  "quiz_count": 11,
-  "doc_count": 3,
+  "quiz_count": 17,
+  "doc_count": 5,
   "docs": {
     "https://en.wikipedia.org/wiki/Lithuania": 1,
     "https://en.wikipedia.org/wiki/Java": 2,
-    "https://en.wikipedia.org/wiki/Lombok": 3
+    "https://en.wikipedia.org/wiki/Lombok": 3,
+    "https://en.wikipedia.org/wiki/Paraguay": 4,
+    "https://en.wikipedia.org/wiki/CentraleSup%C3%A9lec": 5
   },
   "quizzes": {
     "1": [],
@@ -18,6 +20,16 @@
     ],
     "3": [
       11
+    ],
+    "4": [
+      12,
+      15,
+      16,
+      17
+    ],
+    "5": [
+      13,
+      14
     ]
   }
 }

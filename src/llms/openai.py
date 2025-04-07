@@ -65,43 +65,19 @@ class OpenAI_client:
             see snapshots section of models at 
             [openai models](https://platform.openai.com/docs/models).
         """
-        self.messages: List[Message] = []
         self.model_id = model_id
 
-    def add_message(self, role: OpenAI_role, message: str):
-        """
-        Add a message to the list of messages to send in the next request.
 
-        role: the role of the message sender.
-
-        message: the content of the message.
-
-        returns self a.k.a builder design pattern to chain message add calls.
-        """
-        self.messages.append(Message(role, message))
-        return self  # builder design pattern
-
-    def clear_messages(self):
-        """
-        Remove all messages from the next request.
-
-        returns self.
-        """
-        self.messages = []
-        return self
-
-    def concurrent_submit_messages(self, messages: List[List[Message]],
-                                max_workers: int = NTHREADS, **kwargs) -> List:
+    def concurrent_submit_messages(self, messages: List[List[Message]], max_workers: int = NTHREADS, **kwargs) -> List:
         """
             UNTESTED
         """
         cf = concurrent.futures
         with cf.ThreadPoolExecutor(max_workers=OpenAI_client.NTHREADS) as executor:
-            indices = list(range(len(messages)))
             results = executor.map(lambda m: self.submit_messages(m, **kwargs), messages)
             return list(results)
 
-    def submit_messages(self, messages: List[Message], cache_answer: bool = False, **kwargs):
+    def submit_messages(self, messages: List[Message], **kwargs):
         """Makes the actual api call to the model specified in model_id.
             Submits all messages in the message queue.
 
@@ -121,10 +97,6 @@ class OpenAI_client:
             **kwargs
         )
         message_content = chat_completion.choices[0].message.parsed
-        if cache_answer:
-            self.add_message(OpenAI_role.ASSISTANT, message_content)
-        else:
-            self.clear_messages()
         return message_content
 
 
