@@ -1,9 +1,7 @@
 from typing import List
 from sentence_transformers import SentenceTransformer, util
-from huggingface_hub import hf_hub_download as cached_download
 import scipy
 import scipy.cluster.hierarchy as sch
-import pandas as pd
 import numpy as np
 from typing import List, Dict
 
@@ -15,13 +13,19 @@ sys.path.insert(0, '../..')
 # ---------------------------------------------------------------
 from pipelines.base_pipeline import Pipeline 
 
+
+# TODO:
+#   - jouer avec threshold
+#   - retenir get_representatives pour ranker les clusters/concepts
+
+
 """
 Pipeline 3: combiner tous les C/I en eliminant les redondances
             --> mesure de distance entre les concepts
 """
 
-class ConceptCombiner(Pipeline):
-    title = "concept_combiner_pipeline"
+class ConceptClusterCombiner(Pipeline):
+    title = "concept_cluster_combiner_pipeline"
     """
         sbert.net/docs/quickstart.html
     """
@@ -33,7 +37,7 @@ class ConceptCombiner(Pipeline):
             threshold (float): Similarity threshold for clustering (0-1)
         """
     def __init__(self, model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",threshold=0.4 ,*args, **kwargs):
-        super().__init__(ConceptCombiner.title)
+        super().__init__(ConceptClusterCombiner.title)
         self.model_name = model_name
         self.threshold = threshold
         self.model = None
@@ -66,7 +70,7 @@ class ConceptCombiner(Pipeline):
         
         return clusters
     
-    def get_representatives(self,clusters: dict[int, List(str)]) -> List[str]:
+    def get_representatives(self,clusters: Dict[int, List[str]]) -> List[str]:
         """
         Extract one representative from each cluster.
         
@@ -82,7 +86,7 @@ class ConceptCombiner(Pipeline):
         
         return representatives
 
-    def _process(self, input_data: List[List[str]],model_name,treshold) -> List[str]:
+    def _process(self, input_data: List[List[str]]) -> List[str]:
         """
         Process the input data by:
         1. Flattening the list of lists
@@ -116,18 +120,41 @@ class ConceptCombiner(Pipeline):
         
         # We select only the upper triangular part of the matrix
         # because the distance matrix is symmetric
-        condensed_distance = scipy.spatial.distance.squareform(distance_matrix)
+        assert len(distance_matrix_np.shape)==2 and\
+            distance_matrix_np.shape[0]==distance_matrix_np.shape[1], "Not symmetric"
+        condensed_distance = scipy.spatial.distance.squareform(distance_matrix_np, checks=False)
+        # for checks cf: https://stackoverflow.com/a/73428402
         
         Z = sch.linkage(condensed_distance, method='average') #clustering part
         
         
+        clusters = self.get_clusters(Z, flat_concepts, self.threshold) #get clusters
         
+        representatives = self.get_representatives(clusters) #get representatives
         
-        
-
+        return representatives
+    
+    
     def _validate(self, input_data, output_data):
-        # TODO: implement later
+        
+        # Check that output is a list of strings
+        if not isinstance(output_data, list):
+            return False
+        
+        # Check that all elements are strings
+        if not all(isinstance(item, str) for item in output_data):
+            return False
+        
+        # Check that output has fewer or equal elements than flattened input
+        flat_input = [item for sublist in input_data for item in sublist]
+        if len(output_data) > len(flat_input):
+            return False
+        
+        len_input = sum(len(lst) for lst in input_data)
+        self.logger.info(f"{len(output_data)}/{len_input}")
+            
         return True
+            
 
 def main():
     from index import WikiTestDataIndex
@@ -135,10 +162,9 @@ def main():
     from concept_extractor import ConceptExtractor
 
     index = WikiTestDataIndex(TEST_DATA_PATH)
-    # print(index.data_path)
 
-    cc = ConceptCombiner()
-    index.ensure_pipeline_dir(cc.title)
+    ccc = ConceptClusterCombiner(threshold=0.4)
+    index.ensure_pipeline_dir(ccc.title)
 
     from json import dumps, loads
 
@@ -147,16 +173,20 @@ def main():
 
     with open(str(input_file_path), "r", encoding="utf8") as f:
         paragraphs = loads(f.read())
-
-
-
     @measure_time
     def p(input_: List[List[str]]):
-        return cc.process(input_)
+        return ccc.process(input_)
+    
+    
+    print(len(paragraphs), "----------------")
     pipeline_output = p(paragraphs)
-    print(cc._validate(paragraphs, pipeline_output))
+    
+    print(f"Number of input concepts: {sum(len(lst) for lst in paragraphs)}")
+    print(f"Number of output concepts: {len(pipeline_output)}")
+    print(f"Validation result: {ccc._validate(paragraphs, pipeline_output)}")
+    
     pipeline_output = dumps(pipeline_output)
-    index.store_pipeline_output(cc.title, pipeline_output, "out1.json")
+    index.store_pipeline_output(ccc.title, pipeline_output, "out1.json")
 
 if __name__=="__main__":
     main()

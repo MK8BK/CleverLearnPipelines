@@ -1,11 +1,7 @@
 from sentence_transformers import SentenceTransformer, util
-from huggingface_hub import hf_hub_download as cached_download
-import torch
 import scipy
 import scipy.cluster.hierarchy as sch
-import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 model_name = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
