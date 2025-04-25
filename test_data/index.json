@@ -1,12 +1,14 @@
 {
-  "quiz_count": 17,
-  "doc_count": 5,
+  "quiz_count": 20,
+  "doc_count": 9,
   "docs": {
     "https://en.wikipedia.org/wiki/Lithuania": 1,
     "https://en.wikipedia.org/wiki/Java": 2,
     "https://en.wikipedia.org/wiki/Lombok": 3,
     "https://en.wikipedia.org/wiki/Paraguay": 4,
-    "https://en.wikipedia.org/wiki/CentraleSup%C3%A9lec": 5
+    "https://en.wikipedia.org/wiki/CentraleSup%C3%A9lec": 5,
+    "https://en.wikipedia.org/wiki/Hungary": 6,
+    "https://en.wikipedia.org/wiki/Lesser_Sunda_Islands": 9
   },
   "quizzes": {
     "1": [],
@@ -30,6 +32,10 @@
     "5": [
       13,
       14
+    ],
+    "6": [],
+    "9": [
+      20
     ]
   }
 }
