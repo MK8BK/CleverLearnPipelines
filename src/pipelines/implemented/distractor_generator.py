@@ -1,68 +1,74 @@
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
-import json
-from pipelines.base_pipeline import Pipeline
-from llms.openai import OpenAI_client, OpenAI_role
+from typing import Tuple, List
 from pydantic import BaseModel
 
-class DistractorResponse(BaseModel):
-    distractors: list[str]
-    
+# TODO: uncomment to test this particular pipeline
+import sys
+sys.path.insert(0, '../..')
+# ---------------------------------------------------------------
+
+from corpus.quiz import Quiz, MultipleChoiceQuestion
+from llms.openai import OpenAI_client, OpenAI_role, Message
+from pipelines.base_pipeline import Pipeline
+
+
+class Distractors(BaseModel):
+    distractors: List[str]
+
+
 class DistractorGenerator(Pipeline):
-    
+    title = "distractor_generator_pipeline"
+
     def __init__(self, *args, **kwargs):
-        super().__init__("distractor_generator_pipeline")
-        self.client = OpenAI_client()  
+        super().__init__(DistractorGenerator.title)
+        self.client = OpenAI_client()
 
-    def _process(self, input_data: dict) -> str:
-        question = input_data.get("question")
-        answer = input_data.get("answer")
-        if not question or not answer:
-            raise ValueError("Input must include both 'question' and 'answer' fields.")
-        
-        prompt = f"""You are an expert in educational content creation. Your task is to generate challenging multiple-choice distractors.
+    def _process(self, question_answers: List[Tuple[str, str]]) -> Quiz:
+        messages = [
+            (Message(OpenAI_role.DEVELOPER,
+                     self.prompt_store["directives"].format(self.prompt_store["min_distractor_number"])),
+             Message(OpenAI_role.USER,
+                     f"Question: {m[0]}\nCorrect answer: {m[1]}")) for m in question_answers
+        ]
+        distractors: List[Distractors] = self.client.concurrent_submit_messages(
+            messages, response_format=Distractors)
+        mcqs: List[MultipleChoiceQuestion] = [
+            MultipleChoiceQuestion(
+                question=question_answers[i][0], answer=question_answers[i][1], distractors=distractors[i].distractors)
+            for i in range(len(question_answers))]
+        quiz: Quiz = Quiz(mcqs=mcqs)
+        return quiz
 
-                    Given a question and its correct answer, return exactly 3 incorrect options (called 'distractors') in valid JSON format.
-                    Guidelines:
-                    - Distractors must be thematically related to the correct answer.
-                    - Avoid distractors that are obviously incorrect or completely unrelated.
-                    - Avoid distractors that are too close in meaning or wording to the correct answer.
-                    - Make sure there's no ambiguity: only one correct answer should be possible.
-
-                    
-
-                    Format:
-                    {{ "distractors": ["...", "...", "..."] }}
-
-                    Question: {question}
-                    Correct Answer: {answer}"""
-
-        self.client.clear_messages()
-        self.client.add_message(OpenAI_role.USER, prompt)
-
-        raw_output = self.client.submit_messages(response_format=DistractorResponse)
-
-        distractors = raw_output.distractors if raw_output else []
-
-        result = {
-            "question": question,
-            "answer": answer,
-            "distractors": distractors
-        }
-
-        return json.dumps(result, indent=2, ensure_ascii=False)
+    def _validate(self, input_data, output_data):
+        # TODO: implement later
+        return True
 
 
-    def _validate(self, input_data, output_data) -> bool:
-        try:
-            parsed = json.loads(output_data)
-            return "question" in parsed and "answer" in parsed and isinstance(parsed.get("distractors"), list)
-        except Exception:
-            return False
-        
-dg=DistractorGenerator()
-print(dg._process({
-            "question": "What is the Capital of Spain",
-            "answer": "Madrid"
-        }))
+def main():
+    from index import WikiTestDataIndex
+    from test_helpers import TEST_DATA_PATH, measure_time
+    from question_answer_generator import QuestionAnswerGenerator
+
+    index = WikiTestDataIndex(TEST_DATA_PATH)
+
+    dg = DistractorGenerator()
+    index.ensure_pipeline_dir(dg.title)
+
+    from json import dumps, loads
+
+    input_file_path = TEST_DATA_PATH.joinpath("pipelines").joinpath(
+        QuestionAnswerGenerator.title).joinpath("out1.json")
+
+    with open(str(input_file_path), "r", encoding="utf8") as f:
+        content = loads(f.read())
+
+    @measure_time
+    def p(input_: List[List[str]]):
+        return dg.process(input_)
+    content = [(q["question"], q["answer"]) for q in content]
+    quiz: Quiz = p(content)
+    pipeline_output = dumps(quiz.model_dump())
+    index.store_pipeline_output(dg.title, pipeline_output, "out1.json")
+
+
+if __name__ == "__main__":
+    main()

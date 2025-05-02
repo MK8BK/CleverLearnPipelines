@@ -5,18 +5,17 @@ import requests
 import os
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
+from logutils import get_logger
 
 
 class WikiScraper:
     def __init__(self):
         self._cache = []
+        self.logger = get_logger(WikiScraper.__name__)
 
     def scrape(self, url):
         self.url = url
         self.url_last_path = self.url.split('wikipedia.org/wiki/')[-1]
-        # TODO: improve and clean later
-        assert all((c in "()-_=+-[]" or c.isalnum())
-                   and c != "/" for c in self.url_last_path)
         try:
             r = requests.get(url)
             if r.status_code != 200:
@@ -27,6 +26,7 @@ class WikiScraper:
         self._clean()
         self.html_text = str(self.soup)
         self.md = md(self.html_text)
+        self.logger.info(f"Successfully scraped page at {url}. See the latest markdown file at test_data/wiki/")
         return self.md
 
     def _clean(self):

@@ -16,14 +16,13 @@ class Corpus:
         self.lang = lang
         self.clean_text = self._remove_markdown_links(self.raw_text)
         self.clean_text = self._remove_urls(self.clean_text)
-        
-    def _remove_pattern(self, pattern, text):
-        return re.sub(pattern, "", text)
 
     def _remove_markdown_links(self,text):
         pattern = r"(?:\[(?P<text>.*?)\])\((?P<link>.*?)\)"
-        return self._remove_pattern(pattern, text)
+        # return self._remove_pattern(pattern, text)
+        return re.sub(pattern, r"\g<text>", text)
 
     def _remove_urls(self, text):
         pattern = r"[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
-        return self._remove_pattern(pattern, text)
+        return re.sub(pattern, "", text)
+
