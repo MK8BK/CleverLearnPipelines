@@ -1,0 +1,3964 @@
+{
+    "mcqs": [
+        {
+            "question": "What does the text discuss?",
+            "answer": "an Indonesian island",
+            "distractors": [
+                "a tourist destination in Thailand",
+                "a famous city in Australia",
+                "a cultural festival in Malaysia"
+            ]
+        },
+        {
+            "question": "What are the coordinates provided in the sentence?",
+            "answer": "7\u00b020\u2032S 109\u00b037\u2032E",
+            "distractors": [
+                "12\u00b015\u2032N 78\u00b030\u2032W",
+                "5\u00b045\u2032S 60\u00b015\u2032E",
+                "23\u00b045\u2032N 90\u00b025\u2032E"
+            ]
+        },
+        {
+            "question": "What is the source of the information?",
+            "answer": "Wikipedia",
+            "distractors": [
+                "Encyclopedia Britannica",
+                "Google Scholar",
+                "Online News Articles"
+            ]
+        },
+        {
+            "question": "What type of data is the focus on regarding the island?",
+            "answer": "geographical data",
+            "distractors": [
+                "socioeconomic data",
+                "historical data",
+                "cultural data"
+            ]
+        },
+        {
+            "question": "What aspects of the island are likely included in the content?",
+            "answer": "historical or cultural aspects",
+            "distractors": [
+                "geological formations",
+                "current environmental policies",
+                "tourist attraction statistics"
+            ]
+        },
+        {
+            "question": "What is Java?",
+            "answer": "a programming language",
+            "distractors": [
+                "a coffee brand",
+                "a web browser",
+                "an operating system"
+            ]
+        },
+        {
+            "question": "What are other uses for the term 'Java'?",
+            "answer": "disambiguation.",
+            "distractors": [
+                "software development",
+                "coffee",
+                "island in Indonesia"
+            ]
+        },
+        {
+            "question": "What does 'Java (programming language)' refer to?",
+            "answer": "a specific context within programming",
+            "distractors": [
+                "a type of coffee",
+                "a geographical region in Indonesia",
+                "a programming paradigm"
+            ]
+        },
+        {
+            "question": "What does the term 'Java' refer to besides the programming language?",
+            "answer": "different concepts or places",
+            "distractors": [
+                "an island in Indonesia",
+                "a type of coffee",
+                "a brand of computer hardware"
+            ]
+        },
+        {
+            "question": "What does the text suggest regarding the context of 'Java'?",
+            "answer": "a need to clarify the context in which 'Java' is being referred.",
+            "distractors": [
+                "a discussion about the history of Java programming language",
+                "an exploration of Java's impact on software development",
+                "an analysis of the cultural significance of Java the island"
+            ]
+        },
+        {
+            "question": "What is the rank of Java by area among islands?",
+            "answer": "the 13th largest island by area",
+            "distractors": [
+                "the 20th largest island by area",
+                "the 5th largest island by area",
+                "the 10th largest island by area"
+            ]
+        },
+        {
+            "question": "What is the area covered by the island?",
+            "answer": "132,000 km\u00b2",
+            "distractors": [
+                "150,000 km\u00b2",
+                "120,000 km\u00b2",
+                "140,000 km\u00b2"
+            ]
+        },
+        {
+            "question": "What is the elevation of Semeru, the highest point in Java?",
+            "answer": "3,678 meters (12,067 feet)",
+            "distractors": [
+                "3,500 meters (11,483 feet)",
+                "3,850 meters (12,631 feet)",
+                "3,200 meters (10,499 feet)"
+            ]
+        },
+        {
+            "question": "How many provinces is Java divided into administratively?",
+            "answer": "six provinces",
+            "distractors": [
+                "five provinces",
+                "seven provinces",
+                "four provinces"
+            ]
+        },
+        {
+            "question": "What is the population density of Java?",
+            "answer": "about 1,183 people per km\u00b2",
+            "distractors": [
+                "about 600 people per km\u00b2",
+                "about 2,500 people per km\u00b2",
+                "about 800 people per km\u00b2"
+            ]
+        },
+        {
+            "question": "What is Java classified as in Indonesia?",
+            "answer": "one of the Greater Sunda Islands",
+            "distractors": [
+                "a province of Sumatra",
+                "a volcanic island in the Lesser Sunda Islands",
+                "the capital city of Indonesia"
+            ]
+        },
+        {
+            "question": "What are some of the ethnic groups included in Java?",
+            "answer": "Tenggerese, Osing, Banyumasan, Kangeanese, Madurese, and Sundanese.",
+            "distractors": [
+                "Balinese",
+                "Javanese",
+                "Bugis"
+            ]
+        },
+        {
+            "question": "What may be required to view the Sundanese script correctly?",
+            "answer": "specific rendering support",
+            "distractors": [
+                "standard Unicode font",
+                "basic text editor",
+                "narrow character display"
+            ]
+        },
+        {
+            "question": "What is the UTC offset of Western Indonesia Time (WIB) that Java operates on?",
+            "answer": "UTC+7",
+            "distractors": [
+                "UTC+6",
+                "UTC+8",
+                "UTC+9"
+            ]
+        },
+        {
+            "question": "What are the sub-groups of the Sundanese ethnic group?",
+            "answer": "Bantenese and Baduy",
+            "distractors": [
+                "Javanese and Balinese",
+                "Minangkabau and Batak",
+                "Malay and Acehnese"
+            ]
+        },
+        {
+            "question": "What bodies of water border Java?",
+            "answer": "the Indian Ocean to the south and Java Sea to the north",
+            "distractors": [
+                "the South China Sea to the east",
+                "the Timor Sea to the southeast",
+                "the Andaman Sea to the west"
+            ]
+        },
+        {
+            "question": "What is the world's most populous island that has a significant proportion of Indonesia's population?",
+            "answer": "Java",
+            "distractors": [
+                "Sumatra",
+                "Borneo",
+                "Sulawesi"
+            ]
+        },
+        {
+            "question": "What is the capital city of Indonesia and where is it located?",
+            "answer": "Jakarta, located on Java's northwestern coast.",
+            "distractors": [
+                "Bandung, situated in West Java.",
+                "Denpasar, found on the island of Bali.",
+                "Medan, located in northern Sumatra."
+            ]
+        },
+        {
+            "question": "What has Java been the site of in Indonesia?",
+            "answer": "many important historical events",
+            "distractors": [
+                "numerous volcanic eruptions",
+                "extensive agricultural developments",
+                "significant tourist attractions"
+            ]
+        },
+        {
+            "question": "What role does Java play in Indonesia?",
+            "answer": "Java plays a central role in the geography and history of Indonesia.",
+            "distractors": [
+                "Java is primarily known for its role in the development of advanced robotics.",
+                "Java serves as the leading microprocessor manufacturer in Indonesia.",
+                "Java mainly functions as a financial hub for Southeast Asia."
+            ]
+        },
+        {
+            "question": "What role did Java play in Indonesia's independence struggle during the 1930s and 1940s?",
+            "answer": "Java was central to Indonesia's independence struggle in the 1930s and 1940s.",
+            "distractors": [
+                "Java served primarily as a colonial administrative center during the independence movement.",
+                "Java was heavily focused on agricultural exports during the late 1930s.",
+                "Java was largely uninvolved in the push for independence, with most activity occurring in Sumatra."
+            ]
+        },
+        {
+            "question": "What island has significant political, economic, and cultural dominance in Indonesia?",
+            "answer": "Java",
+            "distractors": [
+                "Bali",
+                "Sumatra",
+                "Sulawesi"
+            ]
+        },
+        {
+            "question": "How many of Indonesia's UNESCO World Heritage sites are located in Java?",
+            "answer": "Four",
+            "distractors": [
+                "Two",
+                "Five",
+                "Seven"
+            ]
+        },
+        {
+            "question": "What UNESCO sites are located in Java?",
+            "answer": "Ujung Kulon National Park, Borobudur Temple, Prambanan Temple, and Sangiran Early Man Site.",
+            "distractors": [
+                "Bromo Tengger Semeru National Park",
+                "Yogyakarta Palace",
+                "Dieng Plateau"
+            ]
+        },
+        {
+            "question": "What is the 13th largest island in the world?",
+            "answer": "13th largest island in the world",
+            "distractors": [
+                "Borneo",
+                "Madagascar",
+                "Sumatra"
+            ]
+        },
+        {
+            "question": "What is the 5th largest island in Indonesia?",
+            "answer": "Sumatra",
+            "distractors": [
+                "Java",
+                "Sulawesi",
+                "Borneo"
+            ]
+        },
+        {
+            "question": "What is the landmass area mentioned in the sentence?",
+            "answer": "132 square kilometers (51 square miles)",
+            "distractors": [
+                "120 square kilometers (46 square miles)",
+                "150 square kilometers (58 square miles)",
+                "100 square kilometers (39 square miles)"
+            ]
+        },
+        {
+            "question": "What is the area of Madura in square kilometers?",
+            "answer": "5 square kilometers",
+            "distractors": [
+                "12 square kilometers",
+                "8 square kilometers",
+                "20 square kilometers"
+            ]
+        },
+        {
+            "question": "What are the four main languages mentioned?",
+            "answer": "Javanese, Sundanese, Madurese, Betawi.",
+            "distractors": [
+                "Bali, Buginese, Bugis, Acehnese",
+                "Minangkabau, Balinese, Batak, Toraja",
+                "Sasak, Rejang, Lampung, Malay"
+            ]
+        },
+        {
+            "question": "What are the most spoken languages?",
+            "answer": "Javanese and Sundanese",
+            "distractors": [
+                "Mandarin and Cantonese",
+                "Spanish and French",
+                "Hindi and Bengali"
+            ]
+        },
+        {
+            "question": "Where is the Javanese ethnic group primarily located?",
+            "answer": "in central and eastern parts",
+            "distractors": [
+                "in northern and western regions",
+                "in southern Javanese cities",
+                "along the western coastline of Java"
+            ]
+        },
+        {
+            "question": "Where is the Sundanese ethnic group primarily located?",
+            "answer": "in western parts",
+            "distractors": [
+                "in eastern regions",
+                "in central highlands",
+                "in coastal cities"
+            ]
+        },
+        {
+            "question": "What type of communities are featured on the island?",
+            "answer": "diverse linguistic and ethnic communities.",
+            "distractors": [
+                "homogeneous cultural groups",
+                "isolated farming communities",
+                "single-language populations"
+            ]
+        },
+        {
+            "question": "Where do the Madurese people migrate from?",
+            "answer": "Madura Island",
+            "distractors": [
+                "Java Island",
+                "Sumatra Island",
+                "Bali Island"
+            ]
+        },
+        {
+            "question": "What are the Betawi people in Jakarta a mix of?",
+            "answer": "various Indonesian ethnic groups",
+            "distractors": [
+                "Arab and Chinese cultures",
+                "Indigenous Javanese tribes",
+                "Malay and Indian influences"
+            ]
+        },
+        {
+            "question": "What is the origin of the Madurese?",
+            "answer": "Madura Island",
+            "distractors": [
+                "Java Island",
+                "Sumatra Island",
+                "Bali Island"
+            ]
+        },
+        {
+            "question": "What does the Betawi culture reflect about Jakarta?",
+            "answer": "the diversity of ethnic influences in Jakarta",
+            "distractors": [
+                "the historical events of colonial Jakarta",
+                "the dominant role of Western culture in urban development",
+                "the influence of rural traditions in city planning"
+            ]
+        },
+        {
+            "question": "Which community is home to the Eastern salient of Java?",
+            "answer": "Madurese community",
+            "distractors": [
+                "Javanese community",
+                "Sundanese community",
+                "Balinese community"
+            ]
+        },
+        {
+            "question": "What is the predominant religion in Java?",
+            "answer": "Muslim",
+            "distractors": [
+                "Hindu",
+                "Buddhist",
+                "Christian"
+            ]
+        },
+        {
+            "question": "How many provinces are there on the island?",
+            "answer": "Four provinces",
+            "distractors": [
+                "Three provinces",
+                "Five provinces",
+                "Six provinces"
+            ]
+        },
+        {
+            "question": "What are some possible origins of the name 'Java' according to its etymology?",
+            "answer": "The possible origins linked to the *j\u00e1wa-wut* plant and meanings like 'distant' and 'barley' in different languages.",
+            "distractors": [
+                "A reference to the ancient Greek word for 'ocean'",
+                "An association with the Indo-European root for 'river'",
+                "A connection to the Latin term for 'island'"
+            ]
+        },
+        {
+            "question": "In which ancient texts is Java referred to, indicating its historical significance?",
+            "answer": "the Ramayana and Tamil literature",
+            "distractors": [
+                "the Mahabharata and Sanskrit texts",
+                "the Vedas and Puranas",
+                "the Iliad and Odyssey"
+            ]
+        },
+        {
+            "question": "What does Ptolemy's *Geographia* indicate about Java's reputation?",
+            "answer": "natural resources like gold and silver",
+            "distractors": [
+                "rich agricultural land and spices",
+                "strategic trading routes",
+                "populous urban centers and trade hubs"
+            ]
+        },
+        {
+            "question": "What are some historical names of Java mentioned in ancient texts?",
+            "answer": "She-p\u00f3 and Chao-Wa",
+            "distractors": [
+                "Nusantara",
+                "Majapahit",
+                "Jawa"
+            ]
+        },
+        {
+            "question": "When was Java mentioned in the annual news of Songshu and Liangshu?",
+            "answer": "the 5th century CE",
+            "distractors": [
+                "the 3rd century BCE",
+                "the 9th century CE",
+                "the 1st century AD"
+            ]
+        },
+        {
+            "question": "What did Sulaiman al-Tajir al-Sirafi identify Java as?",
+            "answer": "Zabaj",
+            "distractors": [
+                "Sulawesi",
+                "Jambudvipa",
+                "Zabajir"
+            ]
+        },
+        {
+            "question": "What Kingdom did John of Marignolli describe that is possibly linked to the historical name She-b\u00f3 for Java?",
+            "answer": "Saba",
+            "distractors": [
+                "Ceylon",
+                "Samarinda",
+                "Sumatra"
+            ]
+        },
+        {
+            "question": "What islands geographically lie on either side of Java?",
+            "answer": "Sumatra to the west and Bali to the east.",
+            "distractors": [
+                "Sulawesi to the north",
+                "Borneo to the northwest",
+                "Timor to the southeast"
+            ]
+        },
+        {
+            "question": "What bodies of water surround Java in Indonesia?",
+            "answer": "Java Sea (north), Sunda Strait (west), Indian Ocean (south), and Bali and Madura Straits (east)",
+            "distractors": [
+                "Timor Sea (southeast)",
+                "Celebes Sea (northeast)",
+                "Arabian Sea (west)"
+            ]
+        },
+        {
+            "question": "What is the primary origin of Java and how many mountains does it comprise?",
+            "answer": "Java is primarily of volcanic origin, comprising 38 mountains.",
+            "distractors": [
+                "Java has a sedimentary origin and contains 22 mountains.",
+                "Java is primarily of igneous rock origin, consisting of 50 mountains.",
+                "Java originated from tectonic plate movements and includes 30 mountains."
+            ]
+        },
+        {
+            "question": "What is the orientation of the spine formed by the mountains across the island?",
+            "answer": "east-west",
+            "distractors": [
+                "north-south",
+                "diagonal",
+                "circular"
+            ]
+        },
+        {
+            "question": "What have the mountains been at various points in time?",
+            "answer": "active volcanoes",
+            "distractors": [
+                "eroded hills",
+                "frozen tundras",
+                "sedimentary formations"
+            ]
+        },
+        {
+            "question": "How do Java's geographical features influence its climate and ecosystem?",
+            "answer": "Java's geographical features significantly influence its climate and ecosystem.",
+            "distractors": [
+                "Java is primarily affected by oceanic currents and wind patterns, which have no relation to its geographical features.",
+                "Java's fertile land is solely the result of agricultural practices rather than its natural geographical formations.",
+                "The climate of Java is dictated entirely by its distance from the equator, disregarding the impact of its mountains and valleys."
+            ]
+        },
+        {
+            "question": "What is the height of Mount Semeru in metres?",
+            "answer": "3,676 metres",
+            "distractors": [
+                "3,500 metres",
+                "3,500 feet",
+                "3,850 metres"
+            ]
+        },
+        {
+            "question": "What is the height of Mount Merapi?",
+            "answer": "2,930 metres (9,610 ft)",
+            "distractors": [
+                "2,550 metres (8,366 ft)",
+                "3,200 metres (10,499 ft)",
+                "2,780 metres (9,121 ft)"
+            ]
+        },
+        {
+            "question": "What type of cultivation is ideal in Java's fertile lands?",
+            "answer": "wet-rice cultivation",
+            "distractors": [
+                "dryland farming",
+                "sustainable forestry",
+                "orchard farming"
+            ]
+        },
+        {
+            "question": "When did Java start growing coffee?",
+            "answer": "1699",
+            "distractors": [
+                "1680",
+                "1702",
+                "1750"
+            ]
+        },
+        {
+            "question": "What is the length of the Solo River in Java?",
+            "answer": "600 km",
+            "distractors": [
+                "450 km",
+                "750 km",
+                "500 km"
+            ]
+        },
+        {
+            "question": "What are some major rivers mentioned in the sentence?",
+            "answer": "Brantas, Citarum, Cimanuk, and Serayu.",
+            "distractors": [
+                "Amazon, Nile, Mississippi",
+                "Yangtze, Ganges, Danube",
+                "Thames, Seine, Colorado"
+            ]
+        },
+        {
+            "question": "What is the average temperature range mentioned in the sentence?",
+            "answer": "22 \u00b0C (72 \u00b0F) to 29 \u00b0C (84 \u00b0F)",
+            "distractors": [
+                "18 \u00b0C (64 \u00b0F) to 25 \u00b0C (77 \u00b0F)",
+                "20 \u00b0C (68 \u00b0F) to 30 \u00b0C (86 \u00b0F)",
+                "24 \u00b0C (75 \u00b0F) to 32 \u00b0C (90 \u00b0F)"
+            ]
+        },
+        {
+            "question": "What is the average humidity?",
+            "answer": "75%",
+            "distractors": [
+                "60%",
+                "85%",
+                "50%"
+            ]
+        },
+        {
+            "question": "What is the average temperature during the dry season in the northern coastal plains?",
+            "answer": "34 \u00b0C (93 \u00b0F)",
+            "distractors": [
+                "30 \u00b0C (86 \u00b0F)",
+                "38 \u00b0C (100 \u00b0F)",
+                "25 \u00b0C (77 \u00b0F)"
+            ]
+        },
+        {
+            "question": "What months does the wet season run from?",
+            "answer": "November to April",
+            "distractors": [
+                "January to March",
+                "June to September",
+                "April to October"
+            ]
+        },
+        {
+            "question": "What are the wettest months in Java?",
+            "answer": "January and February",
+            "distractors": [
+                "July and August",
+                "March and April",
+                "November and December"
+            ]
+        },
+        {
+            "question": "How much rainfall does the Parahyangan highlands receive annually?",
+            "answer": "over 4,000 mm",
+            "distractors": [
+                "around 1,500 mm",
+                "approximately 2,500 mm",
+                "less than 3,000 mm"
+            ]
+        },
+        {
+            "question": "What types of environments does Java have?",
+            "answer": "dense tropical rainforests to dry savannas",
+            "distractors": [
+                "boreal forests to tundra plains",
+                "arid deserts to temperate grasslands",
+                "mountainous regions to coastal wetlands"
+            ]
+        },
+        {
+            "question": "What are two endemic species found in Java?",
+            "answer": "Javan rhinoceros and Javan leopard.",
+            "distractors": [
+                "Sumatran orangutan",
+                "Bornean pygmy elephant",
+                "Bali myna"
+            ]
+        },
+        {
+            "question": "What have human activities in Java led to the creation of?",
+            "answer": "rice paddies and terraced landscapes.",
+            "distractors": [
+                "urbanized areas with high-rise buildings",
+                "deforested regions with barren land",
+                "industrial zones with factories and warehouses"
+            ]
+        },
+        {
+            "question": "What is putting pressure on Java's wildlife?",
+            "answer": "The growing human population",
+            "distractors": [
+                "Climate change effects on ecosystems",
+                "Increased tourism and development",
+                "Loss of natural habitats due to agriculture"
+            ]
+        },
+        {
+            "question": "How has the diminishing of rainforests in Java affected wildlife?",
+            "answer": "It has confined wildlife to highland slopes or isolated areas.",
+            "distractors": [
+                "It has increased biodiversity in the remaining forest areas.",
+                "It has led to the migration of wildlife to urban areas.",
+                "It has caused the emergence of new species in alternative habitats."
+            ]
+        },
+        {
+            "question": "What is the conservation status of many endemic species in Java?",
+            "answer": "critically endangered",
+            "distractors": [
+                "vulnerable",
+                "endangered",
+                "near threatened"
+            ]
+        },
+        {
+            "question": "Which species are mentioned as having become extinct?",
+            "answer": "Javan tigers and Javan elephants",
+            "distractors": [
+                "Sumatran rhinos and Bali tigers",
+                "Woolly mammoths and saber-toothed cats",
+                "Passenger pigeons and Tasmanian tigers"
+            ]
+        },
+        {
+            "question": "Which national parks in Java are mentioned as protecting remaining wildlife?",
+            "answer": "Ujung Kulon and Mount Halimun-Salak",
+            "distractors": [
+                "Bromo Tengger Semeru and Baluran",
+                "Kawah Ijen and Meru Betiri",
+                "Gunung Leuser and Bukit Barisan Selatan"
+            ]
+        },
+        {
+            "question": "What are the fossils of *Homo erectus* found near the Bengawan Solo River commonly known as?",
+            "answer": "Java Man",
+            "distractors": [
+                "Nariokotome Boy",
+                "Peking Man",
+                "Neanderthal Man"
+            ]
+        },
+        {
+            "question": "How long do fossils date back?",
+            "answer": "millions of years",
+            "distractors": [
+                "thousands of years",
+                "hundreds of years",
+                "decades"
+            ]
+        },
+        {
+            "question": "When did *H. erectus* spread to Eurasia?",
+            "answer": "about million years ago",
+            "distractors": [
+                "approximately 600,000 years ago",
+                "around 1.5 million years ago",
+                "close to 300,000 years ago"
+            ]
+        },
+        {
+            "question": "What type of ecosystem did the Java population of *H. erectus* inhabit?",
+            "answer": "a forest ecosystem that was consistently wet.",
+            "distractors": [
+                "a desert ecosystem with extreme temperatures",
+                "a grassland ecosystem with seasonal dryness",
+                "a mountainous ecosystem with frequent snowfalls"
+            ]
+        },
+        {
+            "question": "What types of plants were revealed at the Trinil excavation site?",
+            "answer": "grass (Poaceae), ferns, *Ficus*, *Indigofera*.",
+            "distractors": [
+                "mosses",
+                "cacti",
+                "orchids"
+            ]
+        },
+        {
+            "question": "What was the last population of *H. erectus* on Java?",
+            "answer": "*H. e. soloensis*",
+            "distractors": [
+                "*H. e. georgicus*",
+                "*H. e. antecessor*",
+                "*H. e. floresiensis*"
+            ]
+        },
+        {
+            "question": "How long ago did the occupation of Java by *H. erectus* date back to?",
+            "answer": "at least 1 million years ago",
+            "distractors": [
+                "around 500,000 years ago",
+                "approximately 2.5 million years ago",
+                "less than 100,000 years ago"
+            ]
+        },
+        {
+            "question": "What are the significant habitation phases for *H. erectus* and their corresponding time periods?",
+            "answer": "Sangiran (1 million years ago), Trinil (540-430 thousand years ago), and Ngandong (117-108 thousand years ago).",
+            "distractors": [
+                "Olduvai Gorge (1.9 million years ago)",
+                "Atapuerca (800-600 thousand years ago)",
+                "Dmanisi (1.8 million years ago)"
+            ]
+        },
+        {
+            "question": "What does Solo Man represent in relation to *H. erectus*?",
+            "answer": "a terminal population of *H. erectus* that lived in open-habitat refuges before rainforests expanded.",
+            "distractors": [
+                "a more advanced species that arose from *H. erectus* after climatic changes",
+                "a population of *H. erectus* that thrived exclusively in forested areas",
+                "a transitional form between *H. erectus* and early modern humans"
+            ]
+        },
+        {
+            "question": "What type of species did Late Pleistocene Southeast Asia have?",
+            "answer": "unique hominin species",
+            "distractors": [
+                "large megafauna",
+                "ancient marine reptiles",
+                "primitive mammals"
+            ]
+        },
+        {
+            "question": "Where was *H. floresiensis* endemic to?",
+            "answer": "Flores, Indonesia",
+            "distractors": [
+                "Borneo, Malaysia",
+                "Java, Indonesia",
+                "Sumatra, Indonesia"
+            ]
+        },
+        {
+            "question": "Where was *H. luzonensis* endemic to?",
+            "answer": "Luzon, the Philippines.",
+            "distractors": [
+                "Mindanao, the Philippines",
+                "Borneo, Indonesia",
+                "Sumatra, Indonesia"
+            ]
+        },
+        {
+            "question": "What existed before the arrival of modern humans?",
+            "answer": "These species",
+            "distractors": [
+                "Early hominins",
+                "Prehistoric megafauna",
+                "Neanderthals"
+            ]
+        },
+        {
+            "question": "What do both species represent in Southeast Asia?",
+            "answer": "important aspects of human evolution",
+            "distractors": [
+                "pivotal moments in agricultural development",
+                "key points in climate change history",
+                "major influences on ancient trade routes"
+            ]
+        },
+        {
+            "question": "Where did Denisovans disperse widely?",
+            "answer": "Southeast Asia",
+            "distractors": [
+                "Northeast Asia",
+                "South America",
+                "Northern Africa"
+            ]
+        },
+        {
+            "question": "What does the 2021 genomic study show about interbreeding between modern humans and endemic human species?",
+            "answer": "Modern humans did not interbreed with any endemic human species, except for unviable offspring.",
+            "distractors": [
+                "Modern humans frequently interbred with all endemic human species, resulting in viable offspring.",
+                "The genomic study indicates rich interbreeding between modern humans and Neanderthals, leading to robust hybrid populations.",
+                "Modern humans occasionally interbred with endemic species, producing both viable and unviable offspring."
+            ]
+        },
+        {
+            "question": "Which ancient hominins did interbreeding primarily occur with?",
+            "answer": "Denisovans",
+            "distractors": [
+                "Neanderthals",
+                "Homo habilis",
+                "Australopithecus"
+            ]
+        },
+        {
+            "question": "What does the evidence from specimens found at Ngandong suggest about *H. e soloensis*?",
+            "answer": "a sizeable population of *H. e soloensis* existed before a volcanic eruption.",
+            "distractors": [
+                "*H. e soloensis* was predominantly found in coastal areas before extinction.",
+                "Specimens indicate that *H. e soloensis* migrated from Africa to Asia.",
+                "The evidence suggests that *H. e soloensis* thrived in colder climates prior to the eruption."
+            ]
+        },
+        {
+            "question": "Why is estimating the population size of *H. e soloensis* uncertain?",
+            "answer": "Due to lack of definitive data.",
+            "distractors": [
+                "Because the species has recently been discovered.",
+                "Due to variations in habitat conditions.",
+                "Because *H. e soloensis* is known to migrate frequently."
+            ]
+        },
+        {
+            "question": "Where is the site located in relation to Java Island?",
+            "answer": "far from the north coast of Java Island.",
+            "distractors": [
+                "adjacent to the east coast of Java Island",
+                "close to the south coast of Java Island",
+                "directly north of Java Island"
+            ]
+        },
+        {
+            "question": "Why is determining the prehistoric coastline challenging?",
+            "answer": "Due to geographical changes.",
+            "distractors": [
+                "Because of the lack of archaeological evidence.",
+                "Due to variations in sea level over time.",
+                "Because of the limitations of modern mapping technology."
+            ]
+        },
+        {
+            "question": "How were the southern coastline and estuary of the Bengawan Solo River different in prehistoric times?",
+            "answer": "probably different",
+            "distractors": [
+                "likely similar",
+                "definitely unchanged",
+                "most likely the same"
+            ]
+        },
+        {
+            "question": "What are the geological factors affecting the location?",
+            "answer": "sedimentation, erosion, and sea level changes",
+            "distractors": [
+                "volcanic activity, tectonic movements, and mineral composition",
+                "climate patterns, groundwater flow, and biological factors",
+                "soil composition, atmospheric pressure, and faunal distributions"
+            ]
+        },
+        {
+            "question": "Where is the Bengawan Solo estuary located today?",
+            "answer": "in the Java Sea",
+            "distractors": [
+                "in the Sunda Strait",
+                "in the Indian Ocean",
+                "in the Bali Sea"
+            ]
+        },
+        {
+            "question": "What type of studies help understand environmental changes?",
+            "answer": "Geological and paleogeographic studies",
+            "distractors": [
+                "Meteorological studies",
+                "Sociological studies",
+                "Marine biology studies"
+            ]
+        },
+        {
+            "question": "What led to increased agricultural practices?",
+            "answer": "Modern human arrival",
+            "distractors": [
+                "Introduction of advanced irrigation techniques",
+                "Development of crop rotation systems",
+                "Domestication of wild animals"
+            ]
+        },
+        {
+            "question": "What characteristics did the island possess regarding its soil and weather?",
+            "answer": "Exceptional fertility and rainfall.",
+            "distractors": [
+                "Dry and arid conditions with poor soil quality",
+                "High temperatures and limited drainage",
+                "Rocky terrain with frequent droughts"
+            ]
+        },
+        {
+            "question": "Why did wet-field rice cultivation develop?",
+            "answer": "due to environmental conditions",
+            "distractors": [
+                "due to government policies",
+                "due to technological advancements",
+                "due to agricultural traditions"
+            ]
+        },
+        {
+            "question": "What necessitated successful rice cultivation among villages?",
+            "answer": "cooperation among villages",
+            "distractors": [
+                "the introduction of advanced agricultural machinery",
+                "the establishment of trade agreements with neighboring regions",
+                "the availability of improved rice seed varieties"
+            ]
+        },
+        {
+            "question": "What are the geographical features that characterize Java?",
+            "answer": "a chain of volcanic mountains and highlands that isolate its interior regions and peoples.",
+            "distractors": [
+                "a series of coastal plains that facilitate trade and agriculture",
+                "extensive river systems that crisscross the island",
+                "large desert areas that hinder settlement and cultivation"
+            ]
+        },
+        {
+            "question": "What was the main means of communication before Islamic states and European colonialism?",
+            "answer": "The rivers were the main means of communication.",
+            "distractors": [
+                "Trade routes across deserts",
+                "Development of postal systems",
+                "Use of smoke signals"
+            ]
+        },
+        {
+            "question": "Which rivers in Java provide long-distance communication?",
+            "answer": "the Brantas and Solo rivers",
+            "distractors": [
+                "the Citarum and Serayu rivers",
+                "the Bengawan Solo and Progo rivers",
+                "the Cisadane and Guning rivers"
+            ]
+        },
+        {
+            "question": "What supported major kingdom centers in the valleys of the Brantas and Solo rivers?",
+            "answer": "communication routes",
+            "distractors": [
+                "religious institutions",
+                "agricultural inventions",
+                "military fortifications"
+            ]
+        },
+        {
+            "question": "How did Java's geographic features influence its historical political landscape?",
+            "answer": "Java's geographic features played a significant role in shaping its historical political landscape.",
+            "distractors": [
+                "Java's climate was the primary factor in its agricultural development.",
+                "Java's proximity to other islands led to cultural integration but not political changes.",
+                "Java's volcanic activity contributed to its rich mineral resources but had no effect on politics."
+            ]
+        },
+        {
+            "question": "What was challenging among Java's population?",
+            "answer": "Communication",
+            "distractors": [
+                "Transportation issues",
+                "Cultural differences",
+                "Economic disparities"
+            ]
+        },
+        {
+            "question": "What year is Aji Saka believed to have arrived in Java, marking the emergence of civilization?",
+            "answer": "78 AD",
+            "distractors": [
+                "100 AD",
+                "500 AD",
+                "200 BC"
+            ]
+        },
+        {
+            "question": "What does Valmiki's Ramayana indicate about Java's governmental structure?",
+            "answer": "Java had a governmental structure before Aji Saka's time.",
+            "distractors": [
+                "Java's governmental structure was established during the Hindu-Buddhist era.",
+                "Java was governed solely by local tribal leaders before Aji Saka's time.",
+                "Java's political system was entirely influenced by external invaders before Aji Saka."
+            ]
+        },
+        {
+            "question": "What names did Ptolemy use to refer to Java?",
+            "answer": "Iabadius or Sabadius",
+            "distractors": [
+                "Iabatus",
+                "Javaium",
+                "Sabidas"
+            ]
+        },
+        {
+            "question": "When did Chinese records suggest the establishment of a Javanese kingdom?",
+            "answer": "65 BC",
+            "distractors": [
+                "100 AD",
+                "500 BC",
+                "300 BC"
+            ]
+        },
+        {
+            "question": "Is the story relevant in Old Javanese texts?",
+            "answer": "no",
+            "distractors": [
+                "Yes, it is widely referenced in Old Javanese literature.",
+                "Yes, it is considered a significant cultural artifact.",
+                "No, but it influences contemporary Javanese storytelling."
+            ]
+        },
+        {
+            "question": "Where is the story set?",
+            "answer": "Medang Kamulan kingdom in Java",
+            "distractors": [
+                "Majapahit Empire in East Java",
+                "Kingdom of Srivijaya in Sumatra",
+                "Mataram Sultanate in Central Java"
+            ]
+        },
+        {
+            "question": "What does the narrative involve?",
+            "answer": "the succession of the king",
+            "distractors": [
+                "the betrayal of a close ally",
+                "the discovery of a hidden treasure",
+                "the rise of a new political faction"
+            ]
+        },
+        {
+            "question": "Who was the previous king?",
+            "answer": "Prabu Dewata Cengkar",
+            "distractors": [
+                "Prabu Hayam Wuruk",
+                "Prabu Siliwangi",
+                "Prabu Kartanegara"
+            ]
+        },
+        {
+            "question": "Who became the new king of Medang Kamulan?",
+            "answer": "Aji Saka",
+            "distractors": [
+                "Raja Juru Martani",
+                "Sultan Agung",
+                "Prabu Siliwangi"
+            ]
+        },
+        {
+            "question": "When did the division of the Javanese kingdom into pre-Hindu and post-Hindu periods start?",
+            "answer": "78 AD",
+            "distractors": [
+                "200 BC",
+                "350 AD",
+                "500 AD"
+            ]
+        },
+        {
+            "question": "What era marked significant developments in Java's history?",
+            "answer": "Hindu\u2013Buddhist kingdoms era",
+            "distractors": [
+                "Islamic Sultanates era",
+                "Colonial Dutch East Indies era",
+                "Post-Independence era"
+            ]
+        },
+        {
+            "question": "When did the Taruma kingdom exist?",
+            "answer": "from the 5th to the 7th centuries",
+            "distractors": [
+                "from the 1st to the 3rd centuries",
+                "from the 8th to the 10th centuries",
+                "from the 14th to the 16th centuries"
+            ]
+        },
+        {
+            "question": "When did the Heling kingdom start sending embassies to China?",
+            "answer": "640 AD",
+            "distractors": [
+                "600 AD",
+                "700 AD",
+                "650 AD"
+            ]
+        },
+        {
+            "question": "What was the first major principality established in central Java?",
+            "answer": "The Mataram Kingdom",
+            "distractors": [
+                "The Sultanate of Yogyakarta",
+                "The Demak Sultanate",
+                "The Pajang Kingdom"
+            ]
+        },
+        {
+            "question": "What was Mataram's religion focused on?",
+            "answer": "the Hindu god Shiva",
+            "distractors": [
+                "the goddess Durga",
+                "the Buddhist teachings of Siddhartha",
+                "the ancient Egyptian god Anubis"
+            ]
+        },
+        {
+            "question": "Where did the kingdom build some of Java's earliest Hindu temples?",
+            "answer": "on the Dieng Plateau",
+            "distractors": [
+                "on the Bromo Tengger Semeru National Park",
+                "in the northern coastal regions of Java",
+                "in the central mountains of West Java"
+            ]
+        },
+        {
+            "question": "When did the Sailendra dynasty emerge in the Kedu Plain?",
+            "answer": "around the 8th century",
+            "distractors": [
+                "around the 6th century",
+                "around the 10th century",
+                "around the 12th century"
+            ]
+        },
+        {
+            "question": "What type of Buddhism was the Sailendra dynasty a patron of?",
+            "answer": "Mahayana Buddhism",
+            "distractors": [
+                "Theravada Buddhism",
+                "Zen Buddhism",
+                "Vajrayana Buddhism"
+            ]
+        },
+        {
+            "question": "What role did Mataram play in the early religious landscape of Java?",
+            "answer": "played a key role",
+            "distractors": [
+                "was largely uninfluential",
+                "acted mainly in an administrative capacity",
+                "focused primarily on trade relations"
+            ]
+        },
+        {
+            "question": "What significant monuments are known from the ancient kingdom?",
+            "answer": "Borobudur and Prambanan",
+            "distractors": [
+                "Angkor Wat and Ta Prohm",
+                "Pyramids of Giza and the Sphinx",
+                "Stonehenge and Bath"
+            ]
+        },
+        {
+            "question": "What century do Borobudur and Prambanan date back to?",
+            "answer": "9th century",
+            "distractors": [
+                "8th century",
+                "10th century",
+                "7th century"
+            ]
+        },
+        {
+            "question": "In which part of Java did the power center of the kingdom move to in the 10th century?",
+            "answer": "eastern Java",
+            "distractors": [
+                "southern Java",
+                "western Java",
+                "central Java"
+            ]
+        },
+        {
+            "question": "What agricultural product did Eastern Javanese kingdoms rely on?",
+            "answer": "rice",
+            "distractors": [
+                "wheat",
+                "corn",
+                "sugarcane"
+            ]
+        },
+        {
+            "question": "Who founded Majapahit?",
+            "answer": "Wijaya",
+            "distractors": [
+                "Hayam Wuruk",
+                "Raden Wijaya",
+                "Sultan Agung"
+            ]
+        },
+        {
+            "question": "Who was Hayam Wuruk's prime minister that expanded the kingdom's territories?",
+            "answer": "Gajah Mada",
+            "distractors": [
+                "Sriwijaya",
+                "Majapahit",
+                "Raden Wijaya"
+            ]
+        },
+        {
+            "question": "What did Majapahit become by controlling ports and shipping lanes?",
+            "answer": "Java's first commercial empire",
+            "distractors": [
+                "A regional agricultural federation",
+                "The capital of a maritime kingdom",
+                "The first industrial nation in Southeast Asia"
+            ]
+        },
+        {
+            "question": "What event marked the beginning of the decline of Majapahit?",
+            "answer": "The death of Hayam Wuruk and the rise of Islam in Indonesia.",
+            "distractors": [
+                "The establishment of the Dutch East India Company.",
+                "The arrival of the Portuguese in the Spice Islands.",
+                "The construction of the Borobudur Temple."
+            ]
+        },
+        {
+            "question": "What can happen to unsourced material in texts?",
+            "answer": "It can be disputed and eliminated.",
+            "distractors": [
+                "It can be cited as a reliable source.",
+                "It may be expanded upon with additional information.",
+                "It could be highlighted as a critical point."
+            ]
+        },
+        {
+            "question": "When did Islam gain dominance in Java?",
+            "answer": "by the late 16th century",
+            "distractors": [
+                "by the early 15th century",
+                "in the mid-18th century",
+                "during the early 17th century"
+            ]
+        },
+        {
+            "question": "What power emerged as dominant in central and eastern Java by the late 16th century?",
+            "answer": "Mataram Sultanate",
+            "distractors": [
+                "Demak Sultanate",
+                "Sultanate of Pajang",
+                "Kingdom of Majapahit"
+            ]
+        },
+        {
+            "question": "Which principalities were subjugated by the Mataram Sultanate?",
+            "answer": "Surabaya and Cirebon",
+            "distractors": [
+                "Yogyakarta and Semarang",
+                "Malang and Batavia",
+                "Banjarmasin and Sukabumi"
+            ]
+        },
+        {
+            "question": "Which two entities remained to confront the Dutch by the 17th century?",
+            "answer": "Mataram and Banten",
+            "distractors": [
+                "Moghul Empire and Shogunate",
+                "Sultanate of Malacca and Kingdom of Ayutthaya",
+                "Ottoman Empire and Safavid Empire"
+            ]
+        },
+        {
+            "question": "When did Java's interaction with European colonial powers begin?",
+            "answer": "1522",
+            "distractors": [
+                "1602",
+                "1498",
+                "1580"
+            ]
+        },
+        {
+            "question": "Where was Portuguese activity limited to after the treaty's failure?",
+            "answer": "Malacca and the eastern islands.",
+            "distractors": [
+                "Goa and the Arabian Sea",
+                "Macau and the Indian Ocean",
+                "Mozambique and the eastern coast of Africa"
+            ]
+        },
+        {
+            "question": "Who led the first Dutch expedition to Indonesia?",
+            "answer": "Cornelis de Houtman",
+            "distractors": [
+                "Willem Janszoon",
+                "Jan Pieterszoon Coen",
+                "Abel Tasman"
+            ]
+        },
+        {
+            "question": "What did this expedition mark the beginning of?",
+            "answer": "Dutch contact with Indonesia.",
+            "distractors": [
+                "Dutch colonization of Africa",
+                "European trade routes to India",
+                "Spanish exploration of the Americas"
+            ]
+        },
+        {
+            "question": "What did the Dutch do by the end of the 18th century in Indonesia?",
+            "answer": "increased their influence over Indonesian sultanates",
+            "distractors": [
+                "established multiple independent republics",
+                "abolished traditional monarchy systems",
+                "encouraged major foreign invasions"
+            ]
+        },
+        {
+            "question": "What role did the Dutch East India Company play in Indonesia?",
+            "answer": "The Dutch East India Company played a significant role in expanding Dutch influence in Indonesia.",
+            "distractors": [
+                "The Dutch East India Company primarily focused on trade with Japan during its operations.",
+                "The Dutch East India Company was responsible for the establishment of colonial rule in Australia.",
+                "The Dutch East India Company operated mainly in Africa, impacting trade routes along the coast."
+            ]
+        },
+        {
+            "question": "What historical period set the stage for Dutch colonial activities in the region?",
+            "answer": "This historical period",
+            "distractors": [
+                "The Age of Enlightenment",
+                "The Renaissance",
+                "The Industrial Revolution"
+            ]
+        },
+        {
+            "question": "What are Surakarta and Yogyakarta remnants of?",
+            "answer": "the Mataram kingdom",
+            "distractors": [
+                "the Majapahit empire",
+                "the Sultanate of Demak",
+                "the Dutch colonial period"
+            ]
+        },
+        {
+            "question": "What type of authority did Javanese kings claim to hold?",
+            "answer": "divine authority",
+            "distractors": [
+                "political authority",
+                "military authority",
+                "economic authority"
+            ]
+        },
+        {
+            "question": "What influence did the Dutch preserve during colonial rule in Java?",
+            "answer": "the Javanese aristocracy's influence",
+            "distractors": [
+                "the Dutch East India Company's administrative control",
+                "the rise of Islamic sultanates",
+                "the introduction of European agricultural practices"
+            ]
+        },
+        {
+            "question": "Who confirmed local leaders as regents or officials?",
+            "answer": "the Dutch",
+            "distractors": [
+                "the British",
+                "local tribal councils",
+                "the Spanish"
+            ]
+        },
+        {
+            "question": "What did colonial administration allow regarding traditional Javanese governance?",
+            "answer": "some continuation of traditional Javanese governance",
+            "distractors": [
+                "complete replacement of traditional Javanese governance",
+                "introduction of European-style governance exclusively",
+                "complete autonomy for local Javanese rulers"
+            ]
+        },
+        {
+            "question": "What was Java primarily known for during the early colonial period?",
+            "answer": "rice producer",
+            "distractors": [
+                "spice trade hub",
+                "sugar cane exporter",
+                "tea cultivation center"
+            ]
+        },
+        {
+            "question": "Why was rice from Java imported to spice-producing islands like Banda?",
+            "answer": "to meet food shortages",
+            "distractors": [
+                "to enhance the flavor of local spices",
+                "to establish trade relations with other regions",
+                "to support the cultivation of other crops in Banda"
+            ]
+        },
+        {
+            "question": "How did the Napoleonic wars affect the Netherlands?",
+            "answer": "The Napoleonic wars affected the Netherlands and its East Indies colony.",
+            "distractors": [
+                "The Napoleonic wars led to the unification of the Netherlands with Belgium.",
+                "The Napoleonic wars resulted in the Netherlands losing all its overseas territories.",
+                "The Napoleonic wars caused the Netherlands to become a complete monarchy."
+            ]
+        },
+        {
+            "question": "Which country took control of the Netherlands and its colonial possessions during the wars?",
+            "answer": "France",
+            "distractors": [
+                "Spain",
+                "Germany",
+                "Britain"
+            ]
+        },
+        {
+            "question": "What two types of regions were interconnected in the colonial economy?",
+            "answer": "rice and spice-producing regions",
+            "distractors": [
+                "sugar and tobacco-producing regions",
+                "cotton and wool-producing regions",
+                "cocoa and coffee-producing regions"
+            ]
+        },
+        {
+            "question": "Who built the Great Post Road and when was it constructed?",
+            "answer": "The Great Post Road was built under the Daendels administration in 1808.",
+            "distractors": [
+                "The Great Post Road was built by the Dutch government in 1825.",
+                "The Great Post Road was constructed by the British colonizers in 1789.",
+                "The Great Post Road was established during the Japanese occupation in 1943."
+            ]
+        },
+        {
+            "question": "Who governed Java after it was captured by the British in 1811?",
+            "answer": "Sir Stamford Raffles",
+            "distractors": [
+                "Major Thomas Stanford",
+                "Governor-General Wellesley",
+                "Colonel William Tain"
+            ]
+        },
+        {
+            "question": "What caused the significant population growth in Java during the late 18th and 19th centuries?",
+            "answer": "agricultural improvements and changing social conditions under colonial rule",
+            "distractors": [
+                "increased immigration from neighboring islands",
+                "major industrial developments in urban areas",
+                "an influx of European settlers during the colonial period"
+            ]
+        },
+        {
+            "question": "What helped eliminate famine in Java from the 1840s to the 1940s?",
+            "answer": "The introduction of transport systems and improved distribution under Dutch colonial governance.",
+            "distractors": [
+                "The establishment of large plantations that focused on cash crops.",
+                "The availability of modern agricultural machinery.",
+                "The increase in population leading to a surplus of food."
+            ]
+        },
+        {
+            "question": "Where did Indonesian nationalism begin?",
+            "answer": "Java",
+            "distractors": [
+                "Sumatra",
+                "Bali",
+                "Sulawesi"
+            ]
+        },
+        {
+            "question": "How many provinces are there in Java?",
+            "answer": "4 provinces",
+            "distractors": [
+                "3 provinces",
+                "5 provinces",
+                "6 provinces"
+            ]
+        },
+        {
+            "question": "What is the capital of Jakarta, which serves as the Special Capital Region?",
+            "answer": "Central Jakarta",
+            "distractors": [
+                "West Jakarta",
+                "East Jakarta",
+                "North Jakarta"
+            ]
+        },
+        {
+            "question": "What is the estimated population of Java as of mid-2024?",
+            "answer": "approximately 156.9 million",
+            "distractors": [
+                "around 162 million",
+                "approximately 148 million",
+                "roughly 170 million"
+            ]
+        },
+        {
+            "question": "Which province has the largest population?",
+            "answer": "West Java",
+            "distractors": [
+                "East Java",
+                "Central Java",
+                "Bali"
+            ]
+        },
+        {
+            "question": "What is the population of Madura Island?",
+            "answer": "about 4.2 million",
+            "distractors": [
+                "approximately 3 million",
+                "around 5.5 million",
+                "nearly 6 million"
+            ]
+        },
+        {
+            "question": "What is the range of years that the historical population data covers?",
+            "answer": "from 1961 to projected figures for 2024",
+            "distractors": [
+                "from 1950 to 2020",
+                "from 1970 to 2030",
+                "from 1980 to estimated figures for 2025"
+            ]
+        },
+        {
+            "question": "What was the population in 1961?",
+            "answer": "approximately 63 million",
+            "distractors": [
+                "around 70 million",
+                "approximately 50 million",
+                "about 58 million"
+            ]
+        },
+        {
+            "question": "What was the population milestone reached in 1990?",
+            "answer": "107 million",
+            "distractors": [
+                "90 million",
+                "120 million",
+                "100 million"
+            ]
+        },
+        {
+            "question": "What does the growth trend show over the decades?",
+            "answer": "a consistent increase",
+            "distractors": [
+                "a significant decrease",
+                "fluctuations with no clear pattern",
+                "a temporary spike followed by a decline"
+            ]
+        },
+        {
+            "question": "What does the demographic data include along with Madura?",
+            "answer": "the administrative region",
+            "distractors": [
+                "the geographic coordinates",
+                "the economic indicators",
+                "the population density"
+            ]
+        },
+        {
+            "question": "What has traditionally dominated societal structures in Java?",
+            "answer": "an elite class",
+            "distractors": [
+                "a democratic system",
+                "a merchant class",
+                "an agricultural society"
+            ]
+        },
+        {
+            "question": "What were the primary engagements of the lower classes in Java?",
+            "answer": "agriculture and fishing",
+            "distractors": [
+                "textile production and craftsmanship",
+                "trade and commerce",
+                "mining and quarrying"
+            ]
+        },
+        {
+            "question": "How has the elite class evolved?",
+            "answer": "due to various cultural influences and immigration over time.",
+            "distractors": [
+                "from technological advancements in society.",
+                "as a result of economic fluctuations.",
+                "through changes in political ideologies and policies."
+            ]
+        },
+        {
+            "question": "What class did South Asian emigres contribute to during the Islamic eras?",
+            "answer": "the elite class",
+            "distractors": [
+                "the merchant class",
+                "the artisan class",
+                "the agricultural class"
+            ]
+        },
+        {
+            "question": "Who were part of the elite group alongside Arabian and Persian immigrants?",
+            "answer": "Arabian and Persian immigrants",
+            "distractors": [
+                "Turkic tribes",
+                "Mongolian nomads",
+                "South Asian merchants"
+            ]
+        },
+        {
+            "question": "Who has more recently joined the economic elite of Java?",
+            "answer": "Chinese immigrants",
+            "distractors": [
+                "Indigenous Javanese entrepreneurs",
+                "Middle Eastern traders",
+                "European colonial descendants"
+            ]
+        },
+        {
+            "question": "What has influenced Javanese society according to the historical context?",
+            "answer": "Various waves of immigration",
+            "distractors": [
+                "Colonial trade routes",
+                "Local agricultural practices",
+                "Religious missionary activities"
+            ]
+        },
+        {
+            "question": "What has the economic elite in Java included over time?",
+            "answer": "diverse ethnic backgrounds",
+            "distractors": [
+                "predominantly Javanese ancestry",
+                "urban middle class",
+                "traditional agricultural families"
+            ]
+        },
+        {
+            "question": "How are Chinese individuals generally treated in political contexts?",
+            "answer": "sidelined politically",
+            "distractors": [
+                "given prominent leadership roles",
+                "actively engaged in political reforms",
+                "included in decision-making processes"
+            ]
+        },
+        {
+            "question": "Who is a notable exception?",
+            "answer": "Basuki Tjahaja Purnama",
+            "distractors": [
+                "Joko Widodo",
+                "Prabowo Subianto",
+                "Sandiaga Uno"
+            ]
+        },
+        {
+            "question": "Who is the former governor of Jakarta?",
+            "answer": "He",
+            "distractors": [
+                "Anies Baswedan",
+                "Jokowi",
+                "Basuki Tjahaja Purnama"
+            ]
+        },
+        {
+            "question": "How does his political presence compare to other Chinese individuals in politics?",
+            "answer": "His political presence stands out among Chinese individuals in politics.",
+            "distractors": [
+                "His political influence is negligible compared to others.",
+                "He is often overshadowed by senior political figures.",
+                "His policies are rarely discussed in political circles."
+            ]
+        },
+        {
+            "question": "What does highlighting exceptions indicate in relation to political representation?",
+            "answer": "possible shifts in political representation.",
+            "distractors": [
+                "increased voter turnout",
+                "decreased engagement in elections",
+                "uniform political opinions across demographics"
+            ]
+        },
+        {
+            "question": "What is the population growth trend in Central Java despite its younger demographic?",
+            "answer": "Population growth in Central Java is low.",
+            "distractors": [
+                "Population growth in Central Java is accelerating rapidly.",
+                "Population growth in Central Java is high due to urban migration.",
+                "Population growth in Central Java is stagnant with no changes."
+            ]
+        },
+        {
+            "question": "Why are many people leaving rural Central Java?",
+            "answer": "for better opportunities in larger cities.",
+            "distractors": [
+                "to escape from traditional lifestyles",
+                "due to environmental changes in rural areas",
+                "to return to their ancestral roots in the countryside"
+            ]
+        },
+        {
+            "question": "What continues to experience rapid population growth despite migration out of Central Java?",
+            "answer": "Java",
+            "distractors": [
+                "Sumatra",
+                "Bali",
+                "Kalimanitan"
+            ]
+        },
+        {
+            "question": "What does Java serve as in Indonesia?",
+            "answer": "the business, academic, and cultural hub",
+            "distractors": [
+                "a tropical vacation destination",
+                "a major agricultural exporter",
+                "a historical pilgrimage site"
+            ]
+        },
+        {
+            "question": "What percentage of Indonesia's total population resides in Java as of mid 2024?",
+            "answer": "55%",
+            "distractors": [
+                "30%",
+                "72%",
+                "45%"
+            ]
+        },
+        {
+            "question": "Why are many coasts heavily populated?",
+            "answer": "due to their proximity to volcanic peaks.",
+            "distractors": [
+                "because they are often near major rivers",
+                "due to their historical significance in trade routes",
+                "because they typically have more fertile land"
+            ]
+        },
+        {
+            "question": "Where are cities situated in relation to volcanic areas?",
+            "answer": "around valleys that surround these volcanic areas.",
+            "distractors": [
+                "at the peaks of active volcanoes",
+                "in the center of volcanic craters",
+                "on the shores of nearby lakes"
+            ]
+        },
+        {
+            "question": "What happened to the population growth rate in Central Java from 2010-2020 compared to the previous decade?",
+            "answer": "doubled",
+            "distractors": [
+                "remained stable",
+                "decreased significantly",
+                "increased slightly"
+            ]
+        },
+        {
+            "question": "What may the increase in population be linked to?",
+            "answer": "migration or economic issues",
+            "distractors": [
+                "climate change impacts",
+                "advancements in technology",
+                "education improvements"
+            ]
+        },
+        {
+            "question": "What significant geological events occurred during the 2000-2010 period?",
+            "answer": "Significant volcanic eruptions",
+            "distractors": [
+                "Major earthquakes",
+                "Glacial retreat events",
+                "Mineral mining boom"
+            ]
+        },
+        {
+            "question": "What percentage of Indonesia's population is ethnically Javanese?",
+            "answer": "Approximately 45%",
+            "distractors": [
+                "About 30%",
+                "Around 60%",
+                "Nearly 25%"
+            ]
+        },
+        {
+            "question": "What portion of Java's population do Sundanese comprise?",
+            "answer": "a significant portion",
+            "distractors": [
+                "a negligible portion",
+                "a minority portion",
+                "an equal portion"
+            ]
+        },
+        {
+            "question": "What is the population density per square kilometer in West Java, Banten, and DKI Jakarta?",
+            "answer": "about 1,563 per square kilometer.",
+            "distractors": [
+                "1,200 per square kilometer",
+                "2,800 per square kilometer",
+                "3,500 per square kilometer"
+            ]
+        },
+        {
+            "question": "What are the three major metropolitan areas in Java?",
+            "answer": "Greater Jakarta, Greater Bandung, and Greater Cirebon.",
+            "distractors": [
+                "Greater Surabaya, Greater Yogyakarta, and Greater Semarang",
+                "Greater Malang, Greater Solo, and Greater Palembang",
+                "Greater Medan, Greater Bali, and Greater Bogor"
+            ]
+        },
+        {
+            "question": "When did Indonesia start implementing transmigration programs?",
+            "answer": "From the 1970s to 1998",
+            "distractors": [
+                "From the 1950s to 1965",
+                "From the 1980s to 2000",
+                "From the 1990s to 2010"
+            ]
+        },
+        {
+            "question": "What is Jakarta known for in Indonesia?",
+            "answer": "a dominant metropolis",
+            "distractors": [
+                "a historical site",
+                "a fertile agricultural region",
+                "a tropical rainforest"
+            ]
+        },
+        {
+            "question": "Which ethnic groups are mentioned as being present in East Java due to historical poverty?",
+            "answer": "ethnic Balinese and many Madurans",
+            "distractors": [
+                "Javanese and Sundanese",
+                "Acehnese and Bataks",
+                "Minangkabau and Malay"
+            ]
+        },
+        {
+            "question": "How does Java's ethnic diversity compare to other larger Indonesian islands?",
+            "answer": "Java is comparatively homogeneous in ethnic groups compared to other larger Indonesian islands.",
+            "distractors": [
+                "Java has a wider range of ethnic groups than Sumatra and Borneo.",
+                "Java is home to the most diverse language groups in Indonesia.",
+                "Java's population is more culturally diverse than that of Bali."
+            ]
+        },
+        {
+            "question": "What are the two native ethnic groups of Java?",
+            "answer": "The Javanese and Sundanese.",
+            "distractors": [
+                "The Balinese and Bataks",
+                "The Minangkabau and Acehnese",
+                "The Bugis and Makassarese"
+            ]
+        },
+        {
+            "question": "What influences culture and music in the region?",
+            "answer": "these ethnic compositions",
+            "distractors": [
+                "historical events",
+                "globalization trends",
+                "economic factors"
+            ]
+        },
+        {
+            "question": "When did the Madurese migrate to East Java?",
+            "answer": "18th century",
+            "distractors": [
+                "16th century",
+                "19th century",
+                "17th century"
+            ]
+        },
+        {
+            "question": "What ethnic groups do the Betawi people descend from?",
+            "answer": "various ethnic groups",
+            "distractors": [
+                "Malay",
+                "Javanese",
+                "Sundanese"
+            ]
+        },
+        {
+            "question": "What are the four major areas of Java's cultural landscape?",
+            "answer": "central Java (Yogyakarta), Sunda lands, eastern Java (Blambangan), and Madura",
+            "distractors": [
+                "Bali and Nusa Tenggara",
+                "Sumatra and Borneo",
+                "Jakarta and West Java"
+            ]
+        },
+        {
+            "question": "What are two cultural practices associated with Central Java?",
+            "answer": "gamelan music and wayang puppet shows",
+            "distractors": [
+                "batik textile weaving",
+                "javanese ballet performances",
+                "kuliner khas Jawa meals"
+            ]
+        },
+        {
+            "question": "What are some notable works in Java's literary heritage?",
+            "answer": "*Ken Arok and Ken Dedes* and translations of major epics like the *Ramayana* and *Mahabharata*.",
+            "distractors": [
+                "*Siti Nurbaya* and *Max Havelaar*",
+                "*Laskar Pelangi* and *The Dreamer*",
+                "*Ayat-Ayat Cinta* and *The Rainbow Troops*"
+            ]
+        },
+        {
+            "question": "What is Pramoedya Ananta Toer known for?",
+            "answer": "Stories inspired by his upbringing in Java and Javanese folklore.",
+            "distractors": [
+                "Historical criticism of colonialism in Southeast Asia",
+                "Biographies of famous Indonesian leaders",
+                "Essays on modern Asian philosophy"
+            ]
+        },
+        {
+            "question": "What are the three main languages spoken in Java?",
+            "answer": "Javanese, Sundanese, and Madurese.",
+            "distractors": [
+                "Indonesian, Balinese, and Batak",
+                "Minangkabau, Acehnese, and Betawi",
+                "Bugis, Sasak, and Lombok"
+            ]
+        },
+        {
+            "question": "What are some additional languages spoken on Java?",
+            "answer": "Betawi, Osing, Banyumasan, Tenggerese, Baduy, Bantenese, Kangeanese, and Balinese.",
+            "distractors": [
+                "Javanese",
+                "Sundanese",
+                "Malaysian"
+            ]
+        },
+        {
+            "question": "What is the primary way Indonesian is spoken by the majority of the population?",
+            "answer": "as a second language",
+            "distractors": [
+                "as a regional dialect",
+                "as a first language",
+                "as a foreign language"
+            ]
+        },
+        {
+            "question": "What does the sentence indicate about religion in Java?",
+            "answer": "It is significant, reflecting diverse beliefs in the region.",
+            "distractors": [
+                "It is a recent development due to foreign influence.",
+                "It is primarily based on rituals and traditions of the past.",
+                "It is uniform and dominated by a single ideology."
+            ]
+        },
+        {
+            "question": "What traditions influenced Confucianism?",
+            "answer": "earlier Indian traditions such as Shaivism and Buddhism.",
+            "distractors": [
+                "Daoism and Legalism",
+                "Zoroastrianism and Ancient Egyptian beliefs",
+                "Greek philosophy and Stoicism"
+            ]
+        },
+        {
+            "question": "What did these Indian influences blend with?",
+            "answer": "local indigenous cultures and traditions.",
+            "distractors": [
+                "European colonial practices and beliefs",
+                "African tribal customs and rituals",
+                "Asian trade routes and exchanges"
+            ]
+        },
+        {
+            "question": "What role did ascetics known as *resi* play in relation to mystical practices?",
+            "answer": "They played a key role in introducing mystical practices.",
+            "distractors": [
+                "They were primarily focused on agricultural practices.",
+                "They served as political advisors to kings and rulers.",
+                "They were known for developing early forms of architecture."
+            ]
+        },
+        {
+            "question": "What role did Spiritualism play in the transmission of teachings?",
+            "answer": "Spiritualism acted as a conduit for the transmission of these teachings.",
+            "distractors": [
+                "Spiritualism served as a barrier to the understanding of these teachings.",
+                "Spiritualism initiated a new form of authoritarian control over these teachings.",
+                "Spiritualism focused primarily on material wealth associated with teachings."
+            ]
+        },
+        {
+            "question": "How did the blending of these traditions impact the spiritual landscape?",
+            "answer": "significantly shaped the spiritual landscape of the time.",
+            "distractors": [
+                "had minimal influence on spiritual practices",
+                "created a uniform spiritual practice across cultures",
+                "led to the decline of indigenous beliefs"
+            ]
+        },
+        {
+            "question": "How did Brahmin clerics and pudjangga influence rulers in Java?",
+            "answer": "They connected Hindu cosmology to rulers' political needs in Java.",
+            "distractors": [
+                "They led military campaigns on behalf of the rulers in Java.",
+                "They translated ancient texts into local languages for the rulers.",
+                "They established economic trade agreements with other regions for the rulers."
+            ]
+        },
+        {
+            "question": "Where are Hindu enclaves mainly concentrated in Java?",
+            "answer": "along the eastern coast near Bali, especially around Banyuwangi.",
+            "distractors": [
+                "in the central highlands near Yogyakarta",
+                "around the southern coast near Semarang",
+                "in the northern coastal areas near Jakarta"
+            ]
+        },
+        {
+            "question": "What is the dominant religion in Java?",
+            "answer": "Islam",
+            "distractors": [
+                "Hinduism",
+                "Buddhism",
+                "Christianity"
+            ]
+        },
+        {
+            "question": "What religions are included in the other religions in Java?",
+            "answer": "Protestantism, Roman Catholicism, Buddhism, and Hinduism.",
+            "distractors": [
+                "Zoroastrianism, Sikhism, Jainism, and Shintoism",
+                "Baha'i Faith, Vodou, Animism, and Confucianism",
+                "Islam, Orthodox Christianity, Scientology, and Mormonism"
+            ]
+        },
+        {
+            "question": "What group of scholars influenced the rise of Islam and established a new status structure?",
+            "answer": "Muslim scholars (Kyai)",
+            "distractors": [
+                "Sufi mystics",
+                "Christian theologians",
+                "Jewish philosophers"
+            ]
+        },
+        {
+            "question": "What was introduced by colonial governance regarding religious leaders in Indonesia?",
+            "answer": "a ranking system for religious leaders",
+            "distractors": [
+                "a mandatory education program for religious leaders",
+                "a taxation policy specifically for religious institutions",
+                "a set of uniform regulations for all religions in the country"
+            ]
+        },
+        {
+            "question": "What is the role of Kyai in Javanese Islamic schools?",
+            "answer": "Kyai are central figures acting as intermediaries between the community and the supernatural.",
+            "distractors": [
+                "Kyai serve primarily as administrative heads managing school finances.",
+                "Kyai are often involved in political decision-making within the local government.",
+                "Kyai primarily focus on teaching practical trades to students."
+            ]
+        },
+        {
+            "question": "What is the Islamic leadership structure in Java known for?",
+            "answer": "loosely organized",
+            "distractors": [
+                "strictly hierarchical",
+                "centrally controlled",
+                "highly structured"
+            ]
+        },
+        {
+            "question": "What is the source of tension among kyais?",
+            "answer": "Tensions exist between orthodox kyais focused on Islamic law and those who integrate mysticism or promote modern reform.",
+            "distractors": [
+                "Conflicts arise from differing interpretations of historical Islamic texts.",
+                "Disagreements stem from competition for religious authority in the community.",
+                "Tensions are caused by external political pressures affecting religious practices."
+            ]
+        },
+        {
+            "question": "How many official religions does Indonesia recognize?",
+            "answer": "six",
+            "distractors": [
+                "four",
+                "eight",
+                "three"
+            ]
+        },
+        {
+            "question": "How many religious sects were reported in Java outside the official Indonesian religions in 1956?",
+            "answer": "63 religious sects",
+            "distractors": [
+                "45 religious sects",
+                "29 religious sects",
+                "78 religious sects"
+            ]
+        },
+        {
+            "question": "In which regions are the sects primarily located?",
+            "answer": "Central Java (35), West Java (22), and East Java (6)",
+            "distractors": [
+                "North Java (15)",
+                "South Java (10)",
+                "Bali (12)"
+            ]
+        },
+        {
+            "question": "What are examples of sects mentioned in the sentence?",
+            "answer": "Kejawen, Sumarah, and Subud.",
+            "distractors": [
+                "Nahdlatul Ulama",
+                "Muhammadiyah",
+                "Ahmadiyya"
+            ]
+        },
+        {
+            "question": "Why are membership numbers for these sects hard to quantify?",
+            "answer": "Many followers identify with official religions.",
+            "distractors": [
+                "They often operate in secret and avoid public registration.",
+                "Membership is fluid and changes frequently, making counts unreliable.",
+                "There is a lack of standardized definitions for membership across sects."
+            ]
+        },
+        {
+            "question": "What type of agriculture was Java's economy initially reliant on?",
+            "answer": "rice agriculture",
+            "distractors": [
+                "tea cultivation",
+                "tropical fruit farming",
+                "sugarcane production"
+            ]
+        },
+        {
+            "question": "What are the ancient kingdoms in Java?",
+            "answer": "Sunda, Mataram, Majapahit",
+            "distractors": [
+                "Srivijaya",
+                "Singhasari",
+                "Demak"
+            ]
+        },
+        {
+            "question": "What factors influence rice yields and taxation?",
+            "answer": "Dependency on rice yields and taxation.",
+            "distractors": [
+                "Reliance on corn production and subsidies.",
+                "Impact of climate change on agricultural policies.",
+                "Influence of global import tariffs on grains."
+            ]
+        },
+        {
+            "question": "What is Java known for since ancient times?",
+            "answer": "rice surpluses and exports",
+            "distractors": [
+                "timber and spice trade",
+                "silk production and weaving",
+                "tropical fruit cultivation and distribution"
+            ]
+        },
+        {
+            "question": "How did rice agriculture impact population growth?",
+            "answer": "Rice agriculture contributed to population growth.",
+            "distractors": [
+                "Rice agriculture led to reduced population density in rural areas.",
+                "Rice agriculture caused a decline in health due to over-farming.",
+                "Rice agriculture had no significant effect on population dynamics."
+            ]
+        },
+        {
+            "question": "What was economically significant in ancient Java?",
+            "answer": "Rice cultivation",
+            "distractors": [
+                "Metalworking",
+                "Silk production",
+                "Spice trade"
+            ]
+        },
+        {
+            "question": "When did trade between ancient India and China begin?",
+            "answer": "around the 4th century",
+            "distractors": [
+                "around the 1st century",
+                "around the 8th century",
+                "around the 12th century"
+            ]
+        },
+        {
+            "question": "What do the Chinese ceramics discovered on the island date back to?",
+            "answer": "the same period",
+            "distractors": [
+                "a later era",
+                "the Ming Dynasty",
+                "the early 20th century"
+            ]
+        },
+        {
+            "question": "What does the phrase 'early cultural and commercial exchanges in Asia' indicate?",
+            "answer": "Indicates early cultural and commercial exchanges in Asia.",
+            "distractors": [
+                "Explores the impact of colonialism on Asian societies.",
+                "Highlights modern global trade networks originating from Asia.",
+                "Describes the influence of Western culture on Asian art."
+            ]
+        },
+        {
+            "question": "What is the significance of maritime trade routes in Asia?",
+            "answer": "The significance of maritime trade routes in Asia is that they facilitate economic exchange, enhance connectivity among nations, and support the growth of trade and commerce in the region.",
+            "distractors": [
+                "They exclusively promote cultural exchange without impacting economy.",
+                "They primarily serve military purposes and enhance naval power in the region.",
+                "They are only used for regional fishing activities and have no trade relevance."
+            ]
+        },
+        {
+            "question": "What does the phrase reflect about the connections between Asian civilizations?",
+            "answer": "the historical connections between different Asian civilizations.",
+            "distractors": [
+                "the cultural influences of European civilizations on Asian societies",
+                "the economic rivalry between Asian nations",
+                "the technological advancements of Asian countries over time"
+            ]
+        },
+        {
+            "question": "During which era did Java participate in the global spice trade?",
+            "answer": "from the Majapahit era to Dutch colonial times",
+            "distractors": [
+                "from the early Islamic period to the Portuguese expedition",
+                "during the Ming Dynasty to the British colonial era",
+                "in the Age of Exploration to the Enlightenment period"
+            ]
+        },
+        {
+            "question": "In which century did the Dutch East India Company establish a foothold in Batavia?",
+            "answer": "17th century",
+            "distractors": [
+                "16th century",
+                "18th century",
+                "15th century"
+            ]
+        },
+        {
+            "question": "What types of plants did the Dutch introduce for commercial cultivation in Java?",
+            "answer": "sugarcane, rubber, coffee, tea, and quinine",
+            "distractors": [
+                "cotton, tobacco, rice, and cloves",
+                "fruits, vegetables, herbs, and spices",
+                "cacao, palm oil, spices, and grains"
+            ]
+        },
+        {
+            "question": "When did Javanese coffee become globally popular?",
+            "answer": "in the 19th and early 20th centuries.",
+            "distractors": [
+                "during the late 18th century",
+                "in the late 20th century",
+                "during the 16th century"
+            ]
+        },
+        {
+            "question": "What is the most developed island in Indonesia?",
+            "answer": "Java",
+            "distractors": [
+                "Bali",
+                "Sumatra",
+                "Sulawesi"
+            ]
+        },
+        {
+            "question": "When did the development of road transportation networks begin?",
+            "answer": "ancient times",
+            "distractors": [
+                "the Industrial Revolution",
+                "the Middle Ages",
+                "the Renaissance"
+            ]
+        },
+        {
+            "question": "Who constructed the Java Great Post Road in the early 19th century?",
+            "answer": "Daendels",
+            "distractors": [
+                "Raffles",
+                "Suharto",
+                "Soekarno"
+            ]
+        },
+        {
+            "question": "What role did the road play in Java's infrastructure?",
+            "answer": "The road became the backbone of Java's infrastructure.",
+            "distractors": [
+                "The road served as a minor pathway for local transportation.",
+                "The road created barriers that hindered trade.",
+                "The road primarily connected rural areas to urban centers."
+            ]
+        },
+        {
+            "question": "What road did the establishment create a base for?",
+            "answer": "Java North Coast Road (Jalan Pantura)",
+            "distractors": [
+                "Java South Coast Road (Jalan Selatan)",
+                "Trans-Sumatra Highway",
+                "Bali Ring Road"
+            ]
+        },
+        {
+            "question": "What were railway networks in Java developed to transport?",
+            "answer": "commercial products like coffee from plantations to coastal harbours.",
+            "distractors": [
+                "passengers between cities and towns",
+                "raw materials for local craftsmen",
+                "farming equipment to rural areas"
+            ]
+        },
+        {
+            "question": "What are some major cities in Java that are thriving in industry, business, trade, and services?",
+            "answer": "Jakarta, Surabaya, Semarang, Bandung.",
+            "distractors": [
+                "Yogyakarta",
+                "Malang",
+                "Batam"
+            ]
+        },
+        {
+            "question": "What three cities are identified as traditional Sultanate cities that maintain their royal heritage?",
+            "answer": "Yogyakarta, Surakarta, Cirebon",
+            "distractors": [
+                "Malang",
+                "Bandung",
+                "Semarang"
+            ]
+        },
+        {
+            "question": "Which northern coast towns are mentioned as expanding industrial estates?",
+            "answer": "Cilegon, Tangerang, Bekasi, Karawang, Gresik, and Sidoarjo.",
+            "distractors": [
+                "Banda Aceh, Padang, Medan",
+                "Ambon, Makassar, Manado",
+                "Bandung, Surabaya, Semarang"
+            ]
+        },
+        {
+            "question": "What does Java's economic landscape combine?",
+            "answer": "modern industry with cultural preservation",
+            "distractors": [
+                "advanced technology and urban development",
+                "environmental sustainability and traditional practices",
+                "global trade and local craftsmanship"
+            ]
+        },
+        {
+            "question": "What is contributing to the overall development and tourism appeal of Java?",
+            "answer": "The growth of both industrial and cultural sectors.",
+            "distractors": [
+                "The rise of digital marketing strategies in travel agencies.",
+                "Increased agricultural exports from rural areas.",
+                "The construction of more high-speed railways connecting cities."
+            ]
+        },
+        {
+            "question": "When were the toll road highway networks in Indonesia built and expanded?",
+            "answer": "since the New Order era",
+            "distractors": [
+                "during the Asian financial crisis",
+                "in the colonial period",
+                "after the Reformation era"
+            ]
+        },
+        {
+            "question": "What major urban centers are connected by these networks?",
+            "answer": "Jakarta and Bandung",
+            "distractors": [
+                "Jakarta and Surabaya",
+                "Bandung and Yogyakarta",
+                "Jakarta and Medan"
+            ]
+        },
+        {
+            "question": "Which locations are connected other than the main one mentioned?",
+            "answer": "Cirebon, Semarang, and Surabaya.",
+            "distractors": [
+                "Bandung, Yogyakarta, and Malang",
+                "Jakarta, Bali, and Lombok",
+                "Medan, Palembang, and Makassar"
+            ]
+        },
+        {
+            "question": "How many national highways does Java have?",
+            "answer": "16",
+            "distractors": [
+                "12",
+                "20",
+                "18"
+            ]
+        },
+        {
+            "question": "What do the development of these highways facilitate?",
+            "answer": "connectivity in surrounding areas",
+            "distractors": [
+                "economic growth of nearby towns",
+                "reduction in travel time",
+                "access to rural communities"
+            ]
+        },
+        {
+            "question": "What percentage of Indonesia's GDP does Java contribute?",
+            "answer": "around 60%",
+            "distractors": [
+                "around 40%",
+                "around 75%",
+                "around 50%"
+            ]
+        },
+        {
+            "question": "What was Java's GDP in 2021?",
+            "answer": "US$686 billion",
+            "distractors": [
+                "US$575 billion",
+                "US$742 billion",
+                "US$620 billion"
+            ]
+        },
+        {
+            "question": "When did Statistics Indonesia release the economic data?",
+            "answer": "in 2021",
+            "distractors": [
+                "in 2020",
+                "in 2022",
+                "in 2019"
+            ]
+        },
+        {
+            "question": "What does the GDP figure represent?",
+            "answer": "purchasing power parity (PPP)",
+            "distractors": [
+                "nominal GDP",
+                "gross national product (GNP)",
+                "real GDP"
+            ]
+        },
+        {
+            "question": "What do the additional references relate to in Indonesia?",
+            "answer": "the population census and demographic studies",
+            "distractors": [
+                "the economic growth indicators",
+                "cultural heritage assessments",
+                "environmental impact reports"
+            ]
+        },
+        {
+            "question": "What is the ISBN referenced in the text?",
+            "answer": "978-962-8734-23-8",
+            "distractors": [
+                "978-0-123456-47-1",
+                "978-3-16-148410-0",
+                "978-1-56619-909-4"
+            ]
+        },
+        {
+            "question": "Who is the author of the book *History of Java*?",
+            "answer": "Thomas E. Raffles",
+            "distractors": [
+                "James R. Logan",
+                "Sir Stamford Raffles",
+                "Henry Knickerbocker"
+            ]
+        },
+        {
+            "question": "Who published the book in 1965?",
+            "answer": "Oxford University Press",
+            "distractors": [
+                "Cambridge University Press",
+                "Harvard University Press",
+                "Simon & Schuster"
+            ]
+        },
+        {
+            "question": "Which page of the book is specifically mentioned?",
+            "answer": "Page 2",
+            "distractors": [
+                "Page 5",
+                "Page 10",
+                "Page 1"
+            ]
+        },
+        {
+            "question": "When was the book originally published?",
+            "answer": "1817",
+            "distractors": [
+                "1825",
+                "1799",
+                "1832"
+            ]
+        },
+        {
+            "question": "What is the ISBN number related to the book available on Google Books?",
+            "answer": "9788120749108",
+            "distractors": [
+                "9780134685991",
+                "9780590353427",
+                "9780451524935"
+            ]
+        },
+        {
+            "question": "Who is the author of the work titled 'Hindu culture in ancient India'?",
+            "answer": "Sekharipuram Vaidyanatha Viswanatha",
+            "distractors": [
+                "Vishnu Sharma",
+                "A. S. Altekar",
+                "R. C. Dhere"
+            ]
+        },
+        {
+            "question": "What is the page number associated with the Hindu culture book?",
+            "answer": "177",
+            "distractors": [
+                "162",
+                "189",
+                "203"
+            ]
+        },
+        {
+            "question": "What type of literature is mentioned in the sentence?",
+            "answer": "Tamil Literature",
+            "distractors": [
+                "Sanskrit Literature",
+                "Kannada Literature",
+                "Bengali Literature"
+            ]
+        },
+        {
+            "question": "What do the bulleted references indicate?",
+            "answer": "a citation or bibliographic format.",
+            "distractors": [
+                "an outline for a presentation",
+                "a list of authors for a literary work",
+                "a summary of key concepts"
+            ]
+        },
+        {
+            "question": "What page does the reference to Kanakasabhai appear on?",
+            "answer": "page 11",
+            "distractors": [
+                "page 9",
+                "page 15",
+                "page 22"
+            ]
+        },
+        {
+            "question": "Which authors are cited in the information provided?",
+            "answer": "Hatley, Schiller, Lucas, and Martin-Schiller",
+            "distractors": [
+                "Hatley, Schubert, Lucas, and Martin-Smith",
+                "Hathaway, Schiller, Leland, and Martin-Kline",
+                "Hatley, Schneider, Lewis, and Martin-Young"
+            ]
+        },
+        {
+            "question": "What does the discussion focus on regarding Java?",
+            "answer": "Cultural regions of Java.",
+            "distractors": [
+                "Economic development of Java",
+                "Historical events in Java",
+                "Political systems in Java"
+            ]
+        },
+        {
+            "question": "What areas should be focused on according to the sentence?",
+            "answer": "areas outside the kraton",
+            "distractors": [
+                "the inner courtyard of the palace",
+                "the main marketplace of the region",
+                "the surrounding forests and wildlife"
+            ]
+        },
+        {
+            "question": "What is the publication year?",
+            "answer": "1984",
+            "distractors": [
+                "1977",
+                "1993",
+                "2001"
+            ]
+        },
+        {
+            "question": "What is the title of Denys Lombard's work that discusses Java's historical significance?",
+            "answer": "The work is titled 'Nusantara: Past and Present of the Archipelago'.",
+            "distractors": [
+                "'Java: A Cultural History'",
+                "'The Rise and Fall of the Majapahit Empire'",
+                "'Exploring the Spice Islands: Java's Role in Trade'"
+            ]
+        },
+        {
+            "question": "Who published the book?",
+            "answer": "Gramedia Pustaka Utama",
+            "distractors": [
+                "Balai Pustaka",
+                "Penerbit Erlangga",
+                "Mizan Publika"
+            ]
+        },
+        {
+            "question": "What does the subject focus on in Java?",
+            "answer": "the cultural intersections",
+            "distractors": [
+                "the technical specifications",
+                "the historical development",
+                "the linguistic variations"
+            ]
+        },
+        {
+            "question": "What is the focus of the larger series mentioned?",
+            "answer": "global history",
+            "distractors": [
+                "local traditions",
+                "personal narratives",
+                "regional events"
+            ]
+        },
+        {
+            "question": "What does the exploration focus on in relation to Java?",
+            "answer": "Java's role in Asian networks.",
+            "distractors": [
+                "Java's influence on global programming practices.",
+                "Java's contribution to European technology sectors.",
+                "Java's impact on mobile app development in South America."
+            ]
+        },
+        {
+            "question": "Who published the work in Paris?",
+            "answer": "\u00c9ditions de l'\u00c9cole des Hautes \u00c9tudes en Sciences Sociales",
+            "distractors": [
+                "Gallimard",
+                "Flammarion",
+                "Editions du Seuil"
+            ]
+        },
+        {
+            "question": "What page references are included in the citations?",
+            "answer": "12 and 14",
+            "distractors": [
+                "10 and 15",
+                "8 and 16",
+                "11 and 13"
+            ]
+        },
+        {
+            "question": "Who wrote *Ying-yai Sheng-lan* and in what year?",
+            "answer": "Mills in 1970",
+            "distractors": [
+                "Liang in 1965",
+                "Zhang in 1982",
+                "Wang in 1975"
+            ]
+        },
+        {
+            "question": "What year was *Ying-yai Sheng-lan* published?",
+            "answer": "1433",
+            "distractors": [
+                "1421",
+                "1440",
+                "1457"
+            ]
+        },
+        {
+            "question": "What type of account does the work serve as?",
+            "answer": "a historical account of maritime exploration",
+            "distractors": [
+                "a fictional narrative about space travel",
+                "an analytical report on agricultural practices",
+                "a personal diary reflecting on inland adventures"
+            ]
+        },
+        {
+            "question": "Who published a work related to Majapahit civilization?",
+            "answer": "Cambridge University Press",
+            "distractors": [
+                "Oxford University Press",
+                "Penguin Random House",
+                "Harvard University Press"
+            ]
+        },
+        {
+            "question": "Who is the author of the book *Majapahit Peradaban Maritim*?",
+            "answer": "Irawan Djoko Nugroho",
+            "distractors": [
+                "Taufik Rahman",
+                "Agus Setiawan",
+                "Indra Supriyanto"
+            ]
+        },
+        {
+            "question": "In what year was the book published?",
+            "answer": "2011",
+            "distractors": [
+                "2009",
+                "2015",
+                "2013"
+            ]
+        },
+        {
+            "question": "What is the name of the publishing house for the book?",
+            "answer": "Suluh Nuswantara Bakti",
+            "distractors": [
+                "Pustaka Jaya Abadi",
+                "Buku Kita Media",
+                "Cahaya Cipta Press"
+            ]
+        },
+        {
+            "question": "What is the specific page number included in the reference?",
+            "answer": "86",
+            "distractors": [
+                "82",
+                "90",
+                "76"
+            ]
+        },
+        {
+            "question": "What is ISBN 978-602-9346-00-8 an identifier for?",
+            "answer": "a specific book",
+            "distractors": [
+                "a publisher",
+                "a magazine issue",
+                "a library collection"
+            ]
+        },
+        {
+            "question": "What is the book related to?",
+            "answer": "the medieval notices of China",
+            "distractors": [
+                "ancient manuscripts of Mongolia",
+                "historical records of Japan",
+                "narratives of early Korea"
+            ]
+        },
+        {
+            "question": "Who authored the work?",
+            "answer": "Sir Henry Yule",
+            "distractors": [
+                "Sir Richard Francis Burton",
+                "Sir Walter Raleigh",
+                "Sir John Franklin"
+            ]
+        },
+        {
+            "question": "What is the title of the work?",
+            "answer": "Cathay and the way thither.",
+            "distractors": [
+                "The Travels of Marco Polo",
+                "The Book of Ser Marco Polo",
+                "Journey to the East"
+            ]
+        },
+        {
+            "question": "What is the publication date indicated?",
+            "answer": "1913",
+            "distractors": [
+                "1910",
+                "1920",
+                "1905"
+            ]
+        },
+        {
+            "question": "Where is the Hakluyt Society based?",
+            "answer": "London",
+            "distractors": [
+                "Amsterdam",
+                "Lisbon",
+                "New York"
+            ]
+        },
+        {
+            "question": "What does Braginsky's work discuss regarding medieval Nusantara?",
+            "answer": "Eastern Christian sources related to medieval Nusantara.",
+            "distractors": [
+                "Islamic texts concerning the trade routes in medieval Nusantara.",
+                "Buddhist influence on the political structures of medieval Nusantara.",
+                "Anthropological studies of the indigenous tribes in medieval Nusantara."
+            ]
+        },
+        {
+            "question": "In which journal was Braginsky's paper published?",
+            "answer": "*Bijdragen tot de Taal-, Land- en Volkenkunde*",
+            "distractors": [
+                "*Journal of Asian Studies*",
+                "*The Dutch Colonial Review*",
+                "*Indonesian Journal of Cultural Studies*"
+            ]
+        },
+        {
+            "question": "What topics does Zenkovsky's book focus on?",
+            "answer": "medieval Russian literature, including epics and chronicles.",
+            "distractors": [
+                "Russian folklore and fairy tales",
+                "Modern Russian poetry and prose",
+                "Historical analysis of the Mongol invasion of Russia"
+            ]
+        },
+        {
+            "question": "In what year was Zenkovsky's work published?",
+            "answer": "1974",
+            "distractors": [
+                "1968",
+                "1976",
+                "1982"
+            ]
+        },
+        {
+            "question": "What is the date of retrieval?",
+            "answer": "27 June 2024",
+            "distractors": [
+                "15 May 2024",
+                "10 July 2024",
+                "1 June 2024"
+            ]
+        },
+        {
+            "question": "What does the study focus on regarding urban development?",
+            "answer": "Impact of Urbanization and Rapid Urban Expansion",
+            "distractors": [
+                "Influence of Economic Growth on Rural Areas",
+                "Challenges of Urban Sprawl in Suburban Regions",
+                "Analysis of Environmental Sustainability in Rural Development"
+            ]
+        },
+        {
+            "question": "Who is the author?",
+            "answer": "Andrea Emma Pravitasari",
+            "distractors": [
+                "Rina Sukmawati",
+                "Budi Santoso",
+                "Lina Hartati"
+            ]
+        },
+        {
+            "question": "What is the focus of the study?",
+            "answer": "Urbanization effects in Java and Jabodetabek, Indonesia",
+            "distractors": [
+                "Rural development impacts in Bali, Indonesia",
+                "Economic growth in Sumatra, Indonesia",
+                "Environmental changes in Kalimantan, Indonesia"
+            ]
+        },
+        {
+            "question": "What is the publication date?",
+            "answer": "24 September 2015",
+            "distractors": [
+                "1 October 2014",
+                "15 August 2016",
+                "10 November 2015"
+            ]
+        },
+        {
+            "question": "What is the focus of the study mentioned in the sentence?",
+            "answer": "freshwater finfish biodiversity in Asia and its conservation.",
+            "distractors": [
+                "oceanic fish species diversity in Africa and its management",
+                "freshwater crustacean population trends in Europe and their preservation",
+                "marine finfish habitats in South America and their protection"
+            ]
+        },
+        {
+            "question": "In which journal was the publication released in 2006?",
+            "answer": "Biodiversity & Conservation",
+            "distractors": [
+                "Conservation Biology",
+                "Ecological Applications",
+                "Journal of Ecology"
+            ]
+        },
+        {
+            "question": "What is the importance of freshwater fish species in ecosystems?",
+            "answer": "Maintaining ecosystem health.",
+            "distractors": [
+                "Serving as primary predators",
+                "Contributing to saltwater habitats",
+                "Enhancing agricultural soil fertility"
+            ]
+        },
+        {
+            "question": "Who described the species Rhacophorus margaritifer and in what year?",
+            "answer": "Schlegel in 1837.",
+            "distractors": [
+                "Haeckel in 1852",
+                "Linnaeus in 1758",
+                "Smith in 1845"
+            ]
+        },
+        {
+            "question": "What online resource provides reference for Amphibian Species of the World?",
+            "answer": "Amphibian Species of the World",
+            "distractors": [
+                "Amphibian Diversity and Systematics",
+                "Frog Taxonomy Database",
+                "Global Amphibian Conservation Network"
+            ]
+        },
+        {
+            "question": "Which museum is referenced?",
+            "answer": "The American Museum of Natural History",
+            "distractors": [
+                "The Smithsonian National Air and Space Museum",
+                "The Field Museum of Natural History",
+                "The Museum of Science and Industry"
+            ]
+        },
+        {
+            "question": "What is the publication date for the study?",
+            "answer": "2020",
+            "distractors": [
+                "2018",
+                "2022",
+                "2019"
+            ]
+        },
+        {
+            "question": "What does the study discuss regarding Javanese Homo erectus?",
+            "answer": "age control",
+            "distractors": [
+                "geological strata",
+                "tool use patterns",
+                "migration routes"
+            ]
+        },
+        {
+            "question": "Where is research focused in Indonesia?",
+            "answer": "Sangiran area",
+            "distractors": [
+                "Bali region",
+                "Borneo rainforest",
+                "Jakarta metropolitan area"
+            ]
+        },
+        {
+            "question": "In which journal was the study published?",
+            "answer": "Science",
+            "distractors": [
+                "Nature",
+                "Cell",
+                "Proceedings of the National Academy of Sciences"
+            ]
+        },
+        {
+            "question": "What does the paper discuss regarding recent advancements?",
+            "answer": "Recent advancements in paleoanthropology in the Far East.",
+            "distractors": [
+                "Recent discoveries in Neolithic agriculture in the Middle East.",
+                "Innovations in genetic studies of ancient populations in Europe.",
+                "Recent findings in the study of hominid migration in Africa."
+            ]
+        },
+        {
+            "question": "In which year was the article published in the Annual Review of Anthropology?",
+            "answer": "1988",
+            "distractors": [
+                "1990",
+                "1985",
+                "1992"
+            ]
+        },
+        {
+            "question": "What does the document cover regarding human evolution and prehistoric populations?",
+            "answer": "Studies and findings from the region regarding human evolution and prehistoric populations.",
+            "distractors": [
+                "Research methodologies used in modern archaeological studies",
+                "Impacts of climate change on contemporary human populations",
+                "Ethnographic accounts of historic tribal societies"
+            ]
+        },
+        {
+            "question": "What pages does the article span in Volume 17?",
+            "answer": "pages 43 to 77",
+            "distractors": [
+                "pages 22 to 36",
+                "pages 78 to 90",
+                "pages 50 to 65"
+            ]
+        },
+        {
+            "question": "Who cited the work?",
+            "answer": "Whitten, T. and Soeriaatmadja, R.",
+            "distractors": [
+                "Doe, J. and Smith, A.",
+                "Johnson, L. and Patel, K.",
+                "Williams, R. and Thompson, C."
+            ]
+        },
+        {
+            "question": "What pages does Periplus Editions Ltd. provide information on?",
+            "answer": "pages 309-312",
+            "distractors": [
+                "pages 301-304",
+                "pages 315-318",
+                "pages 325-328"
+            ]
+        },
+        {
+            "question": "In which publication was C. Pope's research published in 1983?",
+            "answer": "Proceedings of the National Academy of Sciences.",
+            "distractors": [
+                "Journal of the American Medical Association",
+                "Nature Reviews Genetics",
+                "Journal of Biological Chemistry"
+            ]
+        },
+        {
+            "question": "What topic does the paper discuss evidence related to?",
+            "answer": "the age of Asian Hominidae",
+            "distractors": [
+                "the migration patterns of early humans",
+                "the dietary habits of Neanderthals",
+                "the technological advancements in stone tools"
+            ]
+        },
+        {
+            "question": "What does the publication date highlight in relation to anthropology?",
+            "answer": "ongoing research in anthropology",
+            "distractors": [
+                "the historical significance of major discoveries",
+                "the influence of technology on anthropological studies",
+                "the role of anthropology in contemporary social issues"
+            ]
+        },
+        {
+            "question": "What is key for understanding human evolution studies in the Asian context?",
+            "answer": "The reference",
+            "distractors": [
+                "The fossil record",
+                "Natural selection",
+                "Cultural anthropology"
+            ]
+        },
+        {
+            "question": "What identifier is available?",
+            "answer": "Bibcode identifier",
+            "distractors": [
+                "DOI identifier",
+                "ISSN identifier",
+                "ISBN identifier"
+            ]
+        },
+        {
+            "question": "Is a DOI identifier available?",
+            "answer": "Yes.",
+            "distractors": [
+                "No, it is not available.",
+                "Maybe, it depends on the publication.",
+                "Only for certain academic journals."
+            ]
+        },
+        {
+            "question": "What is the PMC identifier mentioned?",
+            "answer": "384173",
+            "distractors": [
+                "480256",
+                "293652",
+                "567891"
+            ]
+        },
+        {
+            "question": "What is the PMID identifier mentioned?",
+            "answer": "6410399",
+            "distractors": [
+                "2384701",
+                "7654320",
+                "8941234"
+            ]
+        },
+        {
+            "question": "Who are the authors cited in the work?",
+            "answer": "Whitten, T. and Soeriaatmadja, R.",
+            "distractors": [
+                "Smith, J. and Black, K.",
+                "Johnson, A. and Lee, C.",
+                "Miller, P. and White, D."
+            ]
+        },
+        {
+            "question": "In which journal was Kozo Matsubayashi's publication on geriatric issues released?",
+            "answer": "Geriatrics & Gerontology International",
+            "distractors": [
+                "Aging & Mental Health",
+                "Journal of Geriatric Medicine",
+                "International Journal of Geriatric Psychiatry"
+            ]
+        },
+        {
+            "question": "What perspective does the article discuss geriatric issues from?",
+            "answer": "the perspective of human evolution",
+            "distractors": [
+                "the perspective of modern medicine",
+                "the perspective of societal norms",
+                "the perspective of technological advancements"
+            ]
+        },
+        {
+            "question": "What identifiers are included in the publication?",
+            "answer": "PMC 4285791 and PMID 25327904.",
+            "distractors": [
+                "PMC 4285792 and PMID 25327905",
+                "PMC 4285790 and PMID 25327903",
+                "PMC 4285793 and PMID 25327906"
+            ]
+        },
+        {
+            "question": "Which company is listed as a publisher for the publication in Hong Kong?",
+            "answer": "Periplus Editions Ltd.",
+            "distractors": [
+                "Asia Pacific Press Ltd.",
+                "Hong Kong University Press",
+                "City University Press"
+            ]
+        },
+        {
+            "question": "Who are the authors mentioned that are potentially related to the article?",
+            "answer": "Ingicco, Thomas; de Vos, John; and Huffman.",
+            "distractors": [
+                "Smith, Alice; Johnson, Michael; and Carter.",
+                "Brown, Emily; Allen, Lisa; and Patel.",
+                "Wang, David; Lee, Angela; and Kim."
+            ]
+        },
+        {
+            "question": "What family does the oldest gibbon fossil belong to?",
+            "answer": "Hylobatidae",
+            "distractors": [
+                "Atelidae",
+                "Pongidae",
+                "Cercopithecidae"
+            ]
+        },
+        {
+            "question": "Where was the fossil found?",
+            "answer": "Trinil, East Java, Indonesia.",
+            "distractors": [
+                "Bikini Atoll, Marshall Islands",
+                "Olduvai Gorge, Tanzania",
+                "La Brea Tar Pits, California"
+            ]
+        },
+        {
+            "question": "What period does the dating of the fossil place it in?",
+            "answer": "Lower/Middle Pleistocene period",
+            "distractors": [
+                "Upper Pleistocene period",
+                "Holocene period",
+                "Late Neogene period"
+            ]
+        },
+        {
+            "question": "What does this research contribute to?",
+            "answer": "the understanding of gibbon evolution in insular Southeast Asia",
+            "distractors": [
+                "the conservation strategies for gibbon habitats in mainland Asia",
+                "the genetic diversity of primate species in Madagascar",
+                "the impact of climate change on gibbon populations in rainforest ecosystems"
+            ]
+        },
+        {
+            "question": "In which journal was the article published in 2014?",
+            "answer": "PLoS ONE",
+            "distractors": [
+                "Scientific Reports",
+                "Journal of Open Biology",
+                "Frontiers in Ecology and Evolution"
+            ]
+        },
+        {
+            "question": "What is the Bibcode identifier provided in the information?",
+            "answer": "2014PLoSO...999531I",
+            "distractors": [
+                "2013APh...100...10B",
+                "2015JCAP...01..001M",
+                "2016PhRvD..93b5001A"
+            ]
+        },
+        {
+            "question": "What information is not specified in the DOI identifier?",
+            "answer": "Not specified",
+            "distractors": [
+                "Publication date",
+                "Authors' names",
+                "Journal title"
+            ]
+        },
+        {
+            "question": "What is the PMC identifier?",
+            "answer": "4051846",
+            "distractors": [
+                "4051847",
+                "4051845",
+                "4051848"
+            ]
+        },
+        {
+            "question": "What is the PMID identifier provided?",
+            "answer": "24914951",
+            "distractors": [
+                "26987123",
+                "13456789",
+                "98765432"
+            ]
+        },
+        {
+            "question": "Who are the authors listed?",
+            "answer": "Zaim, Ciochon, Polanski, Grine, Bettis, Rizal, Franciscus, Larick, Heizler, Aswan, Eaves.",
+            "distractors": [
+                "Smith, Johnson, Brown, Taylor, Wilson, Clark, Lewis, Walker, Hall, Allen, Young",
+                "Chen, Fujimoto, Tanaka, Nakamura, Sato, Takahashi, Suzuki, Watanabe, Kim, Lee",
+                "Patel, Gupta, Sharma, Singh, Verma, Joshi, Mehta, Iyer, Reddy, Rao"
+            ]
+        },
+        {
+            "question": "What type of fossil was found in Sangiran, Central Java, Indonesia?",
+            "answer": "Homo erectus maxilla",
+            "distractors": [
+                "Homo sapiens skull",
+                "Australopithecus pelvis",
+                "Neanderthal ribcage"
+            ]
+        },
+        {
+            "question": "When does the maxilla date back to?",
+            "answer": "approximately one million years ago",
+            "distractors": [
+                "around 500,000 years ago",
+                "over two million years ago",
+                "about 750,000 years ago"
+            ]
+        },
+        {
+            "question": "What volume and issue of the Journal of Human Evolution was published?",
+            "answer": "volume 61, issue 4",
+            "distractors": [
+                "volume 62, issue 3",
+                "volume 60, issue 5",
+                "volume 61, issue 2"
+            ]
+        },
+        {
+            "question": "What does research contribute to understanding regarding Homo erectus?",
+            "answer": "the evolution and anatomy of Homo erectus.",
+            "distractors": [
+                "the social behavior of early humans",
+                "the migration patterns of Neanderthals",
+                "the language development in prehistoric species"
+            ]
+        },
+        {
+            "question": "What could the findings provide insights into?",
+            "answer": "human prehistory in the region.",
+            "distractors": [
+                "the evolution of language in ancient cultures",
+                "social structures of modern civilizations",
+                "effects of climate change on current ecosystems"
+            ]
+        },
+        {
+            "question": "What does the study focus on?",
+            "answer": "The last known appearance of Homo erectus.",
+            "distractors": [
+                "The migration patterns of Neanderthals.",
+                "The dietary habits of early Homo sapiens.",
+                "The physical traits of Australopithecus afarensis."
+            ]
+        },
+        {
+            "question": "Where was the research conducted?",
+            "answer": "Ngandong, Java",
+            "distractors": [
+                "Borneo, Indonesia",
+                "Luzon, Philippines",
+                "Sumatra, Indonesia"
+            ]
+        },
+        {
+            "question": "What is the time period during which Homo erectus is suggested to have existed?",
+            "answer": "between 117,000 and 108,000 years ago",
+            "distractors": [
+                "between 200,000 and 150,000 years ago",
+                "between 1 million and 500,000 years ago",
+                "between 50,000 and 30,000 years ago"
+            ]
+        },
+        {
+            "question": "When was it published in the journal Nature?",
+            "answer": "December 18, 2019",
+            "distractors": [
+                "January 5, 2020",
+                "November 30, 2018",
+                "February 22, 2020"
+            ]
+        },
+        {
+            "question": "Who are some of the authors mentioned?",
+            "answer": "Michael J. Morwood, O. Frank Huffman",
+            "distractors": [
+                "Richard Leakey",
+                "Jane Goodall",
+                "Louis Leakey"
+            ]
+        },
+        {
+            "question": "What is the ISBN number referenced via Google Books?",
+            "answer": "9004061967",
+            "distractors": [
+                "8004061967",
+                "9504061967",
+                "9005061967"
+            ]
+        },
+        {
+            "question": "Which dictionary mentions Iabadius?",
+            "answer": "Dictionary of Greek and Roman Geography",
+            "distractors": [
+                "Oxford Classical Dictionary",
+                "Harvard Dictionary of Music",
+                "Dictionary of Medieval Latin from British Sources"
+            ]
+        },
+        {
+            "question": "What is the title of Chapter 2 in 'The Tamils Eighteen Hundred Years Ago'?",
+            "answer": "Chapter 2",
+            "distractors": [
+                "Chapter 1",
+                "Chapter 3",
+                "Chapter 4"
+            ]
+        },
+        {
+            "question": "What was the title of Willem Pieter Groeneveldt's work published in 1876?",
+            "answer": "Malay Archipelago and Malacca",
+            "distractors": [
+                "Explorations in the Spice Islands",
+                "Transoceanic Trade Routes",
+                "The Islands of Southeast Asia"
+            ]
+        },
+        {
+            "question": "What type of notes were compiled based on Chinese sources?",
+            "answer": "Compiled notes based on Chinese sources for historical research.",
+            "distractors": [
+                "Compiled notes based on European sources for historical research.",
+                "Compiled notes based on Western literary works for academic purposes.",
+                "Compiled notes based on Taiwanese sources for cultural studies."
+            ]
+        },
+        {
+            "question": "What is the ISBN number for the referenced book?",
+            "answer": "978-0-8248-0368-1",
+            "distractors": [
+                "978-1-2345-6789-0",
+                "978-0-1234-5678-9",
+                "978-0-9876-5432-1"
+            ]
+        },
+        {
+            "question": "How is the dating of the Taruma kingdom determined?",
+            "answer": "by the palaeography of its inscriptions",
+            "distractors": [
+                "by radiocarbon dating of organic materials",
+                "through archaeological excavation of burial sites",
+                "by analyzing the pottery styles from the period"
+            ]
+        },
+        {
+            "question": "What time period do scholars agree the inscriptions date to?",
+            "answer": "the second half of the 5th century or slightly later",
+            "distractors": [
+                "the first half of the 5th century",
+                "the late 4th century",
+                "the early 6th century"
+            ]
+        },
+        {
+            "question": "What work by de Casparis was published in 1975?",
+            "answer": "Indonesian Palaeography",
+            "distractors": [
+                "The Evolution of Southeast Asian Scripts",
+                "Ancient Writing Systems of Indonesia",
+                "Archaeology and Culture in Southeast Asia"
+            ]
+        },
+        {
+            "question": "What time period does Ames' 2008 book discuss concerning the Age of European Discovery?",
+            "answer": "from 1500 to 1700",
+            "distractors": [
+                "from 1400 to 1600",
+                "from 1600 to 1800",
+                "from 1450 to 1550"
+            ]
+        },
+        {
+            "question": "What is the ISBN number referenced?",
+            "answer": "978-979-709-391-4",
+            "distractors": [
+                "978-0-306-40615-7",
+                "978-1-56619-909-4",
+                "978-3-16-148410-0"
+            ]
+        },
+        {
+            "question": "Who is the author of the book titled 'The Coins And Tokens of the Possessions And Colonies of the British Empire'?",
+            "answer": "James Atkins",
+            "distractors": [
+                "John Hunt",
+                "Elizabeth Warren",
+                "Charles Goodman"
+            ]
+        },
+        {
+            "question": "Who published the book by Atkins?",
+            "answer": "Bernard Quaritch",
+            "distractors": [
+                "Oxford University Press",
+                "Cambridge University Press",
+                "Harvard University Press"
+            ]
+        },
+        {
+            "question": "Who wrote 'Raffles and the British invasion of Java'?",
+            "answer": "Tim Hannigan",
+            "distractors": [
+                "Michael Jones",
+                "Jane Smith",
+                "Robert Caldwell"
+            ]
+        },
+        {
+            "question": "What historical topic do both works relate to?",
+            "answer": "British colonial history.",
+            "distractors": [
+                "The Industrial Revolution",
+                "The American Civil War",
+                "The French Revolution"
+            ]
+        },
+        {
+            "question": "What is the ISBN that identifies the book?",
+            "answer": "978-981-4358-85-9",
+            "distractors": [
+                "978-0-1234-5678-9",
+                "978-981-4358-85-0",
+                "978-1-2345-6789-7"
+            ]
+        },
+        {
+            "question": "What is Java?",
+            "answer": "an island in Indonesia",
+            "distractors": [
+                "a programming language",
+                "a type of coffee",
+                "a city in Japan"
+            ]
+        },
+        {
+            "question": "What pages of Taylor's work from 2003 are cited?",
+            "answer": "pages 253-254",
+            "distractors": [
+                "pages 245-246",
+                "pages 260-261",
+                "pages 270-271"
+            ]
+        },
+        {
+            "question": "Who authored a work on pestilence and pandemics in 2008?",
+            "answer": "Byrne, Joseph Patrick",
+            "distractors": [
+                "Smith, Amanda Jane",
+                "Johnson, Mark Richard",
+                "Lee, Christine Ann"
+            ]
+        },
+        {
+            "question": "What type of sources does the text include responses from?",
+            "answer": "encyclopedic sources",
+            "distractors": [
+                "peer-reviewed journals",
+                "popular magazines",
+                "government publications"
+            ]
+        },
+        {
+            "question": "What is the ISBN mentioned as an identifier?",
+            "answer": "978-0-313-34102-1",
+            "distractors": [
+                "978-1-4028-9462-6",
+                "978-0-306-40615-7",
+                "978-0-06-095643-6"
+            ]
+        },
+        {
+            "question": "What year does Taylor's work referenced on page 254 originate from?",
+            "answer": "2003",
+            "distractors": [
+                "2001",
+                "2005",
+                "2008"
+            ]
+        },
+        {
+            "question": "What topic is noted in the city population statistics for Indonesia?",
+            "answer": "urban city population in Indonesia",
+            "distractors": [
+                "rural population distribution in Indonesia",
+                "growth rates of Indonesian villages",
+                "demographics of suburban areas in Indonesia"
+            ]
+        },
+        {
+            "question": "What is the date of the data referenced?",
+            "answer": "May 1, 2010.",
+            "distractors": [
+                "April 15, 2010",
+                "June 30, 2010",
+                "March 1, 2010"
+            ]
+        },
+        {
+            "question": "What does the source appear to contain?",
+            "answer": "a permanent dead link",
+            "distractors": [
+                "a temporary redirect",
+                "a broken image",
+                "an outdated web address"
+            ]
+        },
+        {
+            "question": "What years does the Biro Pusat Statistik provide demographic data for?",
+            "answer": "2011, 2021, 2025",
+            "distractors": [
+                "2010, 2020, 2030",
+                "2005, 2015, 2025",
+                "2012, 2022, 2026"
+            ]
+        },
+        {
+            "question": "What years are the national censuses conducted for the average age of first marriage for women?",
+            "answer": "1990, 2000, and 2010",
+            "distractors": [
+                "1980, 1995, and 2005",
+                "1991, 2001, and 2011",
+                "1992, 2002, and 2012"
+            ]
+        },
+        {
+            "question": "What year is the archival data regarding marriage statistics from?",
+            "answer": "2015",
+            "distractors": [
+                "2010",
+                "2018",
+                "2020"
+            ]
+        },
+        {
+            "question": "What is the topic discussed in Agus Maryono's 2009 report?",
+            "answer": "poverty alleviation efforts in Central Java",
+            "distractors": [
+                "economic development strategies in East Java",
+                "social welfare programs in Jakarta",
+                "access to education initiatives in Bali"
+            ]
+        },
+        {
+            "question": "What do the retrieval dates for the cited information indicate?",
+            "answer": "ongoing research and statistical updates.",
+            "distractors": [
+                "the reliability of the initial source",
+                "the frequency of publication changes",
+                "the author's credibility assessment"
+            ]
+        },
+        {
+            "question": "What is the date of retrieval for the text?",
+            "answer": "27 June 2024",
+            "distractors": [
+                "15 July 2024",
+                "22 June 2023",
+                "10 May 2024"
+            ]
+        },
+        {
+            "question": "What culture is referenced in Wallace Stevens's poem 'Tea'?",
+            "answer": "Javanese culture",
+            "distractors": [
+                "Chinese culture",
+                "Indian culture",
+                "Thai culture"
+            ]
+        },
+        {
+            "question": "What languages are documented and archived on Java and Bali?",
+            "answer": "The languages spoken on Java and Bali.",
+            "distractors": [
+                "The programming languages used for software development in Java",
+                "The ancient scripts found in Balinese temples",
+                "The cultural dialects in the neighboring countries of Java and Bali"
+            ]
+        },
+        {
+            "question": "When was the referenced material archived?",
+            "answer": "February 16, 2017",
+            "distractors": [
+                "January 10, 2016",
+                "March 22, 2018",
+                "December 5, 2019"
+            ]
+        },
+        {
+            "question": "What connections does the text draw?",
+            "answer": "Connections between literature and cultural elements of Java.",
+            "distractors": [
+                "Connections between literature and culinary traditions of Bali.",
+                "Connections between literature and historical events in Indonesia.",
+                "Connections between literature and modern technology in urban Java."
+            ]
+        },
+        {
+            "question": "What is the topic of data visualization discussed?",
+            "answer": "population statistics in Indonesia",
+            "distractors": [
+                "population demographics in the United States",
+                "economic trends in Southeast Asia",
+                "climate change effects on agriculture in Indonesia"
+            ]
+        },
+        {
+            "question": "Which ministries provided the source of information?",
+            "answer": "the Ministry of Home Affairs and the Ministry of Religious Affairs",
+            "distractors": [
+                "the Ministry of Education and the Ministry of Health",
+                "the Ministry of Foreign Affairs and the Ministry of Trade",
+                "the Ministry of Agriculture and the Ministry of Environment"
+            ]
+        },
+        {
+            "question": "When was the information retrieved?",
+            "answer": "27 June 2024",
+            "distractors": [
+                "15 May 2024",
+                "30 July 2023",
+                "10 March 2025"
+            ]
+        },
+        {
+            "question": "What is the publication date of the source?",
+            "answer": "31 December 2023",
+            "distractors": [
+                "1 January 2024",
+                "30 December 2023",
+                "15 December 2023"
+            ]
+        },
+        {
+            "question": "What language is the content in?",
+            "answer": "Indonesian",
+            "distractors": [
+                "Malay",
+                "Tagalog",
+                "Thai"
+            ]
+        },
+        {
+            "question": "What is the title of the article about new religious sects in Java published in Far Eastern Survey in 1961?",
+            "answer": "new religious sects in Java",
+            "distractors": [
+                "emerging spiritual movements in Southeast Asia",
+                "religious revivalism in Indonesia",
+                "the impact of modernization on Javanese beliefs"
+            ]
+        },
+        {
+            "question": "Who is the author?",
+            "answer": "Justus M. van der Kroef",
+            "distractors": [
+                "Cornelis M. van der Kroef",
+                "Justina M. van der Kroef",
+                "Johannes M. van der Kroef"
+            ]
+        },
+        {
+            "question": "What does the content discuss regarding the emergence of various religious sects?",
+            "answer": "the emergence of various religious sects in Java",
+            "distractors": [
+                "the historical significance of religious sects in the Middle East",
+                "the social impact of religious sects in Europe",
+                "the philosophical foundations of new religious movements in North America"
+            ]
+        },
+        {
+            "question": "What is referenced in Andrew Beatty's anthropological account?",
+            "answer": "Javanese religion",
+            "distractors": [
+                "Balinese culture",
+                "Sundanese folklore",
+                "Indonesian political history"
+            ]
+        },
+        {
+            "question": "What type of publication is Tempo magazine?",
+            "answer": "an Indonesian weekly news source",
+            "distractors": [
+                "a monthly fashion magazine",
+                "an Indonesian daily sports journal",
+                "a biweekly technology newsletter"
+            ]
+        },
+        {
+            "question": "What does the term 'Cup of Joe' refer to?",
+            "answer": "coffee",
+            "distractors": [
+                "a type of tea",
+                "a brand of chocolate",
+                "a breakfast smoothie"
+            ]
+        },
+        {
+            "question": "What is the origin of the nickname 'Java' for coffee?",
+            "answer": "its historical production on the island of Java.",
+            "distractors": [
+                "its popularity in European coffee houses",
+                "the method of roasting used",
+                "the influence of Dutch colonial trade"
+            ]
+        },
+        {
+            "question": "What are two colloquial names for coffee mentioned in the text?",
+            "answer": "'Cup of Joe' and 'Java'.",
+            "distractors": [
+                "Brewed Awakening",
+                "Mud",
+                "Caffeine Fix"
+            ]
+        },
+        {
+            "question": "What does the exploration of coffee terminology reflect?",
+            "answer": "Its cultural significance and diverse history.",
+            "distractors": [
+                "The economic impact of coffee production on global trade.",
+                "The scientific processes involved in coffee brewing.",
+                "The botanical classification of coffee plant varieties."
+            ]
+        },
+        {
+            "question": "What do different articles provide insights into regarding coffee?",
+            "answer": "the significance of coffee names and their origins",
+            "distractors": [
+                "the health benefits of coffee consumption",
+                "the most popular coffee brewing methods",
+                "the various types of coffee beans used worldwide"
+            ]
+        },
+        {
+            "question": "When was the publication date?",
+            "answer": "April 12, 2016",
+            "distractors": [
+                "March 15, 2016",
+                "May 25, 2016",
+                "April 20, 2017"
+            ]
+        },
+        {
+            "question": "What is the statistical source mentioned?",
+            "answer": "Badan Pusat Statistik",
+            "distractors": [
+                "Badan Perencanaan Pembangunan Nasional",
+                "Badan Koordinasi Penanaman Modal",
+                "Kementerian Kesehatan"
+            ]
+        },
+        {
+            "question": "What is the title of the report regarding PDRB in 2021?",
+            "answer": "PDRB Atas Dasar Harga Berlaku Menurut Pengeluaran (Juta Rupiah), 2021",
+            "distractors": [
+                "PDRB Atas Dasar Harga Konstan Menurut Pengeluaran (Juta Rupiah), 2021",
+                "PDRB Atas Dasar Harga Berlaku Menurut Produksi (Juta Rupiah), 2021",
+                "Laporan PDRB Menurut Sektor Ekonomi (Juta Rupiah), 2021"
+            ]
+        },
+        {
+            "question": "Where was the publication located?",
+            "answer": "Jakarta, Indonesia",
+            "distractors": [
+                "Kuala Lumpur, Malaysia",
+                "Bangkok, Thailand",
+                "Singapore"
+            ]
+        },
+        {
+            "question": "Who is the author of the book 'Indonesia: Peoples and Histories'?",
+            "answer": "Jean Gelman Taylor",
+            "distractors": [
+                "Ruth McVey",
+                "M. C. Ricklefs",
+                "Vedi R. Hadiz"
+            ]
+        },
+        {
+            "question": "What is the ISBN number provided?",
+            "answer": "978-0-8248-2111-1",
+            "distractors": [
+                "978-1-2345-6789-0",
+                "978-0-1234-5678-9",
+                "978-3-4567-8910-1"
+            ]
+        },
+        {
+            "question": "Who is the author?",
+            "answer": "Soegijanto Padmo",
+            "distractors": [
+                "Arismawati Seno",
+                "Dharmawan Rati",
+                "Budi Harjusanto"
+            ]
+        },
+        {
+            "question": "What is the publication year?",
+            "answer": "2000",
+            "distractors": [
+                "1999",
+                "2001",
+                "1997"
+            ]
+        },
+        {
+            "question": "What is the title of the work?",
+            "answer": "Java and The Making of The Nation",
+            "distractors": [
+                "C++: The Language of Innovation",
+                "Python and the Evolution of Software",
+                "JavaScript and the Web Revolution"
+            ]
+        },
+        {
+            "question": "In which journal was the publication featured?",
+            "answer": "Humaniora Journal, Gadjah Mada University",
+            "distractors": [
+                "International Journal of Humanities and Arts",
+                "Journal of Cultural Studies, Gadjah Mada University",
+                "Asian Journal of Social Sciences and Humanities"
+            ]
+        },
+        {
+            "question": "What are the Indonesian provinces listed?",
+            "answer": "Sumatra, Java, Kalimantan, Lesser Sunda Islands, Sulawesi, Maluku Islands, and Western New Guinea.",
+            "distractors": [
+                "Borneo, Celebes, Bali, Nusa Penida",
+                "Java, Timor, Sumba, Flores",
+                "Sumatra, Banda Sea Islands, Makassar, Papua"
+            ]
+        },
+        {
+            "question": "What are the provinces of Java?",
+            "answer": "Banten, Central Java, East Java, Jakarta, Yogyakarta, and West Java",
+            "distractors": [
+                "Bali, North Sumatra, West Nusa Tenggara, Lampung",
+                "Sulawesi, Maluku, Papua, Sumatra",
+                "Southeast Sulawesi, West Papua, East Nusa Tenggara, Aceh"
+            ]
+        },
+        {
+            "question": "What are some of the former provinces mentioned?",
+            "answer": "Special Region of Surakarta, Central Sumatra, and East Timor.",
+            "distractors": [
+                "North Sumatra, West Java, and Jakarta",
+                "Bali, South Kalimantan, and Aceh",
+                "Papua, West Nusa Tenggara, and Maluku"
+            ]
+        },
+        {
+            "question": "What are some of the largest islands by area?",
+            "answer": "Greenland, New Guinea, Borneo, Madagascar, and Java",
+            "distractors": [
+                "Great Britain",
+                "Sumatra",
+                "Honshu"
+            ]
+        },
+        {
+            "question": "What does the article include for sorting and organization?",
+            "answer": "various authority control databases and hidden categories",
+            "distractors": [
+                "a list of secondary sources and references",
+                "popular tagging systems and user-generated content",
+                "standardized metadata formats and file naming conventions"
+            ]
+        },
+        {
+            "question": "What are the two documents that users must agree to?",
+            "answer": "Terms of Use and Privacy Policy",
+            "distractors": [
+                "User Agreement and Data Retention Policy",
+                "Service Agreement and Content License",
+                "Accessibility Statement and Refund Policy"
+            ]
+        },
+        {
+            "question": "What is Wikipedia a registered trademark of?",
+            "answer": "the Wikimedia Foundation",
+            "distractors": [
+                "the Internet Archive",
+                "the Open Content Alliance",
+                "Creative Commons"
+            ]
+        },
+        {
+            "question": "What do the links include?",
+            "answer": "Privacy Policy and Terms of Use",
+            "distractors": [
+                "User Agreement and Community Guidelines",
+                "Disclaimer and Cookie Policy",
+                "Help Center and Support Articles"
+            ]
+        },
+        {
+            "question": "What are some of the additional resources listed?",
+            "answer": "Disclaimers, Contact, Code of Conduct, Developers, Statistics, Cookie statement, Mobile view.",
+            "distractors": [
+                "User Guidelines, Privacy Policy, Feedback Form",
+                "Terms of Service, FAQs, Support Articles",
+                "Accessibility Statement, Community Standards, Site Map"
+            ]
+        },
+        {
+            "question": "What is the topic related to availability in Java?",
+            "answer": "Availability of Java topic addition",
+            "distractors": [
+                "Java memory management strategies",
+                "Java concurrency utilities",
+                "Java exception handling principles"
+            ]
+        }
+    ]
+}
