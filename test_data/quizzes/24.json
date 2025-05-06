@@ -1,0 +1,3739 @@
+{
+    "mcqs": [
+        {
+            "question": "Where is the Netherlands located?",
+            "answer": "in Northwestern Europe",
+            "distractors": [
+                "in Southern Europe",
+                "in Eastern Europe",
+                "in Northern Europe"
+            ]
+        },
+        {
+            "question": "What are the coordinates of the Netherlands?",
+            "answer": "52\u00b0N 6\u00b0E",
+            "distractors": [
+                "53\u00b0N 5\u00b0E",
+                "51\u00b0N 4\u00b0E",
+                "52\u00b0N 7\u00b0E"
+            ]
+        },
+        {
+            "question": "What can the term 'Nederland' refer to according to disambiguation?",
+            "answer": "something else",
+            "distractors": [
+                "the country of the Netherlands",
+                "the Dutch language",
+                "a geographical region in Europe"
+            ]
+        },
+        {
+            "question": "What is the largest of the four constituent countries of the Kingdom of the Netherlands?",
+            "answer": "The Netherlands",
+            "distractors": [
+                "Aruba",
+                "Curacao",
+                "Sint Maarten"
+            ]
+        },
+        {
+            "question": "What are the official languages in Caribbean territories?",
+            "answer": "Dutch, English, and Papiamento",
+            "distractors": [
+                "Spanish, Portuguese, and Creole",
+                "French, Italian, and Hebrew",
+                "German, Russian, and Arabic"
+            ]
+        },
+        {
+            "question": "What is the rank of the Netherlands in terms of global food and agricultural products export by value?",
+            "answer": "second-largest",
+            "distractors": [
+                "largest",
+                "third-largest",
+                "fifth-largest"
+            ]
+        },
+        {
+            "question": "What does pillarisation refer to?",
+            "answer": "the separation of citizens into groups based on religion and political beliefs.",
+            "distractors": [
+                "the unification of citizens into a single national identity",
+                "the classification of citizens based on economic status",
+                "the process of encouraging communal harmony amongst different groups"
+            ]
+        },
+        {
+            "question": "What has the country legalized?",
+            "answer": "Prostitution and euthanasia.",
+            "distractors": [
+                "Cannabis and same-sex marriage.",
+                "Animal fighting and underground gambling.",
+                "Polygamy and gun ownership."
+            ]
+        },
+        {
+            "question": "What type of drug policy does the country maintain?",
+            "answer": "a liberal drug policy",
+            "distractors": [
+                "a strict prohibitionist policy",
+                "a punitive drug enforcement policy",
+                "a moderate regulatory drug policy"
+            ]
+        },
+        {
+            "question": "In what year did the Netherlands grant women's suffrage?",
+            "answer": "1919",
+            "distractors": [
+                "1898",
+                "1935",
+                "1923"
+            ]
+        },
+        {
+            "question": "What country was the first to legalize same-sex marriage?",
+            "answer": "The Netherlands",
+            "distractors": [
+                "Belgium",
+                "Norway",
+                "Spain"
+            ]
+        },
+        {
+            "question": "What is the rank of the Netherlands in terms of GDP (PPP) per capita globally?",
+            "answer": "eleventh",
+            "distractors": [
+                "seventh",
+                "fourteenth",
+                "twentieth"
+            ]
+        },
+        {
+            "question": "What is the seat of the States General, cabinet, and Supreme Court of the Netherlands?",
+            "answer": "The Hague",
+            "distractors": [
+                "Amsterdam",
+                "Rotterdam",
+                "Utrecht"
+            ]
+        },
+        {
+            "question": "What is the busiest port in Europe?",
+            "answer": "The Port of Rotterdam",
+            "distractors": [
+                "Port of Antwerp",
+                "Port of Hamburg",
+                "Port of Marseille"
+            ]
+        },
+        {
+            "question": "What is the busiest airport in the Netherlands?",
+            "answer": "Schiphol",
+            "distractors": [
+                "Rotterdam The Hague Airport",
+                "Eindhoven Airport",
+                "Groningen Airport Eelde"
+            ]
+        },
+        {
+            "question": "What status does the Netherlands hold as a country in terms of development?",
+            "answer": "developed country",
+            "distractors": [
+                "developing country",
+                "emerging market",
+                "least developed country"
+            ]
+        },
+        {
+            "question": "Which international organizations is the Netherlands a part of?",
+            "answer": "NATO, OECD, and WTO.",
+            "distractors": [
+                "EU, IMF, and UNESCO",
+                "Commonwealth, G20, and ASEAN",
+                "NATO, WHO, and OPEC"
+            ]
+        },
+        {
+            "question": "Which countries are included in the region known as the Low Countries?",
+            "answer": "The Netherlands, Belgium, and Luxembourg.",
+            "distractors": [
+                "Germany, Austria, and Switzerland",
+                "France, Spain, and Italy",
+                "Norway, Denmark, and Sweden"
+            ]
+        },
+        {
+            "question": "What do place names with *Neder*, *Nieder*, *Nedre*, *Nether*, *Lage(r)*, or *Low(er)* indicate?",
+            "answer": "low-lying locations in Germanic languages.",
+            "distractors": [
+                "high-altitude regions in Scandinavian countries",
+                "settlements near water bodies in Celtic languages",
+                "ancient trade routes in Eastern Europe"
+            ]
+        },
+        {
+            "question": "What do place names with *Bas* or *Inferior* indicate in Romance languages?",
+            "answer": "low-lying locations",
+            "distractors": [
+                "high-altitude regions",
+                "coastal areas",
+                "historical sites"
+            ]
+        },
+        {
+            "question": "Where are such place names found?",
+            "answer": "Throughout Europe.",
+            "distractors": [
+                "In North America",
+                "In Southeast Asia",
+                "In South America"
+            ]
+        },
+        {
+            "question": "What are the names of the Roman provinces that are part of Germania?",
+            "answer": "Germania Inferior and Germania Superior",
+            "distractors": [
+                "Gallia Belgica",
+                "Britannia",
+                "Noricum"
+            ]
+        },
+        {
+            "question": "What area did the Duchy of Lower Lorraine cover?",
+            "answer": "Much of the Low Countries.",
+            "distractors": [
+                "Northern France",
+                "Western Germany",
+                "The British Isles"
+            ]
+        },
+        {
+            "question": "What regions comprise Holland within the Netherlands?",
+            "answer": "North and South Holland",
+            "distractors": [
+                "Friesland and Groningen",
+                "Limburg and Zeeland",
+                "Utrecht and Gelderland"
+            ]
+        },
+        {
+            "question": "What term does the Dutch government officially prefer over 'Holland' since 2019?",
+            "answer": "the Netherlands",
+            "distractors": [
+                "Hollanda",
+                "Dutch Republic",
+                "Low Countries"
+            ]
+        },
+        {
+            "question": "How is the term 'Holland' used by Southern Dutch towards Northern Dutch?",
+            "answer": "In a derogatory manner.",
+            "distractors": [
+                "As a term of endearment",
+                "To refer to all Dutch people",
+                "To signify cultural superiority"
+            ]
+        },
+        {
+            "question": "What does the word 'Dutch' mean as derived from its Proto-Germanic origin?",
+            "answer": "popular or 'of the people'",
+            "distractors": [
+                "noble or 'of the aristocracy'",
+                "isolated or 'of the wilderness'",
+                "diverse or 'of many cultures'"
+            ]
+        },
+        {
+            "question": "What time period did the Ahrensburg culture exist?",
+            "answer": "from 11,200 to 9,500 BC",
+            "distractors": [
+                "from 15,000 to 12,000 BC",
+                "from 10,000 to 8,000 BC",
+                "from 9,000 to 7,000 BC"
+            ]
+        },
+        {
+            "question": "What is the age of the world's oldest canoe discovered in Drenthe?",
+            "answer": "around 8000 BC",
+            "distractors": [
+                "around 5000 BC",
+                "around 3000 BC",
+                "around 2000 BC"
+            ]
+        },
+        {
+            "question": "What did the Funnelbeaker culture construct in Drenthe?",
+            "answer": "dolmens",
+            "distractors": [
+                "menhirs",
+                "hill forts",
+                "barrow mounds"
+            ]
+        },
+        {
+            "question": "What cultures did Bell Beaker culture develop into and in what years?",
+            "answer": "Barbed-Wire Beaker culture (2100\u20131800 BC) and Elp culture (1800\u2013800 BC)",
+            "distractors": [
+                "Stoneware Beaker culture (2500\u20132000 BC)",
+                "Copper Beaker culture (2200\u20131700 BC)",
+                "Bronze Beaker culture (1900\u20131600 BC)"
+            ]
+        },
+        {
+            "question": "What type of pottery characterizes Elp culture?",
+            "answer": "Earthenware pottery",
+            "distractors": [
+                "Stoneware pottery",
+                "Porcelain pottery",
+                "Terracotta pottery"
+            ]
+        },
+        {
+            "question": "What culture dominated the southern region from 1800\u2013800 BC?",
+            "answer": "Hilversum culture",
+            "distractors": [
+                "Farming culture",
+                "Bell Beaker culture",
+                "Tollense culture"
+            ]
+        },
+        {
+            "question": "What mineral contributed to prosperity in the country?",
+            "answer": "Iron ore",
+            "distractors": [
+                "Copper deposits",
+                "Gold reserves",
+                "Bauxite mineral"
+            ]
+        },
+        {
+            "question": "What did Smiths travel between settlements to fabricate?",
+            "answer": "tools",
+            "distractors": [
+                "clothing",
+                "pottery",
+                "furniture"
+            ]
+        },
+        {
+            "question": "What materials did Smiths work with to fulfill demand for tools?",
+            "answer": "bronze and iron",
+            "distractors": [
+                "steel and aluminum",
+                "wood and clay",
+                "copper and lead"
+            ]
+        },
+        {
+            "question": "What triggered the migration of Germanic tribes in Scandinavia between 850 BC and 650 BC?",
+            "answer": "Deteriorating climate",
+            "distractors": [
+                "Increased agricultural productivity",
+                "Rising population levels",
+                "Expansion of Roman territory"
+            ]
+        },
+        {
+            "question": "When was the migration of Germanic tribes complete?",
+            "answer": "around 250 BC",
+            "distractors": [
+                "around 100 AD",
+                "around 500 BC",
+                "around 200 AD"
+            ]
+        },
+        {
+            "question": "Which group inhabited the northern part of the Low Countries?",
+            "answer": "The North Sea Germanic Ingaevones",
+            "distractors": [
+                "The Frankish Empire",
+                "The Celtic Belgae",
+                "The Roman Legions"
+            ]
+        },
+        {
+            "question": "From which tribes did Frisii and early Saxons develop?",
+            "answer": "certain tribes",
+            "distractors": [
+                "the Lombards and Franks",
+                "the Visigoths and Ostrogoths",
+                "the Helvetii and Celts"
+            ]
+        },
+        {
+            "question": "Which tribes inhabited the Low Countries and developed into the Salian Franks?",
+            "answer": "Weser\u2013Rhine Germanic tribes",
+            "distractors": [
+                "Frisii",
+                "Batavi",
+                "Saxons"
+            ]
+        },
+        {
+            "question": "During which years did Julius Caesar conquer the southern Netherlands?",
+            "answer": "from 57 BC to 53 BC",
+            "distractors": [
+                "from 58 BC to 50 BC",
+                "from 60 BC to 56 BC",
+                "from 55 BC to 52 BC"
+            ]
+        },
+        {
+            "question": "What does Limes Germanicus refer to?",
+            "answer": "the border of the Roman Empire in Germania",
+            "distractors": [
+                "a type of Roman military fort",
+                "a famous Roman general known for his campaigns in Germania",
+                "the main trade route within the Roman Empire"
+            ]
+        },
+        {
+            "question": "What notable towns are located along the Limes Germanicus?",
+            "answer": "Nijmegen and Voorburg.",
+            "distractors": [
+                "Trier and Cologne",
+                "Augsburg and Kempten",
+                "Duisburg and Mainz"
+            ]
+        },
+        {
+            "question": "What was the area south of the Limes Germanicus called when it became part of the Roman province?",
+            "answer": "Germania Inferior",
+            "distractors": [
+                "Gallia Belgica",
+                "Germania Superior",
+                "Noricum"
+            ]
+        },
+        {
+            "question": "Where did the Frisii tribe inhabit?",
+            "answer": "to the north of the Rhine",
+            "distractors": [
+                "south of the Danube",
+                "along the banks of the Thames",
+                "in the region of modern Denmark"
+            ]
+        },
+        {
+            "question": "Which groups served in the Roman cavalry as part of the Ala?",
+            "answer": "Batavi and Cananefates",
+            "distractors": [
+                "Numidians and Moors",
+                "Hercules and Parthians",
+                "Batavians and Gauls"
+            ]
+        },
+        {
+            "question": "What year did the Batavian rebellion occur?",
+            "answer": "69 AD",
+            "distractors": [
+                "62 AD",
+                "70 AD",
+                "58 AD"
+            ]
+        },
+        {
+            "question": "What did Roman forces do to the region regarding the Franks?",
+            "answer": "Roman forces pacified the region but did not expel the Franks.",
+            "distractors": [
+                "Roman forces established strict tariffs on Frankish goods.",
+                "Roman forces allied with the Franks against other tribes.",
+                "Roman forces deported the Frankish leaders to Italy."
+            ]
+        },
+        {
+            "question": "During which time were Salian Franks allowed to settle as foederati in Texandria?",
+            "answer": "the time of Julian the Apostate (358)",
+            "distractors": [
+                "the reign of Constantius II (361)",
+                "the period of Maxentius (309)",
+                "the era of Diocletian (284)"
+            ]
+        },
+        {
+            "question": "Who conquered and united territories in the southern Netherlands into one Frankish kingdom by the 490s?",
+            "answer": "Clovis I",
+            "distractors": [
+                "Charles Martel",
+                "Charlemagne",
+                "Pepin the Short"
+            ]
+        },
+        {
+            "question": "What language did the Franks adopt when migrating to the south?",
+            "answer": "Vulgar Latin",
+            "distractors": [
+                "Old French",
+                "Classical Latin",
+                "Germanic languages"
+            ]
+        },
+        {
+            "question": "What language did Old Frankish evolve into by the ninth century?",
+            "answer": "Old Low Franconian or Old Dutch",
+            "distractors": [
+                "Old High German",
+                "Middle Dutch",
+                "Anglo-Frisian"
+            ]
+        },
+        {
+            "question": "Where was Frisian spoken after the Migration Period?",
+            "answer": "along the entire southern North Sea coast",
+            "distractors": [
+                "in the central part of the British Isles",
+                "in the northern regions of Scandinavia",
+                "around the Baltic Sea shores"
+            ]
+        },
+        {
+            "question": "Who were the kings that ruled the Frisian Kingdom from 650 to 734?",
+            "answer": "King Aldegisel and King Redbad.",
+            "distractors": [
+                "King Geert",
+                "King Clovis",
+                "King Charlemagne"
+            ]
+        },
+        {
+            "question": "What was the center of power for the Frisian Kingdom?",
+            "answer": "Traiectum (modern-day Utrecht)",
+            "distractors": [
+                "Friesinga",
+                "Dorestad",
+                "Breeze"
+            ]
+        },
+        {
+            "question": "What was the outcome of the Battle of the Boarn in 734?",
+            "answer": "the defeat of the Frisians",
+            "distractors": [
+                "the victory of the Saxons",
+                "the unification of the Frisians",
+                "the withdrawal of the Carolingian forces"
+            ]
+        },
+        {
+            "question": "Who converted the Frisian people to Christianity?",
+            "answer": "Willibrord",
+            "distractors": [
+                "Columbanus",
+                "Boniface",
+                "Aidan"
+            ]
+        },
+        {
+            "question": "In what year did Willibrord establish the Archdiocese of Utrecht?",
+            "answer": "695",
+            "distractors": [
+                "600",
+                "720",
+                "800"
+            ]
+        },
+        {
+            "question": "Who was murdered by the Frisians in 754?",
+            "answer": "Boniface",
+            "distractors": [
+                "Pope Gregory II",
+                "St. Willibrord",
+                "King Radbod"
+            ]
+        },
+        {
+            "question": "What were the three parts into which Francia was divided in 843?",
+            "answer": "East Francia, Middle Francia, and West Francia.",
+            "distractors": [
+                "North Francia, Central Francia, and South Francia",
+                "Upper Francia, Lower Francia, and Coastal Francia",
+                "Northeast Francia, Southwest Francia, and Southeast Francia"
+            ]
+        },
+        {
+            "question": "What part of present-day Netherlands became part of Middle Francia?",
+            "answer": "Most of present-day Netherlands",
+            "distractors": [
+                "The northern region of present-day Belgium",
+                "Parts of modern-day Germany",
+                "The southern provinces of present-day France"
+            ]
+        },
+        {
+            "question": "What was the status of Middle Francia in relation to partitions and annexation attempts?",
+            "answer": "Middle Francia was a weak kingdom subject to partitions and annexation attempts by stronger neighbours.",
+            "distractors": [
+                "Middle Francia was a unified kingdom that resisted foreign influence and annexation.",
+                "Middle Francia was a powerful empire that expanded its territory through successful conquests.",
+                "Middle Francia was a prosperous region that attracted strong alliances and prevented partitions."
+            ]
+        },
+        {
+            "question": "Who did Lothair I acknowledge as ruler of most of Frisia around 850?",
+            "answer": "Viking Rorik of Dorestad",
+            "distractors": [
+                "Charlemagne's grandson Louis the Pious",
+                "Frankish king Pepin II",
+                "Nordic leader Sweyn Forkbeard"
+            ]
+        },
+        {
+            "question": "Who received the lands north of the Alps after the partition of Middle Francia in 855?",
+            "answer": "Lothair II",
+            "distractors": [
+                "Louis the German",
+                "Charles the Bald",
+                "Charles the Great"
+            ]
+        },
+        {
+            "question": "What happened to Lower Lotharingia after the death of Lothair II in 869?",
+            "answer": "Lower Lotharingia became part of East Francia in 870.",
+            "distractors": [
+                "Lower Lotharingia was divided into three separate duchies in 870.",
+                "Lower Lotharingia was annexed by West Francia in 868.",
+                "Lower Lotharingia gained independence and established its own kingdom in 872."
+            ]
+        },
+        {
+            "question": "Who led the resistance to the Vikings in Lower Lotharingia?",
+            "answer": "Local nobles",
+            "distractors": [
+                "The Frankish king",
+                "The Byzantine Empire",
+                "Norwegian raiders"
+            ]
+        },
+        {
+            "question": "Who was a local noble that assumed lordship in Frisia, marking the end of Viking rule?",
+            "answer": "Gerolf of Holland",
+            "distractors": [
+                "Rollo of Normandy",
+                "Harald Bluetooth",
+                "Sweyn Forkbeard"
+            ]
+        },
+        {
+            "question": "What was a challenge faced by the Holy Roman Empire in the Low Countries during the High Middle Ages?",
+            "answer": "The Holy Roman Empire struggled to maintain political unity in the Low Countries, with local nobles establishing private kingdoms.",
+            "distractors": [
+                "Increased agricultural productivity leading to social stability.",
+                "A strong central monarchy uniting the region.",
+                "The spread of Protestantism creating religious harmony."
+            ]
+        },
+        {
+            "question": "When did farmers from Flanders and Utrecht start draining swampy land in the western Netherlands?",
+            "answer": "Around 1100 AD",
+            "distractors": [
+                "Around 1200 AD",
+                "Around 1000 AD",
+                "Around 1150 AD"
+            ]
+        },
+        {
+            "question": "What led to the emergence of the County of Holland?",
+            "answer": "The cultivation of the drained land.",
+            "distractors": [
+                "The establishment of maritime trade routes.",
+                "The rise of feudal system in the region.",
+                "The construction of fortified castles."
+            ]
+        },
+        {
+            "question": "What became the center of power due to agricultural developments?",
+            "answer": "The County of Holland",
+            "distractors": [
+                "The Kingdom of France",
+                "The Republic of Venice",
+                "The Duchy of Burgundy"
+            ]
+        },
+        {
+            "question": "Who invited Duke Philip the Good of Burgundy to conquer Holland?",
+            "answer": "noblemen",
+            "distractors": [
+                "landowners",
+                "merchants",
+                "peasants"
+            ]
+        },
+        {
+            "question": "Who united most of the Imperial and French fiefs in the Netherlands and Belgium in a personal union?",
+            "answer": "Philip the Good",
+            "distractors": [
+                "Charles the Bold",
+                "Louis XI",
+                "Burgundian Duke John the Fearless"
+            ]
+        },
+        {
+            "question": "When was Charles V depicted as Lord of the Netherlands at the Battle of M\u00fchlberg?",
+            "answer": "1547",
+            "distractors": [
+                "1526",
+                "1561",
+                "1533"
+            ]
+        },
+        {
+            "question": "What primary role did Amsterdam serve in Europe during the 15th century regarding grain?",
+            "answer": "Amsterdam became the primary trading port in Europe for grain from the Baltic region.",
+            "distractors": [
+                "Amsterdam was mainly a fishing port for herring during the 15th century.",
+                "Amsterdam served as a center for spice trade from the East Indies.",
+                "Amsterdam was known as the manufacturing hub for textiles in the 15th century."
+            ]
+        },
+        {
+            "question": "Which major cities received grain distributed from Amsterdam?",
+            "answer": "major cities in Belgium, Northern France, and England",
+            "distractors": [
+                "towns in Germany",
+                "cities in the Netherlands",
+                "agricultural regions in Italy"
+            ]
+        },
+        {
+            "question": "Why was the trade of grain vital for Holland?",
+            "answer": "Because Holland could no longer produce enough grain to feed itself.",
+            "distractors": [
+                "Because Holland had an abundance of grain to export to other countries.",
+                "Because other countries depended on Holland for the production of specialty grains.",
+                "Because Holland was known for its silk production rather than grain trading."
+            ]
+        },
+        {
+            "question": "What caused the peat of former wetlands to reduce to a level too low for drainage maintenance?",
+            "answer": "Land drainage",
+            "distractors": [
+                "Increased rainfall",
+                "Urban development",
+                "Overgrazing of livestock"
+            ]
+        },
+        {
+            "question": "What were all the fiefs in the current Netherlands region united into under Habsburg Charles V?",
+            "answer": "the Seventeen Provinces",
+            "distractors": [
+                "the United Provinces",
+                "the Low Countries Federation",
+                "the Spanish Netherlands"
+            ]
+        },
+        {
+            "question": "What modern countries are included in the Seventeen Provinces?",
+            "answer": "most of present-day Belgium, Luxembourg, and parts of France and Germany.",
+            "distractors": [
+                "most of present-day Netherlands, parts of Switzerland, and Austria",
+                "most of present-day Poland, Italy, and the Czech Republic",
+                "current regions of Spain, Portugal, and the United Kingdom"
+            ]
+        },
+        {
+            "question": "What does the Dutch chronicler's report describe about the level of ferocity during conflict?",
+            "answer": "the level of ferocity during conflict",
+            "distractors": [
+                "the strategies used during peacetime",
+                "the cultural practices of the involved nations",
+                "the economic impacts of the conflict"
+            ]
+        },
+        {
+            "question": "What were prisoners of war subjected to by their captors?",
+            "answer": "extreme violence",
+            "distractors": [
+                "psychological manipulation",
+                "forced labor",
+                "public humiliation"
+            ]
+        },
+        {
+            "question": "What type of incidents are described involving individuals and their own brothers among the enemy's ranks?",
+            "answer": "Incidents of individuals executing their own brothers among the enemy's ranks.",
+            "distractors": [
+                "Incidents of individuals negotiating with their own brothers among the enemy's ranks.",
+                "Incidents of individuals being betrayed by their own brothers among the enemy's ranks.",
+                "Incidents of individuals capturing their own brothers among the enemy's ranks."
+            ]
+        },
+        {
+            "question": "What did the surgeon at Veer cut from a Spanish prisoner?",
+            "answer": "the heart",
+            "distractors": [
+                "the liver",
+                "the kidneys",
+                "the lungs"
+            ]
+        },
+        {
+            "question": "Where was the heart nailed?",
+            "answer": "on a vessel's prow",
+            "distractors": [
+                "to the captain's quarters",
+                "on the ship's mast",
+                "in the cargo hold"
+            ]
+        },
+        {
+            "question": "What did the townsmen fasten their teeth in with satisfaction?",
+            "answer": "the heart",
+            "distractors": [
+                "the joy",
+                "the struggle",
+                "the memory"
+            ]
+        },
+        {
+            "question": "How many individuals did Alba execute?",
+            "answer": "18,600",
+            "distractors": [
+                "12,400",
+                "25,700",
+                "9,300"
+            ]
+        },
+        {
+            "question": "What does the figure of 18,600 not include?",
+            "answer": "Deaths caused by war and famine.",
+            "distractors": [
+                "Deaths from natural disasters",
+                "Deaths from traffic accidents",
+                "Deaths from diseases unrelated to war or famine"
+            ]
+        },
+        {
+            "question": "What was Alba's first great siege aimed to capture?",
+            "answer": "Haarlem",
+            "distractors": [
+                "Amsterdam",
+                "Rotterdam",
+                "Utrecht"
+            ]
+        },
+        {
+            "question": "When did the siege of Haarlem take place?",
+            "answer": "From December 1572 to July 1573.",
+            "distractors": [
+                "From June 1571 to April 1572",
+                "From October 1574 to March 1575",
+                "From January 1570 to September 1570"
+            ]
+        },
+        {
+            "question": "On what date did Haarlem surrender?",
+            "answer": "13 July 1573",
+            "distractors": [
+                "10 June 1573",
+                "1 August 1573",
+                "20 September 1573"
+            ]
+        },
+        {
+            "question": "What was the surrender based on?",
+            "answer": "a promise that the city would not be sacked.",
+            "distractors": [
+                "an agreement to share resources",
+                "a commitment to relocate civilians",
+                "a treaty ensuring trade access"
+            ]
+        },
+        {
+            "question": "What prevented Don Fadrique from honoring a stipulation?",
+            "answer": "A mutiny by soldiers over unpaid wages and poor campaign conditions.",
+            "distractors": [
+                "A sudden attack by enemy forces during the campaign.",
+                "A lack of supplies and provisions for the army.",
+                "An unexpected illness among the commanding officers."
+            ]
+        },
+        {
+            "question": "What was the number of citizens killed during the capture of Antwerp on 4 November 1576?",
+            "answer": "seven thousand",
+            "distractors": [
+                "ten thousand",
+                "five thousand",
+                "three thousand"
+            ]
+        },
+        {
+            "question": "What groups united with Utrecht and William the Silent to expel Spanish troops and establish a new government for the Netherlands?",
+            "answer": "Delegates from Catholic Brabant, Protestant Holland, and Zeeland.",
+            "distractors": [
+                "Delegates from the Flemish provinces, Protestant Friesland, and the Knights of St. John.",
+                "Representatives from the Dutch East India Company, Catholic Ghent, and the Estates-General.",
+                "Members of the Holy Roman Empire, Sephardic Jews, and the City of Amsterdam."
+            ]
+        },
+        {
+            "question": "Which English monarch did the Dutch seek assistance from?",
+            "answer": "Protestant Elizabeth I of England.",
+            "distractors": [
+                "Catholic Mary I of England",
+                "George III of England",
+                "Edward VI of England"
+            ]
+        },
+        {
+            "question": "What treaty did Elizabeth I honor commitments to in 1574?",
+            "answer": "the Treaty of Bristol",
+            "distractors": [
+                "the Treaty of London",
+                "the Treaty of Edinburgh",
+                "the Treaty of Nonsuch"
+            ]
+        },
+        {
+            "question": "What commitments were involved in the Treaty of Bristol of 1574 between Elizabeth I and Spain?",
+            "answer": "commitments between Elizabeth I and Spain",
+            "distractors": [
+                "an agreement between Elizabeth I and Scotland",
+                "a trade pact between England and France",
+                "a military alliance among European powers"
+            ]
+        },
+        {
+            "question": "Who won the Battle of Gembloux in 1578?",
+            "answer": "Spanish forces",
+            "distractors": [
+                "French forces",
+                "Dutch rebels",
+                "English troops"
+            ]
+        },
+        {
+            "question": "What event in 1579 distanced the southern states of the Seventeen Provinces from the northern rebels?",
+            "answer": "Union of Arras",
+            "distractors": [
+                "Treaty of Antwerp",
+                "Union of Utrecht",
+                "Peace of Ghent"
+            ]
+        },
+        {
+            "question": "What did the Union of Utrecht commit northern provinces to do?",
+            "answer": "Support each other against Spanish forces.",
+            "distractors": [
+                "Negotiate peace treaties with Spain indefinitely.",
+                "Establish a permanent monarchy in the region.",
+                "Create a joint economic trading bloc with France."
+            ]
+        },
+        {
+            "question": "What is the administrative body that governed duchies, lordships, and counties?",
+            "answer": "States-Provincial",
+            "distractors": [
+                "Provincial Councils",
+                "Ducal Assemblies",
+                "County Courts"
+            ]
+        },
+        {
+            "question": "Where was the confederal government, known as the States General, headquartered?",
+            "answer": "The Hague",
+            "distractors": [
+                "Amsterdam",
+                "Rotterdam",
+                "Utrecht"
+            ]
+        },
+        {
+            "question": "What did the States General comprise of?",
+            "answer": "representatives from each of the seven provinces.",
+            "distractors": [
+                "members of the royal family",
+                "local nobility from each province",
+                "elected officials from major cities"
+            ]
+        },
+        {
+            "question": "What exists as a buffer zone between the Republic and the Spanish-controlled Southern Netherlands?",
+            "answer": "Buffer zone",
+            "distractors": [
+                "Trade route",
+                "Military outpost",
+                "Neutral territory"
+            ]
+        },
+        {
+            "question": "What century does the Dutch Golden Age span?",
+            "answer": "17th century",
+            "distractors": [
+                "16th century",
+                "18th century",
+                "19th century"
+            ]
+        },
+        {
+            "question": "What was the Dutch Empire known for?",
+            "answer": "being a major seafaring and economic power",
+            "distractors": [
+                "establishing the first banking system in Europe",
+                "promoting landlocked trade routes in Central Europe",
+                "developing a vast network of inland waterways for transportation"
+            ]
+        },
+        {
+            "question": "How many merchant ships did the Dutch own by 1650?",
+            "answer": "16,000",
+            "distractors": [
+                "12,000",
+                "20,000",
+                "8,000"
+            ]
+        },
+        {
+            "question": "What companies established colonies and trading posts globally?",
+            "answer": "Dutch East India Company and Dutch West India Company",
+            "distractors": [
+                "British East India Company",
+                "French Guiana Trading Company",
+                "Spanish America Trading Consortium"
+            ]
+        },
+        {
+            "question": "In what year was New Amsterdam founded in North America?",
+            "answer": "1614",
+            "distractors": [
+                "1620",
+                "1585",
+                "1635"
+            ]
+        },
+        {
+            "question": "In which territories was the Dutch presence established?",
+            "answer": "India, Dutch East Indies (Indonesia), Formosa (Taiwan), and Dejima (Japan)",
+            "distractors": [
+                "Ceylon (Sri Lanka), Madagascar, Cochin (India), and Malacca (Malaysia)",
+                "Philippines, Singapore, Vietnam, and India",
+                "Hong Kong, Macau, Thailand, and the Marshall Islands"
+            ]
+        },
+        {
+            "question": "What percentage of textiles imports did the Netherlands receive from the Mughal Empire during Proto-industrialisation?",
+            "answer": "50%",
+            "distractors": [
+                "30%",
+                "70%",
+                "10%"
+            ]
+        },
+        {
+            "question": "What do many economic historians consider the Netherlands to be?",
+            "answer": "the first thoroughly capitalist country",
+            "distractors": [
+                "a pioneer in feudal economic systems",
+                "the birthplace of socialism",
+                "a leading agrarian society"
+            ]
+        },
+        {
+            "question": "What originated from traders' inventiveness?",
+            "answer": "Insurance and retirement funds",
+            "distractors": [
+                "Bartering systems and trade agreements",
+                "Taxes and government regulations",
+                "Banking and investment strategies"
+            ]
+        },
+        {
+            "question": "What event is recognized as the world's first asset-inflation bubble?",
+            "answer": "Tulip mania of 1636\u20131637",
+            "distractors": [
+                "The South Sea Bubble of 1720",
+                "The Dot-com Bubble of the late 1990s",
+                "The Bitcoin Surge of 2017"
+            ]
+        },
+        {
+            "question": "Who is identified as the world's first bear raider?",
+            "answer": "Isaac le Maire",
+            "distractors": [
+                "John Law",
+                "Edward Throckmorton",
+                "James Hargreaves"
+            ]
+        },
+        {
+            "question": "What does the Forty Years' War refer to?",
+            "answer": "A series of clashes between the Dutch Republic, led by William III of Orange and Anthonie Heinsius, against France from 1672 to 1712.",
+            "distractors": [
+                "A conflict between Spain and the Dutch Republic over trade routes from 1568 to 1648.",
+                "A military engagement between the Ottoman Empire and European powers in the late 17th century.",
+                "A series of battles between the English and French crowns during the Hundred Years' War."
+            ]
+        },
+        {
+            "question": "What role did the Dutch Republic play during the Nine Years' War and the War of the Spanish Succession?",
+            "answer": "The Dutch Republic played a central role in anti-French coalitions.",
+            "distractors": [
+                "The Dutch Republic remained neutral throughout both conflicts.",
+                "The Dutch Republic primarily focused on expanding colonial territories during the wars.",
+                "The Dutch Republic was involved in peace negotiations only after the wars ended."
+            ]
+        },
+        {
+            "question": "What economic situation did the Dutch Republic face after the war?",
+            "answer": "economic bankruptcy",
+            "distractors": [
+                "rapid economic growth",
+                "trade surplus",
+                "high inflation"
+            ]
+        },
+        {
+            "question": "What status did the Republic of the Netherlands achieve by the 1750s?",
+            "answer": "mid-tier power",
+            "distractors": [
+                "colonial superpower",
+                "regional dominion",
+                "emerging economic force"
+            ]
+        },
+        {
+            "question": "What two internal rivalries did the Dutch Republic face in the 18th century?",
+            "answer": "The republican Staatsgezinden and the Orangist Prinsgezinden.",
+            "distractors": [
+                "The Merchants and the Farmers",
+                "The Calvinists and the Lutherans",
+                "The Patriots and the Loyalists"
+            ]
+        },
+        {
+            "question": "When was the Batavian Republic proclaimed?",
+            "answer": "19 January 1795",
+            "distractors": [
+                "17 February 1789",
+                "5 July 1801",
+                "12 November 1793"
+            ]
+        },
+        {
+            "question": "Who established the Kingdom of Holland?",
+            "answer": "Napoleon Bonaparte",
+            "distractors": [
+                "Louis Bonaparte",
+                "Charles II of the Netherlands",
+                "William of Orange"
+            ]
+        },
+        {
+            "question": "When did King Louis Bonaparte abdicate?",
+            "answer": "1 July 1810",
+            "distractors": [
+                "15 August 1809",
+                "20 June 1812",
+                "3 December 1811"
+            ]
+        },
+        {
+            "question": "Who proclaimed himself Sovereign Prince in the Netherlands in 1813?",
+            "answer": "William Frederick",
+            "distractors": [
+                "Prince of Orange",
+                "Louis Napoleon",
+                "Frederick Henry"
+            ]
+        },
+        {
+            "question": "What status did William Frederick raise the United Netherlands to in 1815?",
+            "answer": "kingdom",
+            "distractors": [
+                "duchy",
+                "principality",
+                "republic"
+            ]
+        },
+        {
+            "question": "Who proclaimed himself as King William I?",
+            "answer": "William Frederick",
+            "distractors": [
+                "William the Conqueror",
+                "William III of England",
+                "William IV of the United Kingdom"
+            ]
+        },
+        {
+            "question": "Who became hereditary Grand Duke of Luxembourg in exchange for his German possessions?",
+            "answer": "William Frederick",
+            "distractors": [
+                "Henry the Lion",
+                "Louis IV, Holy Roman Emperor",
+                "Adolf of Nassau"
+            ]
+        },
+        {
+            "question": "When did the Southern Netherlands gain independence as Belgium?",
+            "answer": "1830",
+            "distractors": [
+                "1789",
+                "1848",
+                "1871"
+            ]
+        },
+        {
+            "question": "When was the Kingdom of the Netherlands recognized by the Northern Netherlands?",
+            "answer": "1839",
+            "distractors": [
+                "1848",
+                "1825",
+                "1815"
+            ]
+        },
+        {
+            "question": "When was the personal union between Luxembourg and the Netherlands severed?",
+            "answer": "1890",
+            "distractors": [
+                "1876",
+                "1905",
+                "1885"
+            ]
+        },
+        {
+            "question": "What percentage of village land was required for government crops for export under the Cultivation System introduced in 1830 in the Dutch East Indies?",
+            "answer": "20%",
+            "distractors": [
+                "15%",
+                "25%",
+                "30%"
+            ]
+        },
+        {
+            "question": "What year did the Netherlands abolish slavery in its colonies?",
+            "answer": "1863",
+            "distractors": [
+                "1776",
+                "1853",
+                "1900"
+            ]
+        },
+        {
+            "question": "When was the Netherlands invaded by Germany during World War II?",
+            "answer": "10 May 1940",
+            "distractors": [
+                "7 June 1940",
+                "15 February 1941",
+                "1 September 1939"
+            ]
+        },
+        {
+            "question": "How many Dutch Jews were transported to Nazi extermination camps during the occupation?",
+            "answer": "Over 100,000",
+            "distractors": [
+                "50,000",
+                "150,000",
+                "75,000"
+            ]
+        },
+        {
+            "question": "When did the Dutch government-in-exile declare war on Japan?",
+            "answer": "8 December 1941",
+            "distractors": [
+                "10 December 1941",
+                "7 December 1941",
+                "15 December 1941"
+            ]
+        },
+        {
+            "question": "What significant reform did the Charter for the Kingdom of the Netherlands introduce in 1954 regarding Surinam and Cura\u00e7ao?",
+            "answer": "The Charter for the Kingdom of the Netherlands reformed the political structure for decolonisation, granting equality to Surinam and Cura\u00e7ao and Dependencies.",
+            "distractors": [
+                "Introduced a common currency for Surinam and Cura\u00e7ao to enhance trade and economic unity.",
+                "Established a direct representation of Surinam and Cura\u00e7ao in the Dutch Parliament without self-governance.",
+                "Banned all political parties in Surinam and Cura\u00e7ao to unify the political landscape."
+            ]
+        },
+        {
+            "question": "What international organizations is the Netherlands a founding member of?",
+            "answer": "Benelux and NATO",
+            "distractors": [
+                "European Union and OECD",
+                "ASEAN and World Trade Organization",
+                "Schengen Area and G20"
+            ]
+        },
+        {
+            "question": "What was one of the founding countries of the European Communities in the 1950s?",
+            "answer": "The Netherlands",
+            "distractors": [
+                "Belgium",
+                "Italy",
+                "France"
+            ]
+        },
+        {
+            "question": "How many Dutch emigrated after the war due to government-encouraged efforts?",
+            "answer": "Approximately 500,000",
+            "distractors": [
+                "Around 200,000",
+                "Close to 1 million",
+                "Roughly 350,000"
+            ]
+        },
+        {
+            "question": "What group is identified as rejecting traditional mores?",
+            "answer": "Students and youth",
+            "distractors": [
+                "Conservative politicians",
+                "Elderly citizens",
+                "Religious groups"
+            ]
+        },
+        {
+            "question": "Who is advocating for women's rights according to the topic mentioned?",
+            "answer": "students and youth",
+            "distractors": [
+                "local government officials",
+                "corporate leaders",
+                "non-governmental organizations (NGOs)"
+            ]
+        },
+        {
+            "question": "What issues are students and youth demanding change in?",
+            "answer": "Sexuality, disarmament, and environmental issues.",
+            "distractors": [
+                "Economic inequality, racial justice, and healthcare access.",
+                "Educational reform, voting rights, and animal welfare.",
+                "Labor rights, urban development, and digital privacy."
+            ]
+        },
+        {
+            "question": "What are the special municipalities of the Netherlands collectively known as the Caribbean Netherlands?",
+            "answer": "Bonaire, Sint Eustatius, and Saba",
+            "distractors": [
+                "Sint Maarten, Aruba, and Curacao",
+                "Bonaire, Curacao, and Aruba",
+                "Saba, Sint Maarten, and Aruba"
+            ]
+        },
+        {
+            "question": "What is the total area of the European Netherlands?",
+            "answer": "41,543 km2",
+            "distractors": [
+                "30,520 km2",
+                "52,450 km2",
+                "38,665 km2"
+            ]
+        },
+        {
+            "question": "What is the total area of the Caribbean Netherlands?",
+            "answer": "328 km2",
+            "distractors": [
+                "210 km2",
+                "450 km2",
+                "800 km2"
+            ]
+        },
+        {
+            "question": "Which three large European rivers formed much of the country?",
+            "answer": "Rhine, Meuse, Scheldt.",
+            "distractors": [
+                "Seine, Danube, Elbe",
+                "Thames, Loire, Po",
+                "Volga, Loire, Tagus"
+            ]
+        },
+        {
+            "question": "What is the river delta located in the south-western part of the Netherlands?",
+            "answer": "the Rhine\u2013Meuse\u2013Scheldt delta",
+            "distractors": [
+                "the Thames estuary",
+                "the Danube delta",
+                "the Mississippi River delta"
+            ]
+        },
+        {
+            "question": "Which rivers divide the European Netherlands into northern and southern parts?",
+            "answer": "The Rhine, Waal, and Meuse.",
+            "distractors": [
+                "The Seine, Loire, and Rhone",
+                "The Elbe, Danube, and Thames",
+                "The Oder, Vistula, and Tiber"
+            ]
+        },
+        {
+            "question": "Which river is mentioned as the geographical reference for the Dutch Low Saxon dialects?",
+            "answer": "the specific river in the Netherlands.",
+            "distractors": [
+                "the Rhine River",
+                "the Elbe River",
+                "the Meuse River"
+            ]
+        },
+        {
+            "question": "What is the language distinct from Dutch Low Saxon dialects spoken in Friesland province?",
+            "answer": "Friesland province has its own language distinct from Dutch Low Saxon dialects.",
+            "distractors": [
+                "A variety of Dutch known as Zeelandic",
+                "The Frisian language family",
+                "A regional variant of High German"
+            ]
+        },
+        {
+            "question": "What types of sediments mostly compose the Netherlands?",
+            "answer": "deltaic, coastal, and aeolian derived sediments from the Pleistocene glacial and interglacial periods.",
+            "distractors": [
+                "volcanic sediments from the Cenozoic era",
+                "marine sediments from the Paleozoic era",
+                "lacustrine sediments from the Holocene epoch"
+            ]
+        },
+        {
+            "question": "What geographical feature are the cities of Arnhem and Nijmegen built on?",
+            "answer": "hills",
+            "distractors": [
+                "plains",
+                "riverbanks",
+                "coastal areas"
+            ]
+        },
+        {
+            "question": "What has caused considerable change to the Dutch coastline?",
+            "answer": "natural disasters",
+            "distractors": [
+                "coastal development projects",
+                "climate change policies",
+                "oceanic pollution"
+            ]
+        },
+        {
+            "question": "What has influenced the changes to the Dutch coastline?",
+            "answer": "Human intervention",
+            "distractors": [
+                "Natural erosion",
+                "Climatic changes",
+                "Wildlife habitats"
+            ]
+        },
+        {
+            "question": "How many people were killed by Lucia's flood in the Netherlands and Germany?",
+            "answer": "more than 50,000 people",
+            "distractors": [
+                "around 10,000 people",
+                "approximately 25,000 people",
+                "nearly 75,000 people"
+            ]
+        },
+        {
+            "question": "What is considered one of the most destructive floods in recorded history?",
+            "answer": "Lucia's flood",
+            "distractors": [
+                "The Saint Felix Flood",
+                "The Great Mississippi Flood",
+                "The North Sea Flood"
+            ]
+        },
+        {
+            "question": "What did the St. Elizabeth flood of 1421 lead to the destruction of?",
+            "answer": "a newly reclaimed polder",
+            "distractors": [
+                "an ancient castle",
+                "a major trade route",
+                "several agricultural towns"
+            ]
+        },
+        {
+            "question": "What is the purpose of the Delta Works initiated by the Dutch government?",
+            "answer": "To protect against flooding.",
+            "distractors": [
+                "To provide irrigation for agricultural lands.",
+                "To create recreational waterways and lakes.",
+                "To enhance navigation for shipping activities."
+            ]
+        },
+        {
+            "question": "What has led to an increased impact of disasters?",
+            "answer": "Human activity",
+            "distractors": [
+                "Natural climate variations",
+                "Advancements in technology",
+                "Population decline"
+            ]
+        },
+        {
+            "question": "What was drained for farmland use?",
+            "answer": "High-lying swampland",
+            "distractors": [
+                "Coastal marshes",
+                "River deltas",
+                "Floodplains"
+            ]
+        },
+        {
+            "question": "What is the result of drainage of peat?",
+            "answer": "Contraction of fertile peat and a drop in ground levels.",
+            "distractors": [
+                "Increase in groundwater levels and soil fertility",
+                "Expansion of the peat layer and rise in ground levels",
+                "Formation of wetland areas and increased biodiversity"
+            ]
+        },
+        {
+            "question": "Until what century was peat mined and used for fuel?",
+            "answer": "the 19th century",
+            "distractors": [
+                "the 18th century",
+                "the 20th century",
+                "the 16th century"
+            ]
+        },
+        {
+            "question": "What are waterschappen in the Netherlands?",
+            "answer": "local government agencies established in the 12th century",
+            "distractors": [
+                "regional water management organizations formed in the 18th century",
+                "municipal bodies responsible for urban planning in the 17th century",
+                "national agencies overseeing environmental regulations since the 20th century"
+            ]
+        },
+        {
+            "question": "What is the primary function of waterschappen?",
+            "answer": "To maintain water levels and protect regions from floods.",
+            "distractors": [
+                "To oversee fishing activities in water bodies.",
+                "To manage agricultural land and crop rotation.",
+                "To regulate hunting practices in wetlands."
+            ]
+        },
+        {
+            "question": "What do Hoogheemraadschappen refer to in the Netherlands?",
+            "answer": "high home councils",
+            "distractors": [
+                "regional water boards",
+                "municipal government bodies",
+                "local urban planning committees"
+            ]
+        },
+        {
+            "question": "In which century were windmills used to pump water?",
+            "answer": "13th century",
+            "distractors": [
+                "11th century",
+                "15th century",
+                "10th century"
+            ]
+        },
+        {
+            "question": "What were windmills later used for after they were initially created?",
+            "answer": "to drain lakes, creating polders.",
+            "distractors": [
+                "to generate electricity for homes",
+                "to pump water for irrigation systems",
+                "to grind grains into flour"
+            ]
+        },
+        {
+            "question": "When was the Afsluitdijk completed?",
+            "answer": "1932",
+            "distractors": [
+                "1928",
+                "1940",
+                "1935"
+            ]
+        },
+        {
+            "question": "What does the Zuiderzee Works include?",
+            "answer": "the reclamation of four polders from the sea",
+            "distractors": [
+                "the construction of the Afsluitdijk dam",
+                "the establishment of numerous coastal shipping routes",
+                "the creation of a network of wind farms"
+            ]
+        },
+        {
+            "question": "What is the total area of the reclaimed polders?",
+            "answer": "2,500 square kilometres (965 square miles)",
+            "distractors": [
+                "3,000 square kilometres (1,158 square miles)",
+                "1,800 square kilometres (695 square miles)",
+                "2,200 square kilometres (850 square miles)"
+            ]
+        },
+        {
+            "question": "What country is at high risk from climate change effects?",
+            "answer": "The Netherlands",
+            "distractors": [
+                "Bangladesh",
+                "Maldives",
+                "Egypt"
+            ]
+        },
+        {
+            "question": "What environmental problems are contributed to by rising sea levels?",
+            "answer": "environmental problems",
+            "distractors": [
+                "coastal erosion",
+                "increased salinity in freshwater sources",
+                "loss of biodiversity in marine ecosystems"
+            ]
+        },
+        {
+            "question": "What can cause rivers to overflow?",
+            "answer": "Erratic weather patterns",
+            "distractors": [
+                "Frequent drought conditions",
+                "Consistent seasonal rainfall",
+                "Regular river engineering projects"
+            ]
+        },
+        {
+            "question": "What is Delta Works?",
+            "answer": "Delta Works is a civil engineering project in the Netherlands constructed after the 1953 disaster for flood control.",
+            "distractors": [
+                "A series of dams and levees built in the United States for irrigation purposes.",
+                "A marine engineering project in Japan aimed at improving shipping routes.",
+                "A construction project in Germany focused on renewable energy infrastructure."
+            ]
+        },
+        {
+            "question": "What is the purpose of the Delta Works?",
+            "answer": "Flood risk reduction in South Holland and Zeeland.",
+            "distractors": [
+                "Coastal erosion prevention in North Holland",
+                "Water supply management for urban areas",
+                "Recreational waterway enhancement in Friesland"
+            ]
+        },
+        {
+            "question": "What are periodically initiated to renovate and renew the Delta Works?",
+            "answer": "New projects",
+            "distractors": [
+                "Regular assessments",
+                "Infrastructure upgrades",
+                "Maintenance schedules"
+            ]
+        },
+        {
+            "question": "What is the primary goal of the Delta project?",
+            "answer": "to enhance flood protection",
+            "distractors": [
+                "to improve agricultural irrigation",
+                "to develop new transportation infrastructure",
+                "to expand urban housing facilities"
+            ]
+        },
+        {
+            "question": "How many kilometers of outer sea-dikes are being raised?",
+            "answer": "3,000 km",
+            "distractors": [
+                "1,500 km",
+                "4,500 km",
+                "2,000 km"
+            ]
+        },
+        {
+            "question": "How many kilometers of inner, canal, and river dikes are being raised?",
+            "answer": "10,000 km",
+            "distractors": [
+                "15,000 km",
+                "7,500 km",
+                "12,000 km"
+            ]
+        },
+        {
+            "question": "What geographic feature is being closed off in Zeeland?",
+            "answer": "sea estuaries",
+            "distractors": [
+                "coastal lagoons",
+                "river deltas",
+                "tidal marshes"
+            ]
+        },
+        {
+            "question": "What is considered one of the seven wonders of the modern world by the American Society of Civil Engineers?",
+            "answer": "The Delta project",
+            "distractors": [
+                "The Great Wall of China",
+                "The Eiffel Tower",
+                "The Sydney Opera House"
+            ]
+        },
+        {
+            "question": "What does global warming cause regarding sea level?",
+            "answer": "a rise in sea level",
+            "distractors": [
+                "a decrease in ocean temperature",
+                "increased coastal erosion",
+                "more frequent tidal waves"
+            ]
+        },
+        {
+            "question": "What is the action plan formulated by the Delta Commission for sea-level rise?",
+            "answer": "an action plan for sea-level rise of 4 ft.",
+            "distractors": [
+                "an action plan for sea-level rise of 2 ft",
+                "an action plan for sea-level rise of 6 ft",
+                "an action plan for sea-level rise of 8 ft"
+            ]
+        },
+        {
+            "question": "What is the considered land height decline in the action plan?",
+            "answer": "10 cm (4 in)",
+            "distractors": [
+                "5 cm (2 in)",
+                "15 cm (6 in)",
+                "20 cm (8 in)"
+            ]
+        },
+        {
+            "question": "What does the action plan include for coastal defences?",
+            "answer": "Reinforcement of existing coastal defences such as dikes and dunes.",
+            "distractors": [
+                "Construction of new urban developments near the coastline.",
+                "Planting vegetation to restore coastal ecosystems.",
+                "Improvement of public transportation systems along coastal areas."
+            ]
+        },
+        {
+            "question": "What does the Room for the River plan in the Netherlands provide for rivers?",
+            "answer": "additional flow space for rivers",
+            "distractors": [
+                "dams to restrict river flow",
+                "artificial barriers to control flooding",
+                "increased industrial development along rivers"
+            ]
+        },
+        {
+            "question": "What has climate change in the Netherlands caused the average temperature to rise by from 1901 to 2020?",
+            "answer": "over 2 \u00b0C",
+            "distractors": [
+                "around 1 \u00b0C",
+                "approximately 4 \u00b0C",
+                "nearly 6 \u00b0C"
+            ]
+        },
+        {
+            "question": "What is the target percentage for greenhouse gas emissions reduction set by the Dutch government by 2030?",
+            "answer": "49%",
+            "distractors": [
+                "35%",
+                "60%",
+                "40%"
+            ]
+        },
+        {
+            "question": "What is Staatsbosbeheer the national department for in the Netherlands?",
+            "answer": "forestry and nature conservation",
+            "distractors": [
+                "wildlife management",
+                "agricultural land use",
+                "water resources management"
+            ]
+        },
+        {
+            "question": "What is the primary function of Natuurmonumenten in the Netherlands?",
+            "answer": "Natuurmonumenten buys, protects, and manages nature reserves in the Netherlands.",
+            "distractors": [
+                "Natuurmonumenten promotes urban development and infrastructure within nature areas.",
+                "Natuurmonumenten focuses on agricultural practices and farming techniques in rural areas.",
+                "Natuurmonumenten organizes cultural festivals and events to celebrate Dutch heritage."
+            ]
+        },
+        {
+            "question": "What is the Wadden Sea known for?",
+            "answer": "its rich biological diversity",
+            "distractors": [
+                "its historical significance in maritime trade",
+                "its role as a major shipping route",
+                "its geological formations of unique rock types"
+            ]
+        },
+        {
+            "question": "What region is the European Netherlands part of?",
+            "answer": "the Atlantic European and Central European provinces of the Circumboreal Region within the Boreal Kingdom.",
+            "distractors": [
+                "the Northern European subregion of the Arctic Kingdom",
+                "the Southern European territories of the Mediterranean Region",
+                "the Western European provinces of the Continental Biome"
+            ]
+        },
+        {
+            "question": "What ecoregion does the European territory of the Netherlands belong to according to the World Wide Fund for Nature?",
+            "answer": "Atlantic mixed forests",
+            "distractors": [
+                "Boreal forests",
+                "Mediterranean forests",
+                "Temperate grasslands"
+            ]
+        },
+        {
+            "question": "What was the Forest Landscape Integrity Index mean score rank of the Netherlands in 2019 out of 172 countries?",
+            "answer": "169th",
+            "distractors": [
+                "163rd",
+                "172nd",
+                "165th"
+            ]
+        },
+        {
+            "question": "What does the Caribbean Netherlands consist of?",
+            "answer": "special municipalities including three territories.",
+            "distractors": [
+                "a regular municipality with two territories",
+                "an overseas department of France with five islands",
+                "a territory governed by the Netherlands with one island and no municipalities"
+            ]
+        },
+        {
+            "question": "Which entities does the Caribbean Netherlands have maritime borders with?",
+            "answer": "Anguilla, Cura\u00e7ao, Saint Barth\u00e9lemy, Saint Kitts and Nevis, the Virgin Islands, and Venezuela.",
+            "distractors": [
+                "Martinique, Trinidad and Tobago, Aruba",
+                "Puerto Rico, Jamaica, Dominica",
+                "The Bahamas, Cuba, Haiti"
+            ]
+        },
+        {
+            "question": "Which islands are part of the ABC islands in the Leeward Antilles?",
+            "answer": "Bonaire",
+            "distractors": [
+                "Aruba",
+                "Cura\u00e7ao",
+                "Saint Martin"
+            ]
+        },
+        {
+            "question": "What languages are recognized as being spoken in the Windward Islands?",
+            "answer": "French, Spanish, Dutch, and locally spoken English.",
+            "distractors": [
+                "Patois, Portuguese, and Creole",
+                "German, Italian, and Russian",
+                "Haitian Creole, Swahili, and Mandarin"
+            ]
+        },
+        {
+            "question": "What does the term 'Windward Islands' refer to in international English language?",
+            "answer": "Islands located further south.",
+            "distractors": [
+                "Islands characterized by high rainfall",
+                "Islands that are known for their tourism",
+                "Islands situated to the northwest of the Caribbean Sea"
+            ]
+        },
+        {
+            "question": "What is the difference in the definition of the Windward Islands as mentioned in the sentence?",
+            "answer": "There is a difference in the definition of Windward Islands between local understanding and international terminology.",
+            "distractors": [
+                "The Windward Islands are defined uniformly across both local and international contexts.",
+                "Local terminology defines Windward Islands as a specific geographic feature rather than a group of islands.",
+                "The Windward Islands are primarily recognized for their volcanic activity rather than their geographical classification."
+            ]
+        },
+        {
+            "question": "When did Willem-Alexander become King of the Netherlands?",
+            "answer": "30 April 2013",
+            "distractors": [
+                "1 May 2014",
+                "15 March 2012",
+                "20 November 2015"
+            ]
+        },
+        {
+            "question": "When did Dick Schoof become Prime Minister of the Netherlands?",
+            "answer": "2 July 2024",
+            "distractors": [
+                "15 March 2021",
+                "10 October 2022",
+                "5 November 2023"
+            ]
+        },
+        {
+            "question": "When did the Netherlands become a parliamentary democracy?",
+            "answer": "1848",
+            "distractors": [
+                "1815",
+                "1830",
+                "1865"
+            ]
+        },
+        {
+            "question": "Who are included in the executive power in the Netherlands?",
+            "answer": "the monarch and the Council of Ministers",
+            "distractors": [
+                "the Supreme Court and the House of Representatives",
+                "the President and the Senate",
+                "the Prime Minister and the judiciary"
+            ]
+        },
+        {
+            "question": "What role does the Council of Ministers serve in the Dutch cabinet?",
+            "answer": "The Council of Ministers acts as the deliberative organ of the Dutch cabinet.",
+            "distractors": [
+                "The Council of Ministers serves as the executive authority in the Dutch government.",
+                "The Council of Ministers is responsible for managing local governments in the Netherlands.",
+                "The Council of Ministers functions as the judiciary branch of the Dutch legal system."
+            ]
+        },
+        {
+            "question": "How many ministers does the Dutch cabinet typically consist of?",
+            "answer": "13 to 16 ministers",
+            "distractors": [
+                "10 to 12 ministers",
+                "18 to 20 ministers",
+                "5 to 7 ministers"
+            ]
+        },
+        {
+            "question": "Who presides over the council of ministers in the Netherlands?",
+            "answer": "The Prime Minister.",
+            "distractors": [
+                "The Monarch",
+                "The Minister of State",
+                "The Speaker of the House"
+            ]
+        },
+        {
+            "question": "Who often is the leader of the largest party in the coalition in the Netherlands?",
+            "answer": "The Prime Minister of the Netherlands",
+            "distractors": [
+                "The Minister of Finance",
+                "The Speaker of the House",
+                "The Deputy Prime Minister"
+            ]
+        },
+        {
+            "question": "Who succeeded Mark Rutte as Prime Minister?",
+            "answer": "Dick Schoof",
+            "distractors": [
+                "Sigrid Kaag",
+                "Wopke Hoekstra",
+                "Kasja Ollongren"
+            ]
+        },
+        {
+            "question": "How many members are there in the House of Representatives in the Netherlands?",
+            "answer": "150",
+            "distractors": [
+                "120",
+                "200",
+                "180"
+            ]
+        },
+        {
+            "question": "What is the function of the House of Representatives in the context of its position in the legislative structure?",
+            "answer": "functions as the lower house",
+            "distractors": [
+                "oversees the executive branch",
+                "represents a single state",
+                "is part of the judicial system"
+            ]
+        },
+        {
+            "question": "How are members elected?",
+            "answer": "Through direct elections based on party-list proportional representation.",
+            "distractors": [
+                "By appointment from party leadership without a vote.",
+                "Through indirect elections via regional electoral colleges.",
+                "By majority votes in a single non-transferable vote system."
+            ]
+        },
+        {
+            "question": "How many members of the Senate in the Netherlands are elected by members of provincial assemblies?",
+            "answer": "75 members",
+            "distractors": [
+                "100 members",
+                "50 members",
+                "80 members"
+            ]
+        },
+        {
+            "question": "What is the role of the Senate in the Netherlands?",
+            "answer": "The Senate is the upper house with the power to reject laws.",
+            "distractors": [
+                "The Senate is responsible for creating new laws.",
+                "The Senate handles foreign affairs and treaties.",
+                "The Senate is the lower house that initiates budget proposals."
+            ]
+        },
+        {
+            "question": "Who is consulted in policymaking in financial, economic, and social areas?",
+            "answer": "Trade unions and employers organizations are consulted.",
+            "distractors": [
+                "Political parties and candidates are consulted.",
+                "Consumer advocacy groups are consulted.",
+                "Regulatory agencies are consulted."
+            ]
+        },
+        {
+            "question": "What system evolved from the tradition of social tolerance in the Netherlands in the late 19th century?",
+            "answer": "pillarisation",
+            "distractors": [
+                "pluralism",
+                "secularism",
+                "social democracy"
+            ]
+        },
+        {
+            "question": "Which families of political parties have dominated the Dutch political system?",
+            "answer": "Christian Democrats (CDA), Social Democrats (PvdA), and Liberals (VVD).",
+            "distractors": [
+                "Green Party (GroenLinks), Nationalist Party (PVV), and Socialist Party (SP)",
+                "Left-Wing Coalition (D66), Progressive Workers Party (PDA), and Christian Union (CU)",
+                "Right-Wing Alliance (FvD), Labor Party (PvdA), and Reformist Party (SGP)"
+            ]
+        },
+        {
+            "question": "How many parliamentary seats did the Party for Freedom secure in the November 2023 general election?",
+            "answer": "37",
+            "distractors": [
+                "45",
+                "32",
+                "29"
+            ]
+        },
+        {
+            "question": "What is the total number of municipalities in the Netherlands as of 2023?",
+            "answer": "342",
+            "distractors": [
+                "329",
+                "354",
+                "367"
+            ]
+        },
+        {
+            "question": "What is the total number of water districts in the Netherlands?",
+            "answer": "21",
+            "distractors": [
+                "18",
+                "25",
+                "30"
+            ]
+        },
+        {
+            "question": "When were the first water boards in the Netherlands created?",
+            "answer": "1196",
+            "distractors": [
+                "1307",
+                "1457",
+                "1562"
+            ]
+        },
+        {
+            "question": "What is the status of the islands in the Caribbean Netherlands?",
+            "answer": "openbare lichamen (public bodies)",
+            "distractors": [
+                "autonomous territories",
+                "special municipalities",
+                "territorial entities"
+            ]
+        },
+        {
+            "question": "What is the rank of the Netherlands in the 2024 Global Peace Index?",
+            "answer": "18th",
+            "distractors": [
+                "12th",
+                "24th",
+                "30th"
+            ]
+        },
+        {
+            "question": "What are the key commitments of the foreign policy of the Netherlands?",
+            "answer": "Atlantic co-operation, European integration, international development, and international law.",
+            "distractors": [
+                "Multilateral disarmament, trade isolationism, domestic prioritization, and cultural diplomacy.",
+                "Regional security partnerships, energy independence, military alliances, and humanitarian intervention.",
+                "Bilateral trade agreements, non-interventionism, national sovereignty, and colonial expansion."
+            ]
+        },
+        {
+            "question": "What treaty did the Netherlands sign in 1948 that marked the abandonment of its neutrality?",
+            "answer": "The Treaty of Brussels.",
+            "distractors": [
+                "The Treaty of Versailles",
+                "The Treaty of Maastricht",
+                "The Treaty of Rome"
+            ]
+        },
+        {
+            "question": "When did the Netherlands become a founding member of NATO?",
+            "answer": "1949",
+            "distractors": [
+                "1952",
+                "1947",
+                "1955"
+            ]
+        },
+        {
+            "question": "How did the Dutch military contribute to NATO during the Cold War in Europe?",
+            "answer": "The Dutch military contributed to NATO strength during the Cold War in Europe.",
+            "distractors": [
+                "The Dutch military focused primarily on maintaining neutrality and avoided direct involvement in NATO operations.",
+                "The Dutch military disbanded all active units in Europe during the Cold War to cut costs.",
+                "The Dutch military provided humanitarian aid missions instead of military support to NATO during the Cold War."
+            ]
+        },
+        {
+            "question": "In what year was the ceremonial function of commander in chief of the monarch transferred to the government?",
+            "answer": "1983",
+            "distractors": [
+                "1975",
+                "1990",
+                "1986"
+            ]
+        },
+        {
+            "question": "What is the role of the monarch in relation to the state?",
+            "answer": "The monarch is the nominal head of state.",
+            "distractors": [
+                "The monarch has absolute control over the state's legislative processes.",
+                "The monarch is primarily responsible for the state's economic policy.",
+                "The monarch is the chief advisor to the prime minister."
+            ]
+        },
+        {
+            "question": "What formal military function does the monarch have?",
+            "answer": "The monarch has no formal military function.",
+            "distractors": [
+                "The monarch leads military parades on national holidays.",
+                "The monarch is the commander-in-chief of armed forces.",
+                "The monarch appoints military generals and leaders."
+            ]
+        },
+        {
+            "question": "What event occurred in 1996 regarding the Dutch army?",
+            "answer": "Conscription was suspended and the Dutch army was transformed into a professional army.",
+            "distractors": [
+                "Conscription was introduced and the Dutch army expanded its mandatory service period.",
+                "The Dutch army was merged with the Belgian army to create a unified military force.",
+                "A mandatory peacekeeping program was established for all able-bodied citizens."
+            ]
+        },
+        {
+            "question": "Which wars has the Dutch army been involved in?",
+            "answer": "the Bosnian War, Kosovo War, and the War in Afghanistan",
+            "distractors": [
+                "the Second World War, the Vietnam War, and the Gulf War",
+                "the Spanish Civil War, the Korean War, and the War of 1812",
+                "the Iraq War, the Crimean War, and the Napoleonic Wars"
+            ]
+        },
+        {
+            "question": "What are the four branches of the military of the Netherlands?",
+            "answer": "Koninklijke Marine (Royal Netherlands Navy), Koninklijke Landmacht (Royal Netherlands Army), Koninklijke Luchtmacht (Royal Netherlands Air Force), and Koninklijke Marechaussee (Military Police).",
+            "distractors": [
+                "Koninklijke Kustwacht (Royal Netherlands Coastal Guard)",
+                "Koninklijke Luchtvaartmaatschappij (Royal Netherlands Aviation Company)",
+                "Koninklijke Reserve (Royal Netherlands Reserve Force)"
+            ]
+        },
+        {
+            "question": "What is the name of the Special Operations Force of the Netherlands Army?",
+            "answer": "Korps Commandotroepen",
+            "distractors": [
+                "KCT Brigade",
+                "Dutch Marines Commando",
+                "Netherlands Special Forces Unit"
+            ]
+        },
+        {
+            "question": "How many military personnel does the Dutch Ministry of Defence employ?",
+            "answer": "more than 50,000 military personnel",
+            "distractors": [
+                "approximately 30,000 military personnel",
+                "around 40,000 military personnel",
+                "over 70,000 military personnel"
+            ]
+        },
+        {
+            "question": "What are the leading sectors of the Dutch economy since the 16th century?",
+            "answer": "shipping, fishing, agriculture, trade, and banking",
+            "distractors": [
+                "mining, textiles, insurance, tourism",
+                "automotive, electronics, pharmaceuticals, real estate",
+                "construction, renewable energy, entertainment, information technology"
+            ]
+        },
+        {
+            "question": "What level of economic freedom does the Netherlands have?",
+            "answer": "a high level of economic freedom",
+            "distractors": [
+                "a moderate level of economic freedom",
+                "a low level of economic freedom",
+                "an emerging level of economic freedom"
+            ]
+        },
+        {
+            "question": "What was the ranking of the Netherlands in the 2016 Global Enabling Trade Report?",
+            "answer": "2nd",
+            "distractors": [
+                "1st",
+                "3rd",
+                "5th"
+            ]
+        },
+        {
+            "question": "What was the ranking of the Netherlands in the 2017 competitiveness ranking by the Swiss International Institute for Management Development?",
+            "answer": "5th",
+            "distractors": [
+                "3rd",
+                "7th",
+                "10th"
+            ]
+        },
+        {
+            "question": "What is the largest industrial sector in the Netherlands?",
+            "answer": "Foodstuffs",
+            "distractors": [
+                "Chemical manufacturing",
+                "Textiles",
+                "Machinery and equipment"
+            ]
+        },
+        {
+            "question": "What is the ranking of the Netherlands in GDP per capita?",
+            "answer": "11th",
+            "distractors": [
+                "9th",
+                "14th",
+                "7th"
+            ]
+        },
+        {
+            "question": "What is the world's oldest stock exchange?",
+            "answer": "the Amsterdam Stock Exchange",
+            "distractors": [
+                "the London Stock Exchange",
+                "the Frankfurt Stock Exchange",
+                "the New York Stock Exchange"
+            ]
+        },
+        {
+            "question": "How did the Netherlands manage economic issues compared to other European nations?",
+            "answer": "The Netherlands effectively handled public finances and job growth issues before other European nations.",
+            "distractors": [
+                "The Netherlands relied heavily on foreign aid to address economic challenges.",
+                "The Netherlands implemented strict austerity measures that limited job growth opportunities.",
+                "The Netherlands experienced high inflation without significant economic reforms."
+            ]
+        },
+        {
+            "question": "What rank does Amsterdam hold as a tourist destination in Europe?",
+            "answer": "5th-busiest",
+            "distractors": [
+                "2nd-busiest",
+                "8th-busiest",
+                "3rd-busiest"
+            ]
+        },
+        {
+            "question": "What position does the Netherlands hold among the largest investors in the United States?",
+            "answer": "The Netherlands is among the five largest investors in the United States.",
+            "distractors": [
+                "The Netherlands is the largest investor in the United States.",
+                "The Netherlands is among the top ten investors in the United States.",
+                "The Netherlands is one of the smallest investors in the United States."
+            ]
+        },
+        {
+            "question": "What year did the economy slowdown occur?",
+            "answer": "2005",
+            "distractors": [
+                "2001",
+                "2008",
+                "2010"
+            ]
+        },
+        {
+            "question": "What was the reason for the economic recovery in 2006, which experienced the fastest growth in six years?",
+            "answer": "Increased exports and strong investment.",
+            "distractors": [
+                "Government tax cuts and stimulus checks",
+                "High consumer spending due to rising wages",
+                "Expansion of the technology sector driven by innovation"
+            ]
+        },
+        {
+            "question": "In what year did job growth reach 10-year highs?",
+            "answer": "2007",
+            "distractors": [
+                "2005",
+                "2008",
+                "2010"
+            ]
+        },
+        {
+            "question": "What position does the Netherlands hold in the World Economic Forum's Global Competitiveness Report?",
+            "answer": "the fourth-most competitive economy in the world",
+            "distractors": [
+                "the second-most competitive economy in the world",
+                "the fifth-most competitive economy in Europe",
+                "the third-most competitive economy in terms of innovation"
+            ]
+        },
+        {
+            "question": "When did the Netherlands begin discovering huge natural gas resources?",
+            "answer": "in the 1950s",
+            "distractors": [
+                "in the 1920s",
+                "in the 1980s",
+                "in the 1940s"
+            ]
+        },
+        {
+            "question": "What does the theory of Dutch disease describe?",
+            "answer": "The negative impact of large energy wealth on the competitiveness of other economic sectors in the Netherlands.",
+            "distractors": [
+                "The increase in tourism revenue due to energy wealth in the Netherlands.",
+                "The long-term benefits of energy wealth on agricultural productivity in the Netherlands.",
+                "The positive economic impact of foreign investment in the Dutch energy sector."
+            ]
+        },
+        {
+            "question": "What action is being taken by the government regarding gas production from the field?",
+            "answer": "Phase out of gas production from the field",
+            "distractors": [
+                "Increase in gas production from the field",
+                "Expansion of drilling operations in the field",
+                "Investment in renewable energy sources to replace gas production"
+            ]
+        },
+        {
+            "question": "What is the goal of the Netherlands regarding its economy?",
+            "answer": "a carbon-neutral economy",
+            "distractors": [
+                "a technology-driven economy",
+                "an export-oriented economy",
+                "a service-based economy"
+            ]
+        },
+        {
+            "question": "How does increasing energy efficiency affect energy demand and economic growth?",
+            "answer": "Increasing energy efficiency contributes to the decoupling of energy demand from economic growth.",
+            "distractors": [
+                "Increasing energy efficiency leads to a proportional increase in energy consumption.",
+                "Higher energy efficiency results in a direct rise in energy prices.",
+                "Improving energy efficiency significantly decreases productivity levels."
+            ]
+        },
+        {
+            "question": "What happened to the share of energy from renewable sources between 2008 and 2019?",
+            "answer": "The share of energy from renewable sources doubled.",
+            "distractors": [
+                "The share of energy from renewable sources decreased significantly.",
+                "The share of energy from renewable sources remained unchanged.",
+                "The share of energy from renewable sources tripled."
+            ]
+        },
+        {
+            "question": "What types of renewable energy experienced especially strong growth from 2008 to 2019?",
+            "answer": "Offshore wind and rooftop solar",
+            "distractors": [
+                "Geothermal energy and hydroelectric power",
+                "Biomass and tidal energy",
+                "Nuclear energy and wave energy"
+            ]
+        },
+        {
+            "question": "What does the Netherlands' 2019 Climate Agreement define?",
+            "answer": "Policies to achieve Dutch climate targets.",
+            "distractors": [
+                "Regulations for renewable energy production",
+                "Guidelines for international climate funding",
+                "Strategies for reducing air pollution"
+            ]
+        },
+        {
+            "question": "What was the status of the Netherlands regarding carbon dioxide emissions per person in the European Union as of 2018?",
+            "answer": "The Netherlands had one of the highest rates of carbon dioxide emissions per person in the European Union.",
+            "distractors": [
+                "The Netherlands had the lowest rates of carbon dioxide emissions per person in the European Union.",
+                "The Netherlands ranked in the middle for carbon dioxide emissions per person in the European Union.",
+                "The Netherlands was among the countries with declining carbon dioxide emissions per person in the European Union."
+            ]
+        },
+        {
+            "question": "What was the biocapacity per person in the Netherlands in 2016 compared to the global average?",
+            "answer": "About half of the global average.",
+            "distractors": [
+                "Significantly above the global average.",
+                "Slightly below the global average.",
+                "Equal to the global average."
+            ]
+        },
+        {
+            "question": "What is the fertility rate status in the Netherlands?",
+            "answer": "The fertility rate in the Netherlands is below the replacement level needed for natural population replacement.",
+            "distractors": [
+                "The fertility rate in the Netherlands is at or above the replacement level for natural population replacement.",
+                "The fertility rate in the Netherlands is increasing rapidly due to high birth rates.",
+                "The fertility rate in the Netherlands has been stable and consistently above the European average."
+            ]
+        },
+        {
+            "question": "What is the average height of Dutch men as of 2009?",
+            "answer": "1.83 meters (6 ft)",
+            "distractors": [
+                "1.80 meters (5 ft 11 in)",
+                "1.86 meters (6 ft 1 in)",
+                "1.75 meters (5 ft 9 in)"
+            ]
+        },
+        {
+            "question": "What was the population of Frisians in the Netherlands in 2022?",
+            "answer": "700,000",
+            "distractors": [
+                "600,000",
+                "800,000",
+                "500,000"
+            ]
+        },
+        {
+            "question": "What percentage of the Dutch population had a spendable income above 45,000 euros in 2015?",
+            "answer": "28 percent",
+            "distractors": [
+                "32 percent",
+                "24 percent",
+                "15 percent"
+            ]
+        },
+        {
+            "question": "What is the official language of the Netherlands?",
+            "answer": "Dutch",
+            "distractors": [
+                "French",
+                "German",
+                "English"
+            ]
+        },
+        {
+            "question": "What is West Frisian recognized as in the province of Friesland?",
+            "answer": "a second official language",
+            "distractors": [
+                "a regional dialect",
+                "a cultural heritage language",
+                "an endangered language"
+            ]
+        },
+        {
+            "question": "Where is Limburgish spoken?",
+            "answer": "in the south-eastern province of Limburg, Netherlands.",
+            "distractors": [
+                "in the Walloon region of Belgium",
+                "in the southern part of Germany",
+                "in the northeastern province of Limburg, Belgium"
+            ]
+        },
+        {
+            "question": "What does Limburgish consist of?",
+            "answer": "Dutch varieties of Meuse-Rhenish.",
+            "distractors": [
+                "French dialects of the Southern Netherlands",
+                "Germanic varieties of Low Franconian",
+                "Flemish dialects of the coastal region"
+            ]
+        },
+        {
+            "question": "What languages were recognized as non-territorial languages in 1996?",
+            "answer": "Yiddish and the Romani language",
+            "distractors": [
+                "Ladino and Basque",
+                "Catalan and Gaelic",
+                "Sardinian and Welsh"
+            ]
+        },
+        {
+            "question": "What is the formal status of Papiamento in Bonaire?",
+            "answer": "Papiamento has a formal status in the special municipality of Bonaire.",
+            "distractors": [
+                "Papiamento is considered a regional dialect only.",
+                "Papiamento is officially recognized as a foreign language in Bonaire.",
+                "Papiamento is primarily used in informal settings without official recognition."
+            ]
+        },
+        {
+            "question": "What does the Netherlands have a long tradition of?",
+            "answer": "learning foreign languages",
+            "distractors": [
+                "importing foreign textiles",
+                "cultivating tulip bulbs",
+                "designing windmills"
+            ]
+        },
+        {
+            "question": "What is formalized in Dutch education laws regarding foreign languages?",
+            "answer": "The tradition of learning foreign languages.",
+            "distractors": [
+                "The mandatory teaching of ancient languages in schools.",
+                "The requirement for schools to teach Dutch as a second language to immigrants.",
+                "The emphasis on learning regional dialects over foreign languages."
+            ]
+        },
+        {
+            "question": "What percentage of the total population can converse in English?",
+            "answer": "90%",
+            "distractors": [
+                "70%",
+                "60%",
+                "80%"
+            ]
+        },
+        {
+            "question": "What percentage of the population speaks German?",
+            "answer": "70%",
+            "distractors": [
+                "50%",
+                "85%",
+                "30%"
+            ]
+        },
+        {
+            "question": "What percentage of the population speaks French?",
+            "answer": "29%",
+            "distractors": [
+                "23%",
+                "35%",
+                "18%"
+            ]
+        },
+        {
+            "question": "How long have forms of Christianity dominated religious life in the Netherlands?",
+            "answer": "over 1,200 years",
+            "distractors": [
+                "around 800 years",
+                "approximately 600 years",
+                "more than 1,000 years"
+            ]
+        },
+        {
+            "question": "What was the predominant religion of the population in the Netherlands by the mid-sixteenth century?",
+            "answer": "Predominantly Protestant (Calvinist)",
+            "distractors": [
+                "Catholicism",
+                "Lutheranism",
+                "Anabaptism"
+            ]
+        },
+        {
+            "question": "What percentage of the population in the Netherlands declared itself non-religious in 2020?",
+            "answer": "55%",
+            "distractors": [
+                "45%",
+                "30%",
+                "70%"
+            ]
+        },
+        {
+            "question": "What segment of the total population in the Netherlands constitutes Catholics?",
+            "answer": "Catholics",
+            "distractors": [
+                "Protestants",
+                "Muslims",
+                "Atheists"
+            ]
+        },
+        {
+            "question": "According to a 2015 survey, who outnumbers whom between Protestants and Catholics?",
+            "answer": "Protestants outnumber Catholics.",
+            "distractors": [
+                "Catholics outnumber Protestants in the survey.",
+                "Protestants and Catholics have equal numbers in the survey.",
+                "Protestants are evenly matched with Orthodox Christians."
+            ]
+        },
+        {
+            "question": "What three churches formed the Protestant Church in the Netherlands (PKN) in 2004?",
+            "answer": "The Dutch Reformed Church, the Reformed Churches in the Netherlands, and a smaller Lutheran Church.",
+            "distractors": [
+                "The Catholic Church, the Old Catholic Church, and the Evangelical Lutheran Church.",
+                "The Reformed Church in America, the Anglican Church, and the Salvation Army.",
+                "The Baptist Church, the Methodist Church, and the Presbyterian Church."
+            ]
+        },
+        {
+            "question": "What is the status of Christianity in the Netherlands?",
+            "answer": "Christianity is a minority in the Netherlands.",
+            "distractors": [
+                "Christianity is the dominant religion in the Netherlands.",
+                "Christianity has a growing number of adherents in the Netherlands.",
+                "Christianity is practiced equally alongside Islam in the Netherlands."
+            ]
+        },
+        {
+            "question": "What regions does the Bible Belt in the Netherlands stretch between?",
+            "answer": "Zeeland to the northern parts of Overijssel.",
+            "distractors": [
+                "Friesland to the southern parts of Limburg",
+                "North Holland to the eastern parts of Gelderland",
+                "Utrecht to the coastal regions of Zeeland"
+            ]
+        },
+        {
+            "question": "Where are Protestant beliefs strong in the Netherlands?",
+            "answer": "in the Bible Belt region",
+            "distractors": [
+                "in urban areas like Amsterdam",
+                "in the coastal cities of Rotterdam",
+                "in the southern provinces of Limburg"
+            ]
+        },
+        {
+            "question": "What type of holiday is Christmas?",
+            "answer": "a national holiday",
+            "distractors": [
+                "a religious observance",
+                "a public festival",
+                "a cultural celebration"
+            ]
+        },
+        {
+            "question": "What is Easter classified as in terms of holiday status?",
+            "answer": "a national holiday",
+            "distractors": [
+                "a religious observance",
+                "an international celebration",
+                "a federal holiday"
+            ]
+        },
+        {
+            "question": "What is the second largest religion in the state?",
+            "answer": "Islam",
+            "distractors": [
+                "Buddhism",
+                "Hinduism",
+                "Judaism"
+            ]
+        },
+        {
+            "question": "Where are the migrant workers from that are mentioned?",
+            "answer": "Turkey",
+            "distractors": [
+                "Greece",
+                "Lebanon",
+                "Syria"
+            ]
+        },
+        {
+            "question": "What nationality are the migrant workers mentioned?",
+            "answer": "Moroccan",
+            "distractors": [
+                "Algerian",
+                "Egyptian",
+                "Tunisian"
+            ]
+        },
+        {
+            "question": "What are the two former Dutch colonies from which migrant workers originate?",
+            "answer": "Surinam and Indonesia",
+            "distractors": [
+                "Martinique and Guadalupe",
+                "Vietnam and the Philippines",
+                "Guyana and Brazil"
+            ]
+        },
+        {
+            "question": "Which countries did Muslim refugees arrive from during the 1990s?",
+            "answer": "Bosnia and Herzegovina, Iran, Iraq, Somalia, and Afghanistan.",
+            "distractors": [
+                "Algeria, Syria, Kuwait, Libya",
+                "Saudi Arabia, Pakistan, Egypt, Yemen",
+                "Turkey, United Arab Emirates, Jordan, Lebanon"
+            ]
+        },
+        {
+            "question": "What has raised awareness of religion since 2000?",
+            "answer": "Islamic extremism.",
+            "distractors": [
+                "Climate change activism",
+                "Global pandemics",
+                "Cybersecurity threats"
+            ]
+        },
+        {
+            "question": "How many adherents practice Hinduism?",
+            "answer": "around 215,000",
+            "distractors": [
+                "approximately 170,000",
+                "nearly 300,000",
+                "about 90,000"
+            ]
+        },
+        {
+            "question": "Which countries do Hindu immigrants come from?",
+            "answer": "India and Sri Lanka",
+            "distractors": [
+                "Bangladesh and Nepal",
+                "Pakistan and Malaysia",
+                "Tibet and Afghanistan"
+            ]
+        },
+        {
+            "question": "What is one group that is a Western adherent of Hinduism-orientated new religious movements?",
+            "answer": "Hare Krishnas",
+            "distractors": [
+                "Transcendental Meditation practitioners",
+                "New Age Spiritualists",
+                "Sahaja Yoga followers"
+            ]
+        },
+        {
+            "question": "What are the two ways in which Hinduism has significant representation?",
+            "answer": "traditional immigration and through modern religious movements",
+            "distractors": [
+                "cultural festivals and historical conquests",
+                "political influence and economic partnerships",
+                "social media outreach and contemporary art forms"
+            ]
+        },
+        {
+            "question": "How many Buddhists are estimated to be in the Netherlands?",
+            "answer": "250,000",
+            "distractors": [
+                "150,000",
+                "500,000",
+                "1,000,000"
+            ]
+        },
+        {
+            "question": "What is the estimated number of Jews in the Netherlands according to the Institute for Jewish Policy Research?",
+            "answer": "30,000 to 63,000",
+            "distractors": [
+                "20,000 to 50,000",
+                "40,000 to 80,000",
+                "10,000 to 25,000"
+            ]
+        },
+        {
+            "question": "What does the Constitution of the Netherlands guarantee regarding education?",
+            "answer": "freedom of education",
+            "distractors": [
+                "state-controlled curriculum",
+                "mandatory religious instruction",
+                "uniform educational standards"
+            ]
+        },
+        {
+            "question": "What are the Christian religious holidays celebrated in the Netherlands?",
+            "answer": "Christmas, Easter, Pentecost, and the Ascension of Jesus.",
+            "distractors": [
+                "All Saints' Day, Epiphany, and Good Friday",
+                "Hannukah, Ramadan, and Yule",
+                "Midsummer, St. Patrick's Day, and Thanksgiving"
+            ]
+        },
+        {
+            "question": "What percentage of the population in the Netherlands identified as atheists in December 2014?",
+            "answer": "25%",
+            "distractors": [
+                "15%",
+                "35%",
+                "20%"
+            ]
+        },
+        {
+            "question": "What was the perception of spirituality in the Netherlands in 2006?",
+            "answer": "40%",
+            "distractors": [
+                "25%",
+                "55%",
+                "70%"
+            ]
+        },
+        {
+            "question": "What was the percentage decrease in the belief in the existence of a higher power?",
+            "answer": "8%",
+            "distractors": [
+                "5%",
+                "12%",
+                "15%"
+            ]
+        },
+        {
+            "question": "What is the age range for compulsory education in the Netherlands?",
+            "answer": "5 to 16",
+            "distractors": [
+                "4 to 15",
+                "6 to 17",
+                "5 to 18"
+            ]
+        },
+        {
+            "question": "What are the ages that children in the Netherlands attend elementary school?",
+            "answer": "Ages 4 to 12",
+            "distractors": [
+                "Ages 5 to 13",
+                "Ages 3 to 11",
+                "Ages 6 to 14"
+            ]
+        },
+        {
+            "question": "How many grades are there in the secondary education system?",
+            "answer": "Eight grades",
+            "distractors": [
+                "Six grades",
+                "Seven grades",
+                "Nine grades"
+            ]
+        },
+        {
+            "question": "What factors determine enrollment in the main streams of secondary education?",
+            "answer": "an aptitude test, teacher's recommendation, and parents' or caretakers' opinion.",
+            "distractors": [
+                "peer influence, school facilities, and social media presence.",
+                "government regulations, financial assistance, and branding of schools.",
+                "extracurricular activities, local community involvement, and student feedback."
+            ]
+        },
+        {
+            "question": "What are the three main streams of secondary education chosen after evaluating the criteria?",
+            "answer": "three main streams of secondary education",
+            "distractors": [
+                "the three primary subjects in the elementary curriculum",
+                "the types of vocational training available after graduation",
+                "the levels of higher education advancement pathways"
+            ]
+        },
+        {
+            "question": "How many grades does VMBO have?",
+            "answer": "four grades",
+            "distractors": [
+                "three grades",
+                "five grades",
+                "six grades"
+            ]
+        },
+        {
+            "question": "What type of degree do you receive upon successfully completing VMBO?",
+            "answer": "a low-level vocational degree",
+            "distractors": [
+                "a higher vocational degree",
+                "a general secondary education diploma",
+                "an academic degree"
+            ]
+        },
+        {
+            "question": "What level of education does MBO represent?",
+            "answer": "middle-level applied education",
+            "distractors": [
+                "vocational training",
+                "higher academic education",
+                "basic primary education"
+            ]
+        },
+        {
+            "question": "What does HBO refer to in the context of education?",
+            "answer": "higher professional education institutions that provide professional bachelor's degrees.",
+            "distractors": [
+                "comprehensive community colleges offering two-year degrees",
+                "vocational training programs for technical certifications",
+                "online courses from various accredited universities"
+            ]
+        },
+        {
+            "question": "What do HBO institutions focus on?",
+            "answer": "applied sciences",
+            "distractors": [
+                "theoretical sciences",
+                "pure mathematics",
+                "philosophical studies"
+            ]
+        },
+        {
+            "question": "What does an HBO degree provide access to?",
+            "answer": "the university system",
+            "distractors": [
+                "an accelerated path to a master's degree",
+                "specialized vocational training",
+                "licensure for teaching positions"
+            ]
+        },
+        {
+            "question": "What are the components of the VWO educational track in the Netherlands?",
+            "answer": "atheneum and gymnasium",
+            "distractors": [
+                "mavo and havo",
+                "primary school and vocational training",
+                "high school and college preparatory"
+            ]
+        },
+        {
+            "question": "How many grades does VWO comprise?",
+            "answer": "6 grades",
+            "distractors": [
+                "5 grades",
+                "7 grades",
+                "8 grades"
+            ]
+        },
+        {
+            "question": "What type of education does VWO prepare students for?",
+            "answer": "studying at a research university.",
+            "distractors": [
+                "vocational training programs",
+                "community college education",
+                "professional certification courses"
+            ]
+        },
+        {
+            "question": "What type of degree is a three-year bachelor's degree?",
+            "answer": "bachelor's degree",
+            "distractors": [
+                "associate degree",
+                "master's degree",
+                "diploma program"
+            ]
+        },
+        {
+            "question": "What is the duration of the master's degree mentioned?",
+            "answer": "One or two years",
+            "distractors": [
+                "Six months",
+                "Three to four years",
+                "Nine months"
+            ]
+        },
+        {
+            "question": "What type of degree programme is referred to as a doctoral degree programme?",
+            "answer": "Doctoral degree programme",
+            "distractors": [
+                "Associate degree programme",
+                "Master's degree programme",
+                "Certificate programme"
+            ]
+        },
+        {
+            "question": "What type of schools in the Netherlands are not publicly funded and managed?",
+            "answer": "religious schools",
+            "distractors": [
+                "publicly funded schools",
+                "international schools",
+                "charter schools"
+            ]
+        },
+        {
+            "question": "How much do Dutch universities charge for tuition per year for non-EU students?",
+            "answer": "15,000 euros",
+            "distractors": [
+                "12,000 euros",
+                "18,500 euros",
+                "10,500 euros"
+            ]
+        },
+        {
+            "question": "What ranking did the Netherlands achieve in the Euro Health Consumer Index in 2016?",
+            "answer": "first",
+            "distractors": [
+                "second",
+                "third",
+                "fifth"
+            ]
+        },
+        {
+            "question": "What are home doctors in the Netherlands called?",
+            "answer": "huisartsen",
+            "distractors": [
+                "praktijkondersteuners",
+                "verpleegkundigen",
+                "specialisten"
+            ]
+        },
+        {
+            "question": "What is required to access the second and third levels of healthcare?",
+            "answer": "a referral from a member of the first level",
+            "distractors": [
+                "direct access to a specialist of your choice",
+                "completion of an online health assessment",
+                "a waiting period of 30 days after initial consultation"
+            ]
+        },
+        {
+            "question": "What are the two statutory forms of health insurance in the Netherlands?",
+            "answer": "Zorgverzekeringswet (ZVW) for common medical care and Algemene Wet Bijzondere Ziektekosten (AWBZ) for long-term nursing and care.",
+            "distractors": [
+                "Ziektewet (ZW) for temporary sickness benefits",
+                "Wet langdurige zorg (Wlz) for long-term care",
+                "Wet op de Zorgverzekering (Woz) for private health insurance"
+            ]
+        },
+        {
+            "question": "What is the amount of premiums paid by the insured each month?",
+            "answer": "\u20ac135",
+            "distractors": [
+                "\u20ac120",
+                "\u20ac150",
+                "\u20ac180"
+            ]
+        },
+        {
+            "question": "What percentage of travel on Dutch roads is done by car?",
+            "answer": "75%",
+            "distractors": [
+                "50%",
+                "90%",
+                "65%"
+            ]
+        },
+        {
+            "question": "What percentage of all recharging stations in the European Union for electric vehicles does the Netherlands have?",
+            "answer": "approximately 30%",
+            "distractors": [
+                "approximately 15%",
+                "approximately 45%",
+                "approximately 60%"
+            ]
+        },
+        {
+            "question": "Where are large bicycle parking facilities located?",
+            "answer": "in city centres and train stations.",
+            "distractors": [
+                "in residential areas",
+                "at shopping malls",
+                "in suburban parks"
+            ]
+        },
+        {
+            "question": "What is the largest port in Europe?",
+            "answer": "The Port of Rotterdam",
+            "distractors": [
+                "The Port of Hamburg",
+                "The Port of Antwerp",
+                "The Port of Valencia"
+            ]
+        },
+        {
+            "question": "What is the rank of Rotterdam as a container port in the world as of 2022?",
+            "answer": "the world's tenth largest container port",
+            "distractors": [
+                "the world's fifth largest container port",
+                "the world's fifteenth largest container port",
+                "the world's eighth largest container port"
+            ]
+        },
+        {
+            "question": "What is the rank of Amsterdam as a port in Europe?",
+            "answer": "Europe's 4th largest port",
+            "distractors": [
+                "Europe's 2nd largest port",
+                "Europe's 6th largest port",
+                "Europe's 3rd largest port"
+            ]
+        },
+        {
+            "question": "What is the size ranking of the inland shipping fleet of the Netherlands in Europe?",
+            "answer": "The largest in Europe.",
+            "distractors": [
+                "The smallest in Europe.",
+                "Third largest in Europe.",
+                "Ranked fifth in Europe."
+            ]
+        },
+        {
+            "question": "What is the main international airport in the Netherlands?",
+            "answer": "Schiphol Airport",
+            "distractors": [
+                "Rotterdam The Hague Airport",
+                "Eindhoven Airport",
+                "Groningen Airport Eelde"
+            ]
+        },
+        {
+            "question": "Where is the shortest runway in the world located?",
+            "answer": "Saba.",
+            "distractors": [
+                "St. Barth\u00e9lemy",
+                "Maho Beach",
+                "Tenzing-Hillary Airport"
+            ]
+        },
+        {
+            "question": "Who created the artwork 'Netherlandish Proverbs'?",
+            "answer": "Pieter Bruegel the Elder",
+            "distractors": [
+                "Hieronymus Bosch",
+                "Jan Vermeer",
+                "Albrecht D\u00fcrer"
+            ]
+        },
+        {
+            "question": "Who created the artwork 'Flower Beds in Holland'?",
+            "answer": "Vincent van Gogh",
+            "distractors": [
+                "Claude Monet",
+                "Pablo Picasso",
+                "Paul C\u00e9zanne"
+            ]
+        },
+        {
+            "question": "Who was a leading Dutch pioneer during the Middle Ages?",
+            "answer": "Hieronymus Bosch",
+            "distractors": [
+                "Vincent van Gogh",
+                "Rembrandt van Rijn",
+                "Pieter Bruegel the Elder"
+            ]
+        },
+        {
+            "question": "Who was a leading Dutch pioneer during the Middle Ages?",
+            "answer": "Pieter Bruegel the Elder",
+            "distractors": [
+                "Jan van Eyck",
+                "Hieronymus Bosch",
+                "Rembrandt van Rijn"
+            ]
+        },
+        {
+            "question": "During what period did the Dutch Republic experience a flourishing artistic movement?",
+            "answer": "the Dutch Golden Age",
+            "distractors": [
+                "the Renaissance",
+                "the Baroque Period",
+                "the Enlightenment"
+            ]
+        },
+        {
+            "question": "Who were the Dutch Masters mentioned in the sentence?",
+            "answer": "Rembrandt, Johannes Vermeer, Jan Steen, and Jacob van Ruisdael.",
+            "distractors": [
+                "Claude Monet, Pierre-Auguste Renoir, Edgar Degas, and Paul C\u00e9zanne.",
+                "Vincent van Gogh, Piet Mondrian, Karel Appel, and Willem de Kooning.",
+                "Pablo Picasso, Salvador Dal\u00ed, Juan Gris, and Joan Mir\u00f3."
+            ]
+        },
+        {
+            "question": "Who were notable Dutch painters of the 19th and 20th centuries?",
+            "answer": "Vincent van Gogh and Piet Mondrian.",
+            "distractors": [
+                "Rembrandt van Rijn",
+                "Hieronymus Bosch",
+                "Johannes Vermeer"
+            ]
+        },
+        {
+            "question": "Which writer featured prominently in literature during the Dutch Golden Age?",
+            "answer": "Joost van den Vondel.",
+            "distractors": [
+                "Constantijn Huygens",
+                "Pieter Corneliszoon Hooft",
+                "Gerard Brandt"
+            ]
+        },
+        {
+            "question": "What did Multatuli write about regarding the Dutch colony in the 19th century?",
+            "answer": "the poor treatment of natives",
+            "distractors": [
+                "the economic benefits of colonization",
+                "the cultural advancements brought by Europeans",
+                "the exploration of new trade routes"
+            ]
+        },
+        {
+            "question": "Who is the author of *Diary of a Young Girl*?",
+            "answer": "Anne Frank",
+            "distractors": [
+                "Victor Frankl",
+                "Margot Frank",
+                "Simone de Beauvoir"
+            ]
+        },
+        {
+            "question": "What time period did Romanesque architecture get built?",
+            "answer": "between 950 and 1250",
+            "distractors": [
+                "between 600 and 800",
+                "between 1300 and 1500",
+                "between 800 and 950"
+            ]
+        },
+        {
+            "question": "When did Gothic architecture begin to be used?",
+            "answer": "around 1230",
+            "distractors": [
+                "around 1100",
+                "around 1500",
+                "around 1700"
+            ]
+        },
+        {
+            "question": "What are three features of Gothic architecture?",
+            "answer": "large windows, pointed arches, and rich decorations.",
+            "distractors": [
+                "minimalist design, flat roofs, and dull color schemes.",
+                "round arches, small openings, and plain surfaces.",
+                "traditional motifs, simplistic forms, and unadorned facades."
+            ]
+        },
+        {
+            "question": "What are the two main architectural styles associated with Dutch architecture from 1525 to 1700?",
+            "answer": "Dutch Baroque architecture (1525\u20131630) and classicism (1630\u20131700)",
+            "distractors": [
+                "Renaissance architecture (1400\u20131600)",
+                "Gothic Revival architecture (1740\u20131890)",
+                "Romantic architecture (1800\u20131850)"
+            ]
+        },
+        {
+            "question": "What are some notable architectural styles?",
+            "answer": "Art Nouveau, Expressionism, De Stijl, Traditionalism, and Brutalism.",
+            "distractors": [
+                "Futurism",
+                "Modernism",
+                "Postmodernism"
+            ]
+        },
+        {
+            "question": "Who are the famous Dutch philosophers mentioned?",
+            "answer": "Erasmus and Spinoza",
+            "distractors": [
+                "Hobbes and Locke",
+                "Descartes and Kant",
+                "Nietzsche and Foucault"
+            ]
+        },
+        {
+            "question": "Who discovered Saturn's moon Titan?",
+            "answer": "Christiaan Huygens.",
+            "distractors": [
+                "Galileo Galilei",
+                "Johannes Kepler",
+                "Henry Norris Russell"
+            ]
+        },
+        {
+            "question": "What did Christiaan Huygens argue about the nature of light?",
+            "answer": "That light travelled as waves.",
+            "distractors": [
+                "That light was made up of tiny particles.",
+                "That light could not travel through a vacuum.",
+                "That light was a form of electricity."
+            ]
+        },
+        {
+            "question": "Who invented the pendulum clock?",
+            "answer": "Christiaan Huygens",
+            "distractors": [
+                "Galileo Galilei",
+                "Isaac Newton",
+                "Leonardo da Vinci"
+            ]
+        },
+        {
+            "question": "What are some symbols of the Netherlands?",
+            "answer": "windmills, tulips, clogs, cheese, and cannabis.",
+            "distractors": [
+                "red-light districts",
+                "coffee shops",
+                "gouda neighborhoods"
+            ]
+        },
+        {
+            "question": "What does the Dutch value system emphasize?",
+            "answer": "cultural heritage, tolerance, and cosmopolitanism.",
+            "distractors": [
+                "nationalism and isolationism",
+                "traditionalism and conservatism",
+                "individualism and competition"
+            ]
+        },
+        {
+            "question": "How are Dutch manners characterized?",
+            "answer": "open, direct, and informal",
+            "distractors": [
+                "reserved, formal, and indirect",
+                "polite, evasive, and sophisticated",
+                "strict, formal, and traditional"
+            ]
+        },
+        {
+            "question": "What traditional musical instrument is used in levenslied music?",
+            "answer": "Accordion",
+            "distractors": [
+                "Harmonica",
+                "Violin",
+                "Trumpet"
+            ]
+        },
+        {
+            "question": "What traditional instrument is associated with levenslied music?",
+            "answer": "Barrel organ",
+            "distractors": [
+                "Accordion",
+                "Harmonium",
+                "Keytar"
+            ]
+        },
+        {
+            "question": "What instruments do modern artists in levenslied music increasingly use?",
+            "answer": "synthesizers and guitars",
+            "distractors": [
+                "traditional folk instruments",
+                "orchestral arrangements",
+                "piano and brass instruments"
+            ]
+        },
+        {
+            "question": "What are some current symphonic metal bands?",
+            "answer": "Epica, Delain, ReVamp, The Gathering, Asrai, Autumn, Ayreon, and Within Temptation.",
+            "distractors": [
+                "Nightwish",
+                "Lacuna Coil",
+                "Kamelot"
+            ]
+        },
+        {
+            "question": "What type of singer is Caro Emerald?",
+            "answer": "Jazz and pop singer",
+            "distractors": [
+                "Classical and opera singer",
+                "Heavy metal and rock singer",
+                "Country and folk singer"
+            ]
+        },
+        {
+            "question": "Which metal bands are popular at major European metal festivals?",
+            "answer": "Hail of Bullets, God Dethroned, Izegrim, Asphyx, Textures, Heidevolk, and Slechtvalk.",
+            "distractors": [
+                "Epica, Nightwish, Korpiklaani",
+                "Sabaton, Powerwolf, Accept",
+                "Within Temptation, Trivium, Arch Enemy"
+            ]
+        },
+        {
+            "question": "What is Anouk's profession?",
+            "answer": "contemporary local pop singer.",
+            "distractors": [
+                "classical ballet dancer",
+                "indie rock musician",
+                "traditional folk singer"
+            ]
+        },
+        {
+            "question": "What genre of music is Ilse DeLange known for?",
+            "answer": "country pop music",
+            "distractors": [
+                "symphonic rock",
+                "alternative pop",
+                "traditional folk music"
+            ]
+        },
+        {
+            "question": "What type of band is Rowwen H\u00e8ze?",
+            "answer": "a Limburgish dialect singing folk band.",
+            "distractors": [
+                "a Dutch heavy metal band",
+                "a classical symphony orchestra",
+                "a pop music trio from Amsterdam"
+            ]
+        },
+        {
+            "question": "When did Nederhop become popular in the Netherlands and Belgium?",
+            "answer": "in the mid-1990s",
+            "distractors": [
+                "in the early 2000s",
+                "in the late 1980s",
+                "in the early 1990s"
+            ]
+        },
+        {
+            "question": "When did Dutch electronic dance music (EDM) gain widespread popularity globally?",
+            "answer": "Since the 1990s.",
+            "distractors": [
+                "In the early 2000s",
+                "During the late 1980s",
+                "In the 2010s"
+            ]
+        },
+        {
+            "question": "Who are some notable Dutch DJs ranked as the best in the world by DJ Mag Top 100 DJs?",
+            "answer": "Armin van Buuren, Ti\u00ebsto, Hardwell, and Martin Garrix.",
+            "distractors": [
+                "David Guetta",
+                "Calvin Harris",
+                "Steve Aoki"
+            ]
+        },
+        {
+            "question": "What is the Amsterdam Dance Event (ADE)?",
+            "answer": "The world's leading electronic music conference.",
+            "distractors": [
+                "A popular annual film festival held in Amsterdam.",
+                "A major art exhibition featuring modern artists.",
+                "An international technology summit focusing on startups."
+            ]
+        },
+        {
+            "question": "What is the Amsterdam Dance Event (ADE) known for?",
+            "answer": "It is the biggest club festival for various electronic subgenres.",
+            "distractors": [
+                "It is a major film festival celebrating documentary cinema.",
+                "It is an annual art fair showcasing contemporary art from around the world.",
+                "It is a popular food festival featuring international cuisine."
+            ]
+        },
+        {
+            "question": "How many times has the Netherlands won the Eurovision Song Contest?",
+            "answer": "five times",
+            "distractors": [
+                "four times",
+                "six times",
+                "three times"
+            ]
+        },
+        {
+            "question": "Who is the famous Dutch composer known in classical music?",
+            "answer": "Jan Sweelinck",
+            "distractors": [
+                "Hendrik Andriessen",
+                "Louis Andriessen",
+                "Julius R\u00f6ntgen"
+            ]
+        },
+        {
+            "question": "What is Louis Andriessen known for?",
+            "answer": "contemporary Dutch classical composer",
+            "distractors": [
+                "experimental electronic music producer",
+                "20th-century American jazz musician",
+                "neo-classical ballet choreographer"
+            ]
+        },
+        {
+            "question": "What is Ton Koopman's nationality and his professions?",
+            "answer": "Ton Koopman is Dutch and he is a conductor, organist, and harpsichordist.",
+            "distractors": [
+                "Ton Koopman is Belgian and he is a violinist, pianist, and composer.",
+                "Ton Koopman is German and he is a cellist, musicologist, and choir director.",
+                "Ton Koopman is French and he is a flautist, lyricist, and symphony composer."
+            ]
+        },
+        {
+            "question": "Who are some notable Dutch violinists?",
+            "answer": "Janine Jansen, Andr\u00e9 Rieu",
+            "distractors": [
+                "Mark O'Connor",
+                "Yo-Yo Ma",
+                "Hilary Hahn"
+            ]
+        },
+        {
+            "question": "Who is the prominent Dutch film director known for 'Turkish Delight', 'RoboCop', and 'Basic Instinct'?",
+            "answer": "Paul Verhoeven",
+            "distractors": [
+                "Lars von Trier",
+                "Wim Wenders",
+                "Martin Koolhoven"
+            ]
+        },
+        {
+            "question": "Who are some internationally recognized Dutch actors?",
+            "answer": "Famke Janssen, Carice van Houten, Rutger Hauer, and Jeroen Krabb\u00e9",
+            "distractors": [
+                "Doutzen Kroes",
+                "Geert Wilders",
+                "Armin van Buuren"
+            ]
+        },
+        {
+            "question": "How are children's shows presented in comparison to imported TV programmes and interviews?",
+            "answer": "Children's shows are dubbed.",
+            "distractors": [
+                "Children's shows are presented live with audience participation.",
+                "Children's shows are transmitted in their original languages with subtitles.",
+                "Children's shows feature extensive commercials and product placements."
+            ]
+        },
+        {
+            "question": "What is Endemol known for creating?",
+            "answer": "Reality, talent, and game show franchises.",
+            "distractors": [
+                "Serialized drama productions",
+                "Animated children\u2019s programming",
+                "Documentary film series"
+            ]
+        },
+        {
+            "question": "What companies did Endemol merge with, and in what years did these mergers occur?",
+            "answer": "Endemol merged with Shine Group in 2015 and with Banijay in 2020.",
+            "distractors": [
+                "Endemol merged with FremantleMedia in 2016 and with Red Arrow Studios in 2018.",
+                "Endemol merged with ITV Studios in 2017 and with Warner Bros. in 2019.",
+                "Endemol merged with BBC Studios in 2014 and with Sony Pictures in 2021."
+            ]
+        },
+        {
+            "question": "What fraction of the population aged 15 to 75 participates in sports weekly?",
+            "answer": "Approximately two-thirds",
+            "distractors": [
+                "Approximately one-third",
+                "Approximately half",
+                "Approximately three-quarters"
+            ]
+        },
+        {
+            "question": "What is the most popular team sport?",
+            "answer": "Football",
+            "distractors": [
+                "Basketball",
+                "Cricket",
+                "Baseball"
+            ]
+        },
+        {
+            "question": "What are the three most widely engaged in individual sports?",
+            "answer": "Tennis, gymnastics, and golf.",
+            "distractors": [
+                "Cycling, skiing, and swimming",
+                "Basketball, soccer, and volleyball",
+                "Running, wrestling, and boxing"
+            ]
+        },
+        {
+            "question": "In which years was the national football team of the Netherlands a runner-up in the World Cup?",
+            "answer": "1974, 1978, and 2010.",
+            "distractors": [
+                "1966 and 1982",
+                "1990 and 1994",
+                "2006 and 2008"
+            ]
+        },
+        {
+            "question": "When did the national football team of the Netherlands win the European Championship?",
+            "answer": "1988",
+            "distractors": [
+                "1992",
+                "1984",
+                "2000"
+            ]
+        },
+        {
+            "question": "What was the outcome of the Netherlands women's national football team in the 2019 World Cup?",
+            "answer": "runner-up",
+            "distractors": [
+                "semi-finalist",
+                "quarter-finalist",
+                "group stage"
+            ]
+        },
+        {
+            "question": "Who is the youngest Formula 1 driver to make his debut and win a race?",
+            "answer": "Max Verstappen",
+            "distractors": [
+                "Sebastian Vettel",
+                "Lewis Hamilton",
+                "Kimi R\u00e4ikk\u00f6nen"
+            ]
+        },
+        {
+            "question": "Who is the first Dutchman to win a Grand Prix and a Formula One World Drivers Championship?",
+            "answer": "Max Verstappen",
+            "distractors": [
+                "J \u0434\u043e\u043b\u0436\u043d\u0438\u043a\u044c\u0e49\u0e2d\u0e19",
+                "Arie Luyendyk",
+                "Gijs van Lennep"
+            ]
+        },
+        {
+            "question": "How many times have Dutch K-1 kickboxers won the K-1 World Grand Prix?",
+            "answer": "15 times",
+            "distractors": [
+                "10 times",
+                "12 times",
+                "18 times"
+            ]
+        },
+        {
+            "question": "What was the Dutch diet historically high in?",
+            "answer": "carbohydrates and fat",
+            "distractors": [
+                "protein and fiber",
+                "sugars and refined grains",
+                "vitamins and minerals"
+            ]
+        },
+        {
+            "question": "What change occurred in the Dutch diet during the twentieth century?",
+            "answer": "The Dutch diet became more cosmopolitan, incorporating global cuisines.",
+            "distractors": [
+                "A decrease in the consumption of dairy products due to health concerns.",
+                "An increase in traditional Dutch ingredients like potatoes and herring.",
+                "A shift towards more plant-based diets, minimizing meat consumption."
+            ]
+        },
+        {
+            "question": "What country did Oxfam rank as having the most nutritious, plentiful, and healthy food in early 2014?",
+            "answer": "the Netherlands",
+            "distractors": [
+                "Denmark",
+                "Sweden",
+                "Finland"
+            ]
+        },
+        {
+            "question": "What primarily characterized the cuisine introduced due to large scale agriculture in the late 18th century?",
+            "answer": "A cuisine primarily known for its meats.",
+            "distractors": [
+                "A cuisine that emphasized seafood and fish dishes.",
+                "A cuisine mainly featuring plant-based dishes and legumes.",
+                "A cuisine focused on exotic spices and tropical fruits."
+            ]
+        },
+        {
+            "question": "What was abundant due to the relative lack of farms?",
+            "answer": "game meat and husbandry",
+            "distractors": [
+                "wild berries and foraging",
+                "fishing and aquaculture",
+                "livestock breeding and agriculture"
+            ]
+        },
+        {
+            "question": "What type of cuisine includes a large amount of fish in coastal regions?",
+            "answer": "Coastal regions' cuisine",
+            "distractors": [
+                "Mountainous cuisine",
+                "Desert cuisine",
+                "Agricultural cuisine"
+            ]
+        },
+        {
+            "question": "What type of sausages does the Metworst belong to?",
+            "answer": "Dutch sausages",
+            "distractors": [
+                "German sausages",
+                "Belgian sausages",
+                "Italian sausages"
+            ]
+        },
+        {
+            "question": "What is the name of the Dutch smoked sausage that originates from the Gelderland region?",
+            "answer": "Gelderse rookworst",
+            "distractors": [
+                "Friese nagelkaas",
+                "Brabantse worst",
+                "Twentse frikandel"
+            ]
+        },
+        {
+            "question": "What are the dishes commonly eaten with larger sausages?",
+            "answer": "Stamppot, hutspot, and zuurkool",
+            "distractors": [
+                "Ratatouille, bouillabaisse, and moussaka",
+                "Risotto, polenta, and gnocchi",
+                "Tacos, enchiladas, and tamales"
+            ]
+        },
+        {
+            "question": "What are the traditional alcoholic beverages in the Netherlands?",
+            "answer": "Beer (strong pale lager) and Jenever (juniper-flavoured spirit known as gin in England).",
+            "distractors": [
+                "Mead (honey wine)",
+                "Aquavit (herb-flavoured spirit)",
+                "Bourbon (corn whiskey)"
+            ]
+        },
+        {
+            "question": "What is Advocaat made from?",
+            "answer": "eggs, sugar, and brandy",
+            "distractors": [
+                "milk, cocoa, and rum",
+                "vodka, lemon juice, and honey",
+                "cream, vanilla, and whiskey"
+            ]
+        },
+        {
+            "question": "What are some prominent Dutch cheeses mentioned in the sentence?",
+            "answer": "Gouda, Leyden, Edam, Leerdammer, and Beemster.",
+            "distractors": [
+                "Cheddar, Brie, Camembert",
+                "Parmesan, Roquefort, Feta",
+                "Mascarpone, Ricotta, Halloumi"
+            ]
+        },
+        {
+            "question": "Which provinces in the Netherlands are included in Southern Dutch cuisine?",
+            "answer": "North Brabant and Limburg provinces",
+            "distractors": [
+                "Utrecht and Zeeland provinces",
+                "Friesland and Groningen provinces",
+                "North Holland and South Holland provinces"
+            ]
+        },
+        {
+            "question": "What region influences Southern Dutch cuisine?",
+            "answer": "the Flemish Region of Belgium",
+            "distractors": [
+                "the Provence region of France",
+                "the Emilia-Romagna region of Italy",
+                "the Catalonia region of Spain"
+            ]
+        },
+        {
+            "question": "What is Limburg known for in the context of Dutch cuisine?",
+            "answer": "Limburg is known for being a specific province in the Netherlands that is part of southern Dutch cuisine.",
+            "distractors": [
+                "Limburg is famous for its traditional Dutch cheese production.",
+                "Limburg is recognized for its seafood dishes originating from the northern regions of the Netherlands.",
+                "Limburg is known for its chocolate and desserts, particularly those influenced by Belgian cuisine."
+            ]
+        },
+        {
+            "question": "What is Vlaai a typical cake of?",
+            "answer": "Limburg",
+            "distractors": [
+                "Friesland",
+                "Groningen",
+                "Zeeland"
+            ]
+        },
+        {
+            "question": "What is Moorkop?",
+            "answer": "a type of pastry from Brabant.",
+            "distractors": [
+                "a traditional cheese from the Netherlands",
+                "a type of Dutch sausage",
+                "a regional beer from Belgium"
+            ]
+        },
+        {
+            "question": "What does Worstenbroodje translate to in English?",
+            "answer": "sausage bread",
+            "distractors": [
+                "meat pie",
+                "cheese roll",
+                "vegetable sandwich"
+            ]
+        },
+        {
+            "question": "What is the alcoholic beverage of the region?",
+            "answer": "Beer",
+            "distractors": [
+                "Wine",
+                "Sake",
+                "Cider"
+            ]
+        },
+        {
+            "question": "What are the local beer brands mentioned?",
+            "answer": "Trappist and Kriek",
+            "distractors": [
+                "Pilsner and Stout",
+                "Weizen and Lager",
+                "IPA and Porter"
+            ]
+        },
+        {
+            "question": "What book is referred to by ISBN 0-19-873072-1?",
+            "answer": "*De Veertigjarige Oorlog 1672\u20131712: de strijd van de Nederlanders tegen de Zonnekoning* by Olaf Van Nimwegen",
+            "distractors": [
+                "*The Dutch Wars 1606-1667* by John Smith",
+                "*The Legacy of Louis XIV* by Peter Johnson",
+                "*War and Society in the Netherlands 1500-1800* by Emily Roberts"
+            ]
+        },
+        {
+            "question": "What organization provides key development forecasts for the Netherlands?",
+            "answer": "International Futures",
+            "distractors": [
+                "World Economic Forum",
+                "OECD (Organisation for Economic Co-operation and Development)",
+                "United Nations Development Programme"
+            ]
+        },
+        {
+            "question": "What organization is responsible for promoting the Netherlands nationally and internationally?",
+            "answer": "The Netherlands Board of Tourism & Conventions.",
+            "distractors": [
+                "Dutch National Heritage Agency",
+                "Ministry of Foreign Affairs of the Netherlands",
+                "Netherlands Institute for Cultural Heritage"
+            ]
+        }
+    ]
+}

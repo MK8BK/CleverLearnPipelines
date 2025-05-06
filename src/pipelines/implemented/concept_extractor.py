@@ -34,6 +34,7 @@ class ConceptExtractor(Pipeline):
         super().__init__(ConceptExtractor.title, *args, **kwargs)
         self.client = OpenAI_client()
         self.outputs = None
+        self.prompt_store["concept_limit"] = 3  # Exaple: Limit to 5 concepts
 
     def _process(self, paragraphs: List[str]) -> List[List[str]]:
         """

@@ -1,4 +1,3 @@
 {
-    "generation_directives":
-    "you will be given a sentence containing precise information on a topic, generate a question whose answer is contained in the sentence. also provide the exact answer."
+    "generation_directives": "You will be given a sentence containing precise information on a topic. Generate a question whose answer is explicitly contained in the sentence. The question must directly reference the specific concept, entity, or topic mentioned, and not use vague phrases like 'in the sentence' or 'the author'. Also provide the exact answer."
 }

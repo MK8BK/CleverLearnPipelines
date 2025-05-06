@@ -47,7 +47,7 @@ def main():
         else:
             MAIN_LOGGER.info(f"Article at {url} previously scraped, using cached version")
         corpus = Corpus(index.retrieve_doc(url))
-        quiz_generator = QuizGenerator(corpus)
+        quiz_generator = QuizGenerator(corpus, index=index)
         try:
             quiz = quiz_generator.generate()
             str_quiz = json.dumps(quiz.model_dump())

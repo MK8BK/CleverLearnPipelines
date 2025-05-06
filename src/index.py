@@ -109,7 +109,7 @@ class WikiTestDataIndex:
         if not os.path.exists(pipeline_dir_path):
             os.mkdir(pipeline_dir_path)
 
-    def store_pipeline_output(self, pipeline_title: str, output, file_name: str):
+    def store_pipeline_output(self, pipeline_title: str, output: str, file_name: str):
         self.ensure_pipeline_dir(pipeline_title)
         pipeline_dir_path = self.pipelines_path.joinpath(pipeline_title)
         file_path = pipeline_dir_path.joinpath(file_name)

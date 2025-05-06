@@ -31,7 +31,7 @@ class SemanticTextChunker(Pipeline):
         sentences: List[str],
         model,
         # TODO: test these defaults later and document how they were established
-        similarity_threshold: float = 0.43,
+        similarity_threshold: float = 0.4,
         max_chunk_size: int = 3000
     ) -> List[str]:
         """
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     stc = SemanticTextChunker()
     index.ensure_pipeline_dir(stc.title)
 
-    with open(str(TEST_DATA_PATH.joinpath("wiki").joinpath("1.md")),
+    with open(str(TEST_DATA_PATH.joinpath("wiki").joinpath("20.md")),
               "r", encoding="utf8") as f:
         corpus = Corpus(f.read())
 

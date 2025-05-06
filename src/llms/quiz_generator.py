@@ -1,6 +1,7 @@
 from typing import List
 from corpus.corpus import Corpus
 from corpus.quiz import Quiz
+from json import dumps
 
 from pipelines.base_pipeline import PipelineValidationError, Pipeline
 from pipelines.implemented.text_chunker import TextChunker
@@ -11,6 +12,7 @@ from pipelines.implemented.question_answer_generator import QuestionAnswerGenera
 from pipelines.implemented.distractor_generator import DistractorGenerator
 from pipelines.implemented.one_step import OneStepPipeline
 from logutils import get_logger
+from index import WikiTestDataIndex
 
 
 MVP_PIPELINE = [OneStepPipeline()]
@@ -23,18 +25,24 @@ PIPELINE2 = [SemanticTextChunker(), ConceptExtractor(),
                 
 
 class QuizGenerator:
-    def __init__(self, corpus: Corpus, mcq_number: int=20, pipelines: List[Pipeline] = PIPELINE2):
+    def __init__(self, corpus: Corpus, mcq_number: int=20, pipelines: List[Pipeline] = PIPELINE2, index: WikiTestDataIndex=None, store_intermediate: bool=True):
         self.context = dict()
         self.context["article"] = corpus.clean_text
         # self.context["mcq_number"] = mcq_number
         self.piplines: List[Pipeline] = pipelines
         self.logger = get_logger(QuizGenerator.__name__)
+        self.store_intermediate = store_intermediate
+        self.index =index
 
     def generate(self) -> Quiz:
         tmp = self.context["article"]
         for pipeline in self.piplines:
             try:
                 tmp = pipeline.process(tmp)
+                if pipeline.title== "semantic_text_chunker_pipeline" and self.store_intermediate:
+                    output = dumps(tmp)
+                    self.index.store_pipeline_output(pipeline.title,output,"out2.json")       
+                    
             except PipelineValidationError as pve:
                 self.logger.error(f"failed quiz generation")
                 raise pve
