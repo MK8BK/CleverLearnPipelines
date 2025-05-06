@@ -25,17 +25,21 @@ PIPELINE_NAMES = set(p.split(".")[0]
 
 
 class Pipeline(ABC):
-    def __init__(self, pipeline_title: str, language: CorpusLanguage = CorpusLanguage.EN):
+    def __init__(self, pipeline_title: str, language: CorpusLanguage = CorpusLanguage.EN
+                 ,extra_context: dict=None):
         if pipeline_title not in PIPELINE_NAMES:
             raise RuntimeError(f"no file {pipeline_title}.json exists")
         self.title = pipeline_title
         self.language = language
+        self.context = extra_context
 
         prompts_path = PIPELINE_PROMPTS_PATH.joinpath(self.title+".json")
         with open(prompts_path, "r", encoding="utf8") as f:
             self.prompt_store = loads(f.read())
         self.logger = get_logger(self.title)
 
+    def set_context(self, extra_context: dict):
+        self.context = extra_context
     def process(self, data):
         """
             Process the input data, type unspecified

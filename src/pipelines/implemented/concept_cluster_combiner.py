@@ -67,10 +67,9 @@ class ConceptClusterCombiner(Pipeline):
             if label not in clusters:
                 clusters[label] = []
             clusters[label].append(sentences[i])
-        
         return clusters
     
-    def get_representatives(self,clusters: Dict[int, List[str]]) -> List[str]:
+    def get_representatives(self,clusters: List[List[str]]) -> List[str]:
         """
         Extract one representative from each cluster.
         
@@ -80,10 +79,7 @@ class ConceptClusterCombiner(Pipeline):
         Returns:
             List of representative sentences (one from each cluster)
         """
-        representatives = []
-        for cluster_id in clusters:
-            representatives.append(clusters[cluster_id][0])
-        
+        representatives = [cluster[0] for cluster in clusters]
         return representatives
 
     def _process(self, input_data: List[List[str]]) -> List[str]:
@@ -129,10 +125,19 @@ class ConceptClusterCombiner(Pipeline):
         
         
         clusters = self.get_clusters(Z, flat_concepts, self.threshold) #get clusters
+        clusters = self.filter_clusters(clusters)
         
         representatives = self.get_representatives(clusters) #get representatives
         
         return representatives
+    
+    def filter_clusters(self,clusters: Dict[int, List[str]]):
+        n = self.context["mcq_number"]
+        cluster_couples = sorted([v for v in clusters.values()], key=lambda x: len(x),
+                                 reverse=True)
+        if len(cluster_couples)>n:
+            return cluster_couples[:n]
+        return cluster_couples
     
     
     def _validate(self, input_data, output_data):
