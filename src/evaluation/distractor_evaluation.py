@@ -55,5 +55,5 @@ def mean_similarity(mcq_path: str, treshold=0.5):
 # Example usage
 if __name__ == "__main__":
     treshold = 0.6
-    test_path = "../../test_data/quizzes/20.json"  # Relative path to the JSON file
+    test_path = "../../test_data/quizzes/1.json"  # Relative path to the JSON file
     mean_similarity(test_path, treshold)
