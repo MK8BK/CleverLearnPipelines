@@ -36,11 +36,32 @@ class WikiScraper:
                 return
             for tag in all_tags:
                 tag.decompose()
+
         self.soup = BeautifulSoup(self.html_text, "html.parser")
         self.soup = self.soup.find(name="body")
-        self.soup.find(name="header").decompose()
-        # self.soup.find(name="footer").decompose()
-        self.soup.find(class_="vector-menu-content").decompose() # language menu
+
+        # Remove header, footer, and navigation menus
+        if self.soup.find(name="header"):
+            self.soup.find(name="header").decompose()
+        if self.soup.find(name="footer"):
+            self.soup.find(name="footer").decompose()
+        if self.soup.find(class_="vector-menu-content"):
+            self.soup.find(class_="vector-menu-content").decompose()  # Language menu
+
+        # Remove specific sections by ID or class
+        sections_to_remove = [
+            "References",  # References section
+            "Bibliography",  # Bibliography section
+            "External_links",  # External links section
+            "See_also",  # See also section
+            "Notes",  # Notes section
+        ]
+        for section_id in sections_to_remove:
+            section = self.soup.find(id=section_id)
+            if section:
+                section.decompose()
+
+        # Remove unwanted tags
         drop_all(name="nav")
         drop_all(name="script")
         drop_all(name="img")
@@ -50,3 +71,15 @@ class WikiScraper:
         drop_all(name="audio")
         drop_all(name="figure")
         drop_all(name="button")
+
+        # Remove tables (e.g., infoboxes, reference tables)
+        drop_all(name="table")
+
+        # Remove any remaining irrelevant sections by class
+        irrelevant_classes = [
+            "reflist",  # References list
+            "navbox",  # Navigation boxes
+            "metadata",  # Metadata
+        ]
+        for class_name in irrelevant_classes:
+            drop_all(class_=class_name)
