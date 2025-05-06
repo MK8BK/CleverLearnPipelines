@@ -6,4 +6,5 @@ python-dotenv==1.0.1
 pydantic==2.10.6
 streamlit==1.45.0
 streamlit-ace==0.1.1
+matplotlib==3.10.1
 

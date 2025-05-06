@@ -49,7 +49,7 @@ def evaluate_question_with_model(question, article_paragraphs):
 
 # ----------------------------------------
 if __name__ == "__main__":
-    with open("../../test_data/quizzes/26.json", "r") as f:
+    with open("../../test_data/quizzes/1.json", "r") as f:
         quizz = loads(f.read())
         print(len(quizz["mcqs"]))
 
