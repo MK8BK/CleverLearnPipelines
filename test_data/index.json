@@ -1,50 +1,12 @@
 {
-  "quiz_count": 26,
-  "doc_count": 10,
+  "quiz_count": 1,
+  "doc_count": 1,
   "docs": {
-    "https://en.wikipedia.org/wiki/Lithuania": 1,
-    "https://en.wikipedia.org/wiki/Java": 2,
-    "https://en.wikipedia.org/wiki/Lombok": 3,
-    "https://en.wikipedia.org/wiki/Paraguay": 4,
-    "https://en.wikipedia.org/wiki/CentraleSup%C3%A9lec": 5,
-    "https://en.wikipedia.org/wiki/Hungary": 6,
-    "https://en.wikipedia.org/wiki/Lesser_Sunda_Islands": 9,
-    "https://en.wikipedia.org/wiki/Netherlands": 10
+    "https://en.wikipedia.org/wiki/Paraguay": 1
   },
   "quizzes": {
-    "1": [],
-    "2": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "3": [
-      11
-    ],
-    "4": [
-      12,
-      15,
-      16,
-      17,
-      23
-    ],
-    "5": [
-      13,
-      14
-    ],
-    "6": [],
-    "9": [
-      20,
-      21,
-      22
-    ],
-    "10": [
-      24,
-      25,
-      26
+    "1": [
+      1
     ]
   }
 }

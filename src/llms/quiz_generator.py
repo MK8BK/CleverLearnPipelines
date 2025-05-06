@@ -11,6 +11,7 @@ from pipelines.implemented.concept_combiner import ConceptCombiner
 from pipelines.implemented.question_answer_generator import QuestionAnswerGenerator
 from pipelines.implemented.distractor_generator import DistractorGenerator
 from pipelines.implemented.one_step import OneStepPipeline
+from pipelines.implemented.concept_cluster_combiner import ConceptClusterCombiner
 from logutils import get_logger
 from index import WikiTestDataIndex
 
@@ -22,10 +23,13 @@ PIPELINE1 = [TextChunker(), ConceptExtractor(),
 PIPELINE2 = [SemanticTextChunker(), ConceptExtractor(),
                    ConceptCombiner(), QuestionAnswerGenerator(),
                    DistractorGenerator()]
+PIPELINE3 = [SemanticTextChunker(), ConceptExtractor(),
+                   ConceptClusterCombiner(), QuestionAnswerGenerator(),
+                   DistractorGenerator()]
                 
 
 class QuizGenerator:
-    def __init__(self, corpus: Corpus, mcq_number: int=20, pipelines: List[Pipeline] = PIPELINE2, index: WikiTestDataIndex=None, store_intermediate: bool=True):
+    def __init__(self, corpus: Corpus, mcq_number: int=20, pipelines: List[Pipeline] = PIPELINE3, index: WikiTestDataIndex=None, store_intermediate: bool=True):
         self.context = dict()
         self.context["article"] = corpus.clean_text
         # self.context["mcq_number"] = mcq_number
