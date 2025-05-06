@@ -51,6 +51,7 @@ class WikiTestDataIndex:
         implementation:
             - use an sqlite database
     """
+
     # all below will be changed, mega session coming
 
     def clear(self):
