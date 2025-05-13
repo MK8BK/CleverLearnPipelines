@@ -4,6 +4,7 @@ import scipy
 import scipy.cluster.hierarchy as sch
 import numpy as np
 from typing import List, Dict
+from pydantic import BaseModel
 
 
 # Temporary -----------------------------------------------------
@@ -12,6 +13,7 @@ import sys
 sys.path.insert(0, '../..')
 # ---------------------------------------------------------------
 from pipelines.base_pipeline import Pipeline 
+from llms.openai import OpenAI_client, OpenAI_role, Message
 
 
 # TODO:
@@ -23,6 +25,9 @@ from pipelines.base_pipeline import Pipeline
 Pipeline 3: combiner tous les C/I en eliminant les redondances
             --> mesure de distance entre les concepts
 """
+
+class ClusterRepresentation(BaseModel):
+    representation: str
 
 class ConceptClusterCombiner(Pipeline):
     title = "concept_cluster_combiner_pipeline"
@@ -41,6 +46,7 @@ class ConceptClusterCombiner(Pipeline):
         self.model_name = model_name
         self.threshold = threshold
         self.model = None
+        self.client = OpenAI_client()
     
     def _load_model(self):
         """Load the sentence transformer model if not already loaded"""
@@ -69,6 +75,14 @@ class ConceptClusterCombiner(Pipeline):
             clusters[label].append(sentences[i])
         return clusters
     
+    def filter_clusters(self,clusters: Dict[int, List[str]]):
+        n = self.context["mcq_number"]
+        cluster_couples = sorted([v for v in clusters.values()], key=lambda x: len(x),
+                                 reverse=True)
+        if len(cluster_couples)>=n:
+            return cluster_couples[:n]
+        return cluster_couples
+    
     def get_representatives(self,clusters: List[List[str]]) -> List[str]:
         """
         Extract one representative from each cluster.
@@ -79,6 +93,12 @@ class ConceptClusterCombiner(Pipeline):
         Returns:
             List of representative sentences (one from each cluster)
         """
+        # dev_message = Message(OpenAI_role.DEVELOPER, self.prompt_store["cluster_merger_prompt"])
+        # make_md_list = lambda lst: "- "+"\n- ".join(lst) # list[str] -> str
+        # messages = [[dev_message, Message(OpenAI_role.USER, make_md_list(cluster))] for cluster in clusters]
+        # representatives = self.client.concurrent_submit_messages(messages, response_format=ClusterRepresentation)
+        # representatives = [r.representation for r in representatives]
+
         representatives = [cluster[0] for cluster in clusters]
         return representatives
 
@@ -131,32 +151,25 @@ class ConceptClusterCombiner(Pipeline):
         
         return representatives
     
-    def filter_clusters(self,clusters: Dict[int, List[str]]):
-        n = self.context["mcq_number"]
-        cluster_couples = sorted([v for v in clusters.values()], key=lambda x: len(x),
-                                 reverse=True)
-        if len(cluster_couples)>n:
-            return cluster_couples[:n]
-        return cluster_couples
-    
-    
     def _validate(self, input_data, output_data):
         
         # Check that output is a list of strings
         if not isinstance(output_data, list):
+            self.logger.error("output is not a list")
             return False
         
         # Check that all elements are strings
         if not all(isinstance(item, str) for item in output_data):
+            self.logger.error("output is not a list of str")
             return False
         
         # Check that output has fewer or equal elements than flattened input
-        flat_input = [item for sublist in input_data for item in sublist]
-        if len(output_data) > len(flat_input):
+        flat_length = sum((len(lst) for lst in input_data))
+        if len(output_data) > flat_length:
+            self.logger.error("output is not of smaller size than flattened")
             return False
         
-        len_input = sum(len(lst) for lst in input_data)
-        self.logger.info(f"{len(output_data)}/{len_input}")
+        self.logger.info(f"{len(output_data)}/{flat_length}")
             
         return True
             

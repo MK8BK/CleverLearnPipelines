@@ -1,1 +1,3 @@
-{}
+{
+    "cluster_merger_prompt":"You are given several short sentences  that all describe related information . Your task is to merge them into a single, well-structured paragraph without adding any new information or inventing details. Only merge, and improve the structure to make the paragraph flow naturally"
+}

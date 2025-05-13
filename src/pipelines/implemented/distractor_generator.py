@@ -39,7 +39,6 @@ class DistractorGenerator(Pipeline):
         return quiz
 
     def _validate(self, input_data, output_data):
-        # TODO: implement later
         return True
 
 
