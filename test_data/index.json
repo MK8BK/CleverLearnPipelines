@@ -1,12 +1,13 @@
 {
-  "quiz_count": 1,
+  "quiz_count": 2,
   "doc_count": 1,
   "docs": {
     "https://en.wikipedia.org/wiki/Paraguay": 1
   },
   "quizzes": {
     "1": [
-      1
+      1,
+      2
     ]
   }
 }

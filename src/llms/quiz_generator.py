@@ -18,18 +18,21 @@ from index import WikiTestDataIndex
 
 MVP_PIPELINE = [OneStepPipeline()]
 PIPELINE1 = [TextChunker(), ConceptExtractor(),
-                   ConceptCombiner(), QuestionAnswerGenerator(),
-                   DistractorGenerator()]
+             ConceptCombiner(), QuestionAnswerGenerator(),
+             DistractorGenerator()]
 PIPELINE2 = [SemanticTextChunker(), ConceptExtractor(),
-                   ConceptCombiner(), QuestionAnswerGenerator(),
-                   DistractorGenerator()]
+             ConceptCombiner(), QuestionAnswerGenerator(),
+             DistractorGenerator()]
 PIPELINE3 = [SemanticTextChunker(), ConceptExtractor(),
-                   ConceptClusterCombiner(), QuestionAnswerGenerator(),
-                   DistractorGenerator()]
-                
+             ConceptClusterCombiner(), QuestionAnswerGenerator(),
+             DistractorGenerator()]
+
 
 class QuizGenerator:
-    def __init__(self, corpus: Corpus, mcq_number: int=20, pipelines: List[Pipeline] = PIPELINE3, index: WikiTestDataIndex=None, store_intermediate: bool=True):
+    def __init__(self, corpus: Corpus, mcq_number: int = 30,
+                 pipelines: List[Pipeline] = PIPELINE3,
+                 index: WikiTestDataIndex = None,
+                 store_intermediate: bool = True):
         self.context = dict()
         self.context["article"] = corpus.clean_text
         self.context["mcq_number"] = mcq_number
@@ -45,12 +48,19 @@ class QuizGenerator:
         for pipeline in self.piplines:
             try:
                 tmp = pipeline.process(tmp)
-                if pipeline.title== "semantic_text_chunker_pipeline" and self.store_intermediate:
-                    output = dumps(tmp)
-                    self.index.store_pipeline_output(pipeline.title,output,"out2.json")       
-                    
             except PipelineValidationError as pve:
                 self.logger.error(f"failed quiz generation")
                 raise pve
-        self.logger.info("Successful quiz generation. See the latest json file at test_data/quizzes/")
+            if self.store_intermediate:
+                if isinstance(tmp, Quiz):
+                    output = dumps(tmp.model_dump())
+                else:
+                    try:
+                        output = dumps(tmp)
+                    except:
+                        self.logger.warning(f"Can't store intermediate pipeline output for {pipeline.title}.")
+                self.index.store_pipeline_output(
+                    pipeline.title, output, "intermediate.json")
+        self.logger.info(
+            "Successful quiz generation. See the latest json file at test_data/quizzes/")
         return tmp

@@ -59,13 +59,6 @@ def main():
             MAIN_LOGGER.error(f"Could not generate quiz: {e}")
         finally:
             sys.exit(1)
-        # print(corpus.clean_text)
-        
-
-        
-# paraguay_article = "https://en.wikipedia.org/wiki/Paraguay"
-# microecon_article = "https://en.wikipedia.org/wiki/Microeconomics"
-# napoleon_article = "https://en.wikipedia.org/wiki/Napoleon"
 
 if __name__=="__main__":
     main()
