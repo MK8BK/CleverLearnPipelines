@@ -2,6 +2,10 @@
 
 Pipelines NLP et RAG pour extraire des compétences de textes pédagogiques et générer automatiquement des questions et QCM.
 
+
+# running examples on 
+https://en.wikipedia.org/wiki/Mainland_Australia
+
 # Installation
 Be sure to use python `>=3.11` and `<=3.12` 
 (spacy does not yet support `3.13`)
