@@ -16,6 +16,15 @@ index.json structure
 }
 """
 
+"""
+To clean things:
+- quiz_count set to 0
+- doc_count set to 0
+- docs set to {}
+- quizzes set to {}
+- empty directory
+"""
+
 import os
 import pathlib
 import shutil
@@ -24,19 +33,6 @@ import itertools
 from typing import Dict, List
 
 
-class QuizTestDataIndex:
-    """
-        # New simplified specification under development
-        Class that provides seamless pipeline output and input storage.
-        specification:
-            - method to setup and verify the directory structure
-            - method to store the output of a named pipeline (url+data+pipeline_name)
-            - method to retrieve the output of a named pipeline (url+pipeline_name)
-            - method to clear pipeline outputs
-        implementation:
-            - use an sqlite database
-    """
-    pass
 
 
 class WikiTestDataIndex:
@@ -51,8 +47,8 @@ class WikiTestDataIndex:
         implementation:
             - use an sqlite database
     """
-
-    # all below will be changed, mega session coming
+    # all below will be changed ... in a distant future
+    # this class is too complex, we do not intend to modify it
 
     def clear(self):
         self.quiz_count = 0
@@ -168,3 +164,17 @@ class WikiTestDataIndex:
             raise RuntimeError("Invalid index state.")
         with open(doc_path, "r", encoding="utf8") as f:
             return f.read()
+
+class QuizTestDataIndex:
+    """
+        # New simplified specification under development
+        Class that provides seamless pipeline output and input storage.
+        specification:
+            - method to setup and verify the directory structure
+            - method to store the output of a named pipeline (url+data+pipeline_name)
+            - method to retrieve the output of a named pipeline (url+pipeline_name)
+            - method to clear pipeline outputs
+        implementation:
+            - use an sqlite database
+    """
+    pass
