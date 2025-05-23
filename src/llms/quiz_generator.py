@@ -23,14 +23,17 @@ PIPELINE1 = [TextChunker(), ConceptExtractor(),
 PIPELINE2 = [SemanticTextChunker(), ConceptExtractor(),
              ConceptCombiner(), QuestionAnswerGenerator(),
              DistractorGenerator()]
-PIPELINE3 = [SemanticTextChunker(), ConceptExtractor(),
+FINAL_PIPELINE = [SemanticTextChunker(), ConceptExtractor(),
              ConceptClusterCombiner(), QuestionAnswerGenerator(),
              DistractorGenerator()]
+# PIPELINE4 = [TextChunker(), ConceptExtractor(),
+#              ConceptClusterCombiner(), QuestionAnswerGenerator(),
+#              DistractorGenerator()]
 
 
 class QuizGenerator:
     def __init__(self, corpus: Corpus, mcq_number: int = 30,
-                 pipelines: List[Pipeline] = PIPELINE3,
+                 pipelines: List[Pipeline] = FINAL_PIPELINE,
                  index: WikiTestDataIndex = None,
                  store_intermediate: bool = True):
         self.context = dict()

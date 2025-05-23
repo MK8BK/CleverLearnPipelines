@@ -37,7 +37,7 @@ pip install langchain_experimental langchain_openai
 
 ```bash
 # in the src/ directory
-python -u main.py -g <https-link-to-wikipedia-article>
+python -u main.py -wg <https-link-to-wikipedia-article>
 ```
 
 ## Docs

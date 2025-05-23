@@ -1,12 +1,11 @@
 {
-  "quiz_count": 1,
+  "quiz_count": 0,
   "doc_count": 1,
   "docs": {
     "https://en.wikipedia.org/wiki/Mainland_Australia": 1
   },
   "quizzes": {
     "1": [
-      1
     ]
   }
 }

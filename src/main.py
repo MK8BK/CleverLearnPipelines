@@ -22,10 +22,13 @@ index = WikiTestDataIndex(DATA_PATH)
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-s", "--scrape-wikipedia", help="scrape a wikipedia page")
-parser.add_argument("-g", "--generate-quiz",
+parser.add_argument("-wg", "--wiki-generate-quiz",
                     help="generate a quiz for a wikipedia page, use cached version if already scraped")
 parser.add_argument(
     "-l", "--logs", help="write pipeline logs to specified file")
+
+parser.add_argument(
+    "-fg", "--file-generate-quiz", help="generate a quiz markdown corpus file path")
 
 
 
@@ -39,8 +42,24 @@ def main():
         url = args.scrape_wikipedia
         scrape(url)
         MAIN_LOGGER.info(f"Successfully scraped {url}")
-    if args.generate_quiz:
-        url = args.generate_quiz
+    if args.file_generate_quiz:
+        file_path = args.file_generate_quiz
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                corpus = Corpus(f.read())
+            quiz_generator = QuizGenerator(corpus, index=index)
+            try:
+                quiz = quiz_generator.generate()
+                str_quiz = json.dumps(quiz.model_dump())
+                print(str_quiz)
+            except:
+                MAIN_LOGGER.error(f"Could not generate quiz: {e}")
+        except:
+            MAIN_LOGGER.error(f"No such file {file_path}")
+        
+        
+    if args.wiki_generate_quiz:
+        url = args.wiki_generate_quiz
         if not index.already_scraped(url):
             MAIN_LOGGER.info(f"Article at {url} not previously scraped")
             scrape(url)
